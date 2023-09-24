@@ -23,6 +23,31 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "Apply": MessageLookupByLibrary.simpleMessage("Apply"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continue"),
-        "Next": MessageLookupByLibrary.simpleMessage("Next")
+        "Next": MessageLookupByLibrary.simpleMessage("Next"),
+        "chooseYouSubscriptionType": MessageLookupByLibrary.simpleMessage(
+            "Choose Your Subscription Type"),
+        "chooseYouSubscriptionTypeExplanation":
+            MessageLookupByLibrary.simpleMessage(
+                "Select whether you want to purchase a monthly subscription for delivery work or for personal use as transportation and/or recreational use."),
+        "chooseYourMobi":
+            MessageLookupByLibrary.simpleMessage("Choose Your Mobi"),
+        "enjoyYourMobiVehicle":
+            MessageLookupByLibrary.simpleMessage("Enjoy Your Mobi Vehicle"),
+        "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
+            "Earn from \$800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."),
+        "getYourMobiVehicle":
+            MessageLookupByLibrary.simpleMessage("Receive Your Mobi Vehicle"),
+        "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
+            "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
+        "register": MessageLookupByLibrary.simpleMessage("Register"),
+        "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
+        "step2": MessageLookupByLibrary.simpleMessage("STEP 2"),
+        "step3": MessageLookupByLibrary.simpleMessage("STEP 3"),
+        "step4": MessageLookupByLibrary.simpleMessage("STEP 4"),
+        "step5": MessageLookupByLibrary.simpleMessage("STEP 5"),
+        "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
+            "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
+        "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
+            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.")
       };
 }

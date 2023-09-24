@@ -2,5 +2,20 @@
   "@@locale": "en",
   "Continue": "Continue",
   "Apply": "Apply",
-  "Next": "Next"
+  "Next": "Next",
+  "step1": "STEP 1",
+  "step2": "STEP 2",
+  "step3": "STEP 3",
+  "step4": "STEP 4",
+  "step5": "STEP 5",
+  "chooseYourMobi": "Choose Your Mobi",
+  "pickAnyOfOurVehicles": "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds.",
+  "chooseYouSubscriptionType": "Choose Your Subscription Type",
+  "chooseYouSubscriptionTypeExplanation": "Select whether you want to purchase a monthly subscription for delivery work or for personal use as transportation and/or recreational use.",
+  "register": "Register",
+  "withOnlyFiveDays": "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep.",
+  "getYourMobiVehicle": "Receive Your Mobi Vehicle",
+  "youWillGetMopedIn24hrs": "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.",
+  "enjoyYourMobiVehicle": "Enjoy Your Mobi Vehicle",
+  "getSince800Dollars": "Earn from $800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."
 }

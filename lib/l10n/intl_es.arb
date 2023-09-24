@@ -2,5 +2,20 @@
   "@@locale": "es",
   "Continue": "Continuar",
   "Apply": "Aplicar",
-  "Next": "Siguiente"
+  "Next": "Siguiente",
+  "step1": "PASO 1",
+  "step2": "PASO 2",
+  "step3": "PASO 3",
+  "step4": "PASO 4",
+  "step5": "PASO 5",
+  "chooseYourMobi": "Slecciona tu Mobi",
+  "pickAnyOfOurVehicles": "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.",
+  "chooseYouSubscriptionType": "Selecciona tu tipo de suscripción",
+  "chooseYouSubscriptionTypeExplanation": "Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.",
+  "register": "Registrate",
+  "withOnlyFiveDays": "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.",
+  "getYourMobiVehicle": "Recibe tu vehículo mobi",
+  "youWillGetMopedIn24hrs": "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.",
+  "enjoyYourMobiVehicle": "Disfruta de tu vehículo mobi",
+  "getSince800Dollars": "Recibe desde 800 US$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad."
 }

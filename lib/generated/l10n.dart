@@ -79,6 +79,156 @@ class S {
       args: [],
     );
   }
+
+  /// `PASO 1`
+  String get step1 {
+    return Intl.message(
+      'PASO 1',
+      name: 'step1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `PASO 2`
+  String get step2 {
+    return Intl.message(
+      'PASO 2',
+      name: 'step2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `PASO 3`
+  String get step3 {
+    return Intl.message(
+      'PASO 3',
+      name: 'step3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `PASO 4`
+  String get step4 {
+    return Intl.message(
+      'PASO 4',
+      name: 'step4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `PASO 5`
+  String get step5 {
+    return Intl.message(
+      'PASO 5',
+      name: 'step5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Slecciona tu Mobi`
+  String get chooseYourMobi {
+    return Intl.message(
+      'Slecciona tu Mobi',
+      name: 'chooseYourMobi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.`
+  String get pickAnyOfOurVehicles {
+    return Intl.message(
+      'Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.',
+      name: 'pickAnyOfOurVehicles',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selecciona tu tipo de suscripción`
+  String get chooseYouSubscriptionType {
+    return Intl.message(
+      'Selecciona tu tipo de suscripción',
+      name: 'chooseYouSubscriptionType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.`
+  String get chooseYouSubscriptionTypeExplanation {
+    return Intl.message(
+      'Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.',
+      name: 'chooseYouSubscriptionTypeExplanation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrate`
+  String get register {
+    return Intl.message(
+      'Registrate',
+      name: 'register',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.`
+  String get withOnlyFiveDays {
+    return Intl.message(
+      'Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.',
+      name: 'withOnlyFiveDays',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recibe tu vehículo mobi`
+  String get getYourMobiVehicle {
+    return Intl.message(
+      'Recibe tu vehículo mobi',
+      name: 'getYourMobiVehicle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.`
+  String get youWillGetMopedIn24hrs {
+    return Intl.message(
+      'Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.',
+      name: 'youWillGetMopedIn24hrs',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Disfruta de tu vehículo mobi`
+  String get enjoyYourMobiVehicle {
+    return Intl.message(
+      'Disfruta de tu vehículo mobi',
+      name: 'enjoyYourMobiVehicle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recibe desde 800 US$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad.`
+  String get getSince800Dollars {
+    return Intl.message(
+      'Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad.',
+      name: 'getSince800Dollars',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
