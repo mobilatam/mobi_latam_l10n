@@ -69,6 +69,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Siguiente`
+  String get Next {
+    return Intl.message(
+      'Siguiente',
+      name: 'Next',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
