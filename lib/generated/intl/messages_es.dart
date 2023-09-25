@@ -45,6 +45,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "step3": MessageLookupByLibrary.simpleMessage("PASO 3"),
         "step4": MessageLookupByLibrary.simpleMessage("PASO 4"),
         "step5": MessageLookupByLibrary.simpleMessage("PASO 5"),
+        "test": MessageLookupByLibrary.simpleMessage("español"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
