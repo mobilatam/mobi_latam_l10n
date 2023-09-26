@@ -49,6 +49,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.")
+            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
+        "support": MessageLookupByLibrary.simpleMessage("Soporte"),
+        "no": MessageLookupByLibrary.simpleMessage("No"),
       };
 }
