@@ -52,5 +52,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "Your moped will arrive at your doorstep within 24 hours of purchase confirmation."),
         "support": MessageLookupByLibrary.simpleMessage("Support"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
+        "howItWorks": MessageLookupByLibrary.simpleMessage("How It Works?"),
       };
 }

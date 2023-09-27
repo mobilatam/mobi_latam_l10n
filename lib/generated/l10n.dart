@@ -249,6 +249,26 @@ class S {
       args: [],
     );
   }
+
+  /// `español`
+  String get no {
+    return Intl.message(
+      'español',
+      name: 'No',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `español`
+  String get howItWorks {
+    return Intl.message(
+      'español',
+      name: '¿Cómo funciona?',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
