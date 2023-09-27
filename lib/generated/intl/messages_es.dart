@@ -52,5 +52,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
         "support": MessageLookupByLibrary.simpleMessage("Soporte"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
+        "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
       };
 }
