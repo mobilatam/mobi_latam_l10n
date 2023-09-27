@@ -241,7 +241,17 @@ class S {
   }
 
   /// `español`
-  String get support {
+  String get HowItWorks {
+    return Intl.message(
+      '¿Cómo funciona?',
+      name: '¿Cómo funciona?',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `español`
+  String get Support {
     return Intl.message(
       'español',
       name: 'Soporte',
@@ -251,20 +261,10 @@ class S {
   }
 
   /// `español`
-  String get no {
+  String get No {
     return Intl.message(
       'español',
       name: 'No',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `español`
-  String get howItWorks {
-    return Intl.message(
-      'español',
-      name: '¿Cómo funciona?',
       desc: '',
       args: [],
     );
