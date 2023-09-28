@@ -233,7 +233,7 @@ class S {
   /// `español`
   String get test {
     return Intl.message(
-      'español',
+      'Test',
       name: 'test',
       desc: '',
       args: [],
@@ -244,7 +244,7 @@ class S {
   String get HowItWorks {
     return Intl.message(
       '¿Cómo funciona?',
-      name: '¿Cómo funciona?',
+      name: 'howItWorks',
       desc: '',
       args: [],
     );
@@ -253,8 +253,8 @@ class S {
   /// `español`
   String get Support {
     return Intl.message(
-      'español',
-      name: 'Soporte',
+      'Soporte',
+      name: 'support',
       desc: '',
       args: [],
     );
@@ -263,8 +263,36 @@ class S {
   /// `español`
   String get No {
     return Intl.message(
-      'español',
-      name: 'No',
+      'No',
+      name: 'no',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `español`
+  String get SelectMobi {
+    return Intl.message(
+      'SELECCIONA TU MOBI',
+      name: 'selectMobi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get SelectSubscription {
+    return Intl.message(
+      'SELECCIONA TU SUSCRIPCIÓN',
+      name: 'selectSubscription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get Include {
+    return Intl.message(
+      'Incluye',
+      name: 'include',
       desc: '',
       args: [],
     );
