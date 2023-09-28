@@ -50,8 +50,13 @@ class MessageLookup extends MessageLookupByLibrary {
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
             "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
-        "Support": MessageLookupByLibrary.simpleMessage("Soporte"),
-        "No": MessageLookupByLibrary.simpleMessage("No"),
-        "HowItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?")
+        "support": MessageLookupByLibrary.simpleMessage("Soporte"),
+        "no": MessageLookupByLibrary.simpleMessage("No"),
+        "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
+        "selectMobi":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
+        "selectSubscription":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
+        "include": MessageLookupByLibrary.simpleMessage("Incluye")
       };
 }
