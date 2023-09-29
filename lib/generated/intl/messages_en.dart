@@ -56,6 +56,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectMobi": MessageLookupByLibrary.simpleMessage("SELECT YOUR MOBI"),
         "selectSubscription":
             MessageLookupByLibrary.simpleMessage("SELECT YOUR SUBSCRIPTION"),
-        "include": MessageLookupByLibrary.simpleMessage("Include")
+        "include": MessageLookupByLibrary.simpleMessage("Include"),
+        "welcome": MessageLookupByLibrary.simpleMessage("WELCOME MOBIER!"),
+        "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
+        "acceptClause": MessageLookupByLibrary.simpleMessage("I agree to the Terms, Conditions and Privacy Policy."),
+        "sendEmail": MessageLookupByLibrary.simpleMessage("I would like to receive exclusive emails with discounts and news."),
+        "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
+        "verificationCode": MessageLookupByLibrary.simpleMessage("Verify your code"),
+        "checkWhatsapp": MessageLookupByLibrary.simpleMessage("Check your whatsapp and paste the code"),
+        "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Resend the verification code"),
+        "verify": MessageLookupByLibrary.simpleMessage("Verify"),
+        "codeSuccess": MessageLookupByLibrary.simpleMessage("Success code")
       };
 }

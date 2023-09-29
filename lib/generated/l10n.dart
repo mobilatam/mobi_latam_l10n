@@ -280,10 +280,109 @@ class S {
     );
   }
 
-  String get SelectSubscription {
+  String get Welcome {
     return Intl.message(
-      'SELECCIONA TU SUSCRIPCIÓN',
-      name: 'selectSubscription',
+      'BIENVENIDO MOBIER!',
+      name: 'welcome',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get Name {
+    return Intl.message(
+      'Nombre',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get Email {
+    return Intl.message(
+      'Correo electrónico',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get Phone {
+    return Intl.message(
+      'Número de celular',
+      name: 'phone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get AcceptClause {
+    return Intl.message(
+      'Acepto términos y condiciones y política de privacidad.',
+      name: 'acceptClause',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get SendEmail {
+    return Intl.message(
+      'Acepto recibir correos electrónicos con descuentos y novedades.',
+      name: 'sendEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get RegisterWith {
+    return Intl.message(
+      'Registrate con:',
+      name: 'registerWith',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get VerificationCode {
+    return Intl.message(
+      'CÓDIGO DE VERIFICACIÓN',
+      name: 'verificationCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get CheckWhatsapp {
+    return Intl.message(
+      'Revisa tu whatsapp y copia el código',
+      name: 'checkWhatsapp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get SendCodeAgain {
+    return Intl.message(
+      'Volver a enviar código',
+      name: 'sendCodeAgain',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get Verify {
+    return Intl.message(
+      'Verificar',
+      name: 'verify',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get CodeSuccess {
+    return Intl.message(
+      'Código exitoso',
+      name: 'codeSuccess',
       desc: '',
       args: [],
     );

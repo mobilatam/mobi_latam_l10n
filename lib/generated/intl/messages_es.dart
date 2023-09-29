@@ -39,7 +39,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas."),
-        "register": MessageLookupByLibrary.simpleMessage("Registrate"),
+        "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "step1": MessageLookupByLibrary.simpleMessage("PASO 1"),
         "step2": MessageLookupByLibrary.simpleMessage("PASO 2"),
         "step3": MessageLookupByLibrary.simpleMessage("PASO 3"),
@@ -57,6 +57,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
         "selectSubscription":
             MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
-        "include": MessageLookupByLibrary.simpleMessage("Incluye")
+        "include": MessageLookupByLibrary.simpleMessage("Incluye"),
+        "welcome": MessageLookupByLibrary.simpleMessage("BIENVENIDO MOBIER!"),
+        "name": MessageLookupByLibrary.simpleMessage("Nombre"),
+        "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
+        "phone": MessageLookupByLibrary.simpleMessage("Número de celular"),
+        "acceptClause": MessageLookupByLibrary.simpleMessage("Acepto términos y condiciones y política de privacidad."),
+        "sendEmail": MessageLookupByLibrary.simpleMessage("Acepto recibir correos electrónicos con descuentos y novedades."),
+        "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
+        "verificationCode": MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
+        "checkWhatsapp": MessageLookupByLibrary.simpleMessage("Revisa tu whatsapp y copia el código"),
+        "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
+        "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
+        "codeSuccess": MessageLookupByLibrary.simpleMessage("Código exitoso")
       };
 }

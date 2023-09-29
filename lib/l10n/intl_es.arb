@@ -21,5 +21,18 @@
   "test": "español",
   "support": "Soporte",
   "no": "No",
-  "howItWorks": "¿Cómo funciona?"
+  "howItWorks": "¿Cómo funciona?",
+  "welcome": "BIENVENIDO MOBIER!",
+  "name": "Nombre",
+  "email": "Correo electrónico",
+  "phone": "Número de celular",
+  "acceptClause": "Acepto términos y condiciones y política de privacidad.",
+  "sendEmail": "Acepto recibir correos electrónicos con descuentos y novedades.",
+  "registerWith": "Registrate con:",
+  "verificationCode": "CÓDIGO DE VERIFICACIÓN",
+  "checkWhatsapp": "Revisa tu whatsapp y copia el código",
+  "sendCodeAgain": "Volver a enviar código",
+  "register": "Registrar",
+  "verify": "Verificar",
+  "codeSuccess": "Código exitoso"
 }
