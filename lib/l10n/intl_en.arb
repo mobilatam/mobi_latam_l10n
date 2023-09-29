@@ -21,5 +21,18 @@
   "test": "english",
   "support": "Support",
   "no": "No",
-  "howItWorks": "How it works?"
+  "howItWorks": "How it works?",
+  "welcome": "WELCOME MOBIER!",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone number",
+  "acceptClause": "I agree to the Terms, Conditions and Privacy Policy.",
+  "sendEmail": "I would like to receive exclusive emails with discounts and news.",
+  "registerWith": "Register with:",
+  "verificationCode": "Verify your code",
+  "checkWhatsapp": "Check your whatsapp and paste the code",
+  "sendCodeAgain": "Resend the verification code",
+  "register": "Register",
+  "verify": "Verify",
+  "codeSuccess": "Success code"
 }
