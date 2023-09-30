@@ -27,7 +27,7 @@
   "email": "Correo electrónico",
   "phone": "Número de celular",
   "acceptClause": "Acepto términos y condiciones y política de privacidad.",
-  "sendEmail": "Acepto recibir correos electrónicos con descuentos y novedades.",
+  "acceptEmailSend": "Acepto recibir correos electrónicos con descuentos y novedades.",
   "registerWith": "Registrate con:",
   "verificationCode": "CÓDIGO DE VERIFICACIÓN",
   "checkWhatsapp": "Revisa tu whatsapp y copia el código",

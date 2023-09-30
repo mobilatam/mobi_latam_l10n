@@ -24,6 +24,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "Apply": MessageLookupByLibrary.simpleMessage("Aplicar"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continuar"),
         "Next": MessageLookupByLibrary.simpleMessage("Siguiente"),
+        "acceptClause": MessageLookupByLibrary.simpleMessage(
+            "Acepto términos y condiciones y política de privacidad."),
+        "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
+            "Acepto recibir correos electrónicos con descuentos y novedades."),
+        "checkWhatsapp": MessageLookupByLibrary.simpleMessage(
+            "Revisa tu whatsapp y copia el código"),
         "chooseYouSubscriptionType": MessageLookupByLibrary.simpleMessage(
             "Selecciona tu tipo de suscripción"),
         "chooseYouSubscriptionTypeExplanation":
@@ -31,44 +37,38 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo."),
         "chooseYourMobi":
             MessageLookupByLibrary.simpleMessage("Slecciona tu Mobi"),
+        "codeSuccess": MessageLookupByLibrary.simpleMessage("Código exitoso"),
+        "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
         "enjoyYourMobiVehicle": MessageLookupByLibrary.simpleMessage(
             "Disfruta de tu vehículo mobi"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad."),
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
+        "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
+        "name": MessageLookupByLibrary.simpleMessage("Nombre"),
+        "no": MessageLookupByLibrary.simpleMessage("No"),
+        "phone": MessageLookupByLibrary.simpleMessage("Número de celular"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas."),
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
+        "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
+        "sendCodeAgain":
+            MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
         "step1": MessageLookupByLibrary.simpleMessage("PASO 1"),
         "step2": MessageLookupByLibrary.simpleMessage("PASO 2"),
         "step3": MessageLookupByLibrary.simpleMessage("PASO 3"),
         "step4": MessageLookupByLibrary.simpleMessage("PASO 4"),
         "step5": MessageLookupByLibrary.simpleMessage("PASO 5"),
+        "support": MessageLookupByLibrary.simpleMessage("Soporte"),
         "test": MessageLookupByLibrary.simpleMessage("español"),
+        "verificationCode":
+            MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
+        "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
+        "welcome": MessageLookupByLibrary.simpleMessage("BIENVENIDO MOBIER!"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
-        "support": MessageLookupByLibrary.simpleMessage("Soporte"),
-        "no": MessageLookupByLibrary.simpleMessage("No"),
-        "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
-        "selectMobi":
-            MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
-        "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
-        "include": MessageLookupByLibrary.simpleMessage("Incluye"),
-        "welcome": MessageLookupByLibrary.simpleMessage("BIENVENIDO MOBIER!"),
-        "name": MessageLookupByLibrary.simpleMessage("Nombre"),
-        "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
-        "phone": MessageLookupByLibrary.simpleMessage("Número de celular"),
-        "acceptClause": MessageLookupByLibrary.simpleMessage("Acepto términos y condiciones y política de privacidad."),
-        "sendEmail": MessageLookupByLibrary.simpleMessage("Acepto recibir correos electrónicos con descuentos y novedades."),
-        "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
-        "verificationCode": MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
-        "checkWhatsapp": MessageLookupByLibrary.simpleMessage("Revisa tu whatsapp y copia el código"),
-        "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
-        "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
-        "codeSuccess": MessageLookupByLibrary.simpleMessage("Código exitoso")
+            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.")
       };
 }

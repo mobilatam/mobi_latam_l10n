@@ -170,10 +170,10 @@ class S {
     );
   }
 
-  /// `Registrate`
+  /// `Registrar`
   String get register {
     return Intl.message(
-      'Registrate',
+      'Registrar',
       name: 'register',
       desc: '',
       args: [],
@@ -233,25 +233,15 @@ class S {
   /// `español`
   String get test {
     return Intl.message(
-      'Test',
+      'español',
       name: 'test',
       desc: '',
       args: [],
     );
   }
 
-  /// `español`
-  String get HowItWorks {
-    return Intl.message(
-      '¿Cómo funciona?',
-      name: 'howItWorks',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `español`
-  String get Support {
+  /// `Soporte`
+  String get support {
     return Intl.message(
       'Soporte',
       name: 'support',
@@ -260,8 +250,8 @@ class S {
     );
   }
 
-  /// `español`
-  String get No {
+  /// `No`
+  String get no {
     return Intl.message(
       'No',
       name: 'no',
@@ -270,17 +260,18 @@ class S {
     );
   }
 
-  /// `español`
-  String get SelectMobi {
+  /// `¿Cómo funciona?`
+  String get howItWorks {
     return Intl.message(
-      'SELECCIONA TU MOBI',
-      name: 'selectMobi',
+      '¿Cómo funciona?',
+      name: 'howItWorks',
       desc: '',
       args: [],
     );
   }
 
-  String get Welcome {
+  /// `BIENVENIDO MOBIER!`
+  String get welcome {
     return Intl.message(
       'BIENVENIDO MOBIER!',
       name: 'welcome',
@@ -289,7 +280,8 @@ class S {
     );
   }
 
-  String get Name {
+  /// `Nombre`
+  String get name {
     return Intl.message(
       'Nombre',
       name: 'name',
@@ -298,7 +290,8 @@ class S {
     );
   }
 
-  String get Email {
+  /// `Correo electrónico`
+  String get email {
     return Intl.message(
       'Correo electrónico',
       name: 'email',
@@ -307,7 +300,8 @@ class S {
     );
   }
 
-  String get Phone {
+  /// `Número de celular`
+  String get phone {
     return Intl.message(
       'Número de celular',
       name: 'phone',
@@ -316,7 +310,8 @@ class S {
     );
   }
 
-  String get AcceptClause {
+  /// `Acepto términos y condiciones y política de privacidad.`
+  String get acceptClause {
     return Intl.message(
       'Acepto términos y condiciones y política de privacidad.',
       name: 'acceptClause',
@@ -325,16 +320,18 @@ class S {
     );
   }
 
-  String get SendEmail {
+  /// `Acepto recibir correos electrónicos con descuentos y novedades.`
+  String get acceptEmailSend {
     return Intl.message(
       'Acepto recibir correos electrónicos con descuentos y novedades.',
-      name: 'sendEmail',
+      name: 'acceptEmailSend',
       desc: '',
       args: [],
     );
   }
 
-  String get RegisterWith {
+  /// `Registrate con:`
+  String get registerWith {
     return Intl.message(
       'Registrate con:',
       name: 'registerWith',
@@ -343,7 +340,8 @@ class S {
     );
   }
 
-  String get VerificationCode {
+  /// `CÓDIGO DE VERIFICACIÓN`
+  String get verificationCode {
     return Intl.message(
       'CÓDIGO DE VERIFICACIÓN',
       name: 'verificationCode',
@@ -352,7 +350,8 @@ class S {
     );
   }
 
-  String get CheckWhatsapp {
+  /// `Revisa tu whatsapp y copia el código`
+  String get checkWhatsapp {
     return Intl.message(
       'Revisa tu whatsapp y copia el código',
       name: 'checkWhatsapp',
@@ -361,7 +360,8 @@ class S {
     );
   }
 
-  String get SendCodeAgain {
+  /// `Volver a enviar código`
+  String get sendCodeAgain {
     return Intl.message(
       'Volver a enviar código',
       name: 'sendCodeAgain',
@@ -370,7 +370,8 @@ class S {
     );
   }
 
-  String get Verify {
+  /// `Verificar`
+  String get verify {
     return Intl.message(
       'Verificar',
       name: 'verify',
@@ -379,19 +380,11 @@ class S {
     );
   }
 
-  String get CodeSuccess {
+  /// `Código exitoso`
+  String get codeSuccess {
     return Intl.message(
       'Código exitoso',
       name: 'codeSuccess',
-      desc: '',
-      args: [],
-    );
-  }
-
-  String get Include {
-    return Intl.message(
-      'Incluye',
-      name: 'include',
       desc: '',
       args: [],
     );
