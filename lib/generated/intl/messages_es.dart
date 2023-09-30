@@ -53,6 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas."),
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
+        "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
         "sendCodeAgain":
             MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
         "step1": MessageLookupByLibrary.simpleMessage("PASO 1"),
@@ -66,6 +67,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
         "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
         "welcome": MessageLookupByLibrary.simpleMessage("BIENVENIDO MOBIER!"),
+        "welcomeToMOBI":
+            MessageLookupByLibrary.simpleMessage("Bienvenido a MOBI"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(

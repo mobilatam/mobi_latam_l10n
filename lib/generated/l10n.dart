@@ -170,11 +170,11 @@ class S {
     );
   }
 
-  /// `Registrar`
-  String get register {
+  /// `Registrate`
+  String get registerYourSelf {
     return Intl.message(
-      'Registrar',
-      name: 'register',
+      'Registrate',
+      name: 'registerYourSelf',
       desc: '',
       args: [],
     );
@@ -370,6 +370,16 @@ class S {
     );
   }
 
+  /// `Registrar`
+  String get register {
+    return Intl.message(
+      'Registrar',
+      name: 'register',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Verificar`
   String get verify {
     return Intl.message(
@@ -385,6 +395,16 @@ class S {
     return Intl.message(
       'Código exitoso',
       name: 'codeSuccess',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Bienvenido a MOBI`
+  String get welcomeToMOBI {
+    return Intl.message(
+      'Bienvenido a MOBI',
+      name: 'welcomeToMOBI',
       desc: '',
       args: [],
     );

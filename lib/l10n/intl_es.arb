@@ -12,7 +12,7 @@
   "pickAnyOfOurVehicles": "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.",
   "chooseYouSubscriptionType": "Selecciona tu tipo de suscripción",
   "chooseYouSubscriptionTypeExplanation": "Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.",
-  "register": "Registrate",
+  "registerYourSelf": "Registrate",
   "withOnlyFiveDays": "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.",
   "getYourMobiVehicle": "Recibe tu vehículo mobi",
   "youWillGetMopedIn24hrs": "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.",
@@ -34,5 +34,6 @@
   "sendCodeAgain": "Volver a enviar código",
   "register": "Registrar",
   "verify": "Verificar",
-  "codeSuccess": "Código exitoso"
+  "codeSuccess": "Código exitoso",
+  "welcomeToMOBI": "Bienvenido a MOBI"
 }
