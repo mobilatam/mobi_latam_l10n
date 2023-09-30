@@ -34,5 +34,6 @@
   "sendCodeAgain": "Resend the verification code",
   "verify": "Verify",
   "codeSuccess": "Success code",
-  "welcomeToMOBI": "WELCOME TO MOBI"
+  "welcomeToMOBI": "WELCOME TO MOBI",
+  "codeSent": "Code sent"
 }

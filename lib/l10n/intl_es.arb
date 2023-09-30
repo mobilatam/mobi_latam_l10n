@@ -35,5 +35,6 @@
   "register": "Registrar",
   "verify": "Verificar",
   "codeSuccess": "Código exitoso",
-  "welcomeToMOBI": "BIENVENIDO A MOBI"
+  "welcomeToMOBI": "BIENVENIDO A MOBI",
+  "codeSent": "Código Enviado"
 }

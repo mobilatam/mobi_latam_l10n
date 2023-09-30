@@ -37,6 +37,7 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Select whether you want to purchase a monthly subscription for delivery work or for personal use as transportation and/or recreational use."),
         "chooseYourMobi":
             MessageLookupByLibrary.simpleMessage("Choose Your Mobi"),
+        "codeSent": MessageLookupByLibrary.simpleMessage("Code sent"),
         "codeSuccess": MessageLookupByLibrary.simpleMessage("Success code"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "enjoyYourMobiVehicle":

@@ -409,6 +409,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Código Enviado`
+  String get codeSent {
+    return Intl.message(
+      'Código Enviado',
+      name: 'codeSent',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
