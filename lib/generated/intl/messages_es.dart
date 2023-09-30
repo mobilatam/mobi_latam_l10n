@@ -68,7 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
         "welcome": MessageLookupByLibrary.simpleMessage("BIENVENIDO MOBIER!"),
         "welcomeToMOBI":
-            MessageLookupByLibrary.simpleMessage("Bienvenido a MOBI"),
+            MessageLookupByLibrary.simpleMessage("BIENVENIDO A MOBI"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(

@@ -400,10 +400,10 @@ class S {
     );
   }
 
-  /// `Bienvenido a MOBI`
+  /// `BIENVENIDO A MOBI`
   String get welcomeToMOBI {
     return Intl.message(
-      'Bienvenido a MOBI',
+      'BIENVENIDO A MOBI',
       name: 'welcomeToMOBI',
       desc: '',
       args: [],
