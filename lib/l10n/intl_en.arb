@@ -21,5 +21,9 @@
   "test": "english",
   "support": "Support",
   "no": "No",
-  "howItWorks": "How it works?"
+  "howItWorks": "How it works?",
+  "selectMobi": "CHOOSE YOU MOBI",
+  "selectSubscription": "SELECCIONA TU SUSCRIPCIÓN",
+  "include": "Includes"
+
 }

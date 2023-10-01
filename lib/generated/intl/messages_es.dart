@@ -37,26 +37,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad."),
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
+        "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
+        "includes": MessageLookupByLibrary.simpleMessage("Incluye"),
+        "no": MessageLookupByLibrary.simpleMessage("No"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas."),
         "register": MessageLookupByLibrary.simpleMessage("Registrate"),
+        "selectMobi":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
+        "selectSubscription":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
         "step1": MessageLookupByLibrary.simpleMessage("PASO 1"),
         "step2": MessageLookupByLibrary.simpleMessage("PASO 2"),
         "step3": MessageLookupByLibrary.simpleMessage("PASO 3"),
         "step4": MessageLookupByLibrary.simpleMessage("PASO 4"),
         "step5": MessageLookupByLibrary.simpleMessage("PASO 5"),
+        "support": MessageLookupByLibrary.simpleMessage("Soporte"),
         "test": MessageLookupByLibrary.simpleMessage("español"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
-        "support": MessageLookupByLibrary.simpleMessage("Soporte"),
-        "no": MessageLookupByLibrary.simpleMessage("No"),
-        "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
-        "selectMobi":
-            MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
-        "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
-        "include": MessageLookupByLibrary.simpleMessage("Incluye")
+            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.")
       };
 }

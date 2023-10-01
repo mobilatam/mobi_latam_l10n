@@ -37,25 +37,24 @@ class MessageLookup extends MessageLookupByLibrary {
             "Earn from \$800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."),
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Receive Your Mobi Vehicle"),
+        "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
+        "no": MessageLookupByLibrary.simpleMessage("No"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
+        "selectMobi": MessageLookupByLibrary.simpleMessage("CHOOSE YOU MOBI"),
+        "selectSubscription":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
         "step2": MessageLookupByLibrary.simpleMessage("STEP 2"),
         "step3": MessageLookupByLibrary.simpleMessage("STEP 3"),
         "step4": MessageLookupByLibrary.simpleMessage("STEP 4"),
         "step5": MessageLookupByLibrary.simpleMessage("STEP 5"),
+        "support": MessageLookupByLibrary.simpleMessage("Support"),
         "test": MessageLookupByLibrary.simpleMessage("english"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation."),
-        "support": MessageLookupByLibrary.simpleMessage("Support"),
-        "no": MessageLookupByLibrary.simpleMessage("No"),
-        "howItWorks": MessageLookupByLibrary.simpleMessage("How It Works?"),
-        "selectMobi": MessageLookupByLibrary.simpleMessage("SELECT YOUR MOBI"),
-        "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("SELECT YOUR SUBSCRIPTION"),
-        "include": MessageLookupByLibrary.simpleMessage("Include")
+            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.")
       };
 }
