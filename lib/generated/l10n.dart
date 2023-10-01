@@ -242,8 +242,6 @@ class S {
 
   /// `Soporte`
   String get support {
-<<<<<<< HEAD
-=======
     return Intl.message(
       'Soporte',
       name: 'support',
@@ -262,57 +260,36 @@ class S {
     );
   }
 
-  /// `¿Cómo funciona?`
-  String get howItWorks {
->>>>>>> master
-    return Intl.message(
-      'Soporte',
-      name: 'support',
-      desc: '',
-      args: [],
-    );
-  }
-
-<<<<<<< HEAD
-  /// `No`
-  String get no {
-    return Intl.message(
-      'No',
-      name: 'no',
-=======
-  /// `BIENVENIDO MOBIER!`
-  String get welcome {
-    return Intl.message(
-      'BIENVENIDO MOBIER!',
-      name: 'welcome',
->>>>>>> master
-      desc: '',
-      args: [],
-    );
-  }
-
-<<<<<<< HEAD
   /// `¿Cómo funciona?`
   String get howItWorks {
     return Intl.message(
       '¿Cómo funciona?',
       name: 'howItWorks',
-=======
-  /// `Nombre`
-  String get name {
-    return Intl.message(
-      'Nombre',
-      name: 'name',
->>>>>>> master
       desc: '',
       args: [],
     );
   }
 
-<<<<<<< HEAD
-  /// `SELECCIONA TU MOBI`
-  String get selectMobi {
-=======
+  /// `BIENVENIDO MOBIER!`
+  String get welcome {
+    return Intl.message(
+      'BIENVENIDO MOBIER!',
+      name: 'welcome',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nombre`
+  String get name {
+    return Intl.message(
+      'Nombre',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Correo electrónico`
   String get email {
     return Intl.message(
@@ -425,7 +402,6 @@ class S {
 
   /// `BIENVENIDO A MOBI`
   String get welcomeToMOBI {
->>>>>>> master
     return Intl.message(
       'BIENVENIDO A MOBI',
       name: 'welcomeToMOBI',
@@ -434,13 +410,8 @@ class S {
     );
   }
 
-<<<<<<< HEAD
-  /// `SELECCIONA TU SUSCRIPCIÓN`
-  String get selectSubscription {
-=======
   /// `Código Enviado`
   String get codeSent {
->>>>>>> master
     return Intl.message(
       'Código Enviado',
       name: 'codeSent',
@@ -449,19 +420,41 @@ class S {
     );
   }
 
-<<<<<<< HEAD
-  /// `Incluye`
-  String get includes {
-    return Intl.message(
-      'Incluye',
-      name: 'includes',
-=======
   /// `Este campo es obligatorio`
   String get thisFieldIsMandatory {
     return Intl.message(
       'Este campo es obligatorio',
       name: 'thisFieldIsMandatory',
->>>>>>> master
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SELECCIONA TU MOBI`
+  String get selectMobi {
+    return Intl.message(
+      'SELECCIONA TU MOBI',
+      name: 'selectMobi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SELECCIONA TU SUSCRIPCIÓN`
+  String get selectSubscription {
+    return Intl.message(
+      'SELECCIONA TU SUSCRIPCIÓN',
+      name: 'selectSubscription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Incluye`
+  String get includes {
+    return Intl.message(
+      'Incluye',
+      name: 'includes',
       desc: '',
       args: [],
     );

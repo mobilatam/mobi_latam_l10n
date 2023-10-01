@@ -47,17 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
-<<<<<<< HEAD
         "includes": MessageLookupByLibrary.simpleMessage("Incluye"),
-        "no": MessageLookupByLibrary.simpleMessage("No"),
-        "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
-            "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas."),
-        "register": MessageLookupByLibrary.simpleMessage("Registrate"),
-        "selectMobi":
-            MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
-        "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
-=======
         "name": MessageLookupByLibrary.simpleMessage("Nombre"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "phone": MessageLookupByLibrary.simpleMessage("Número de celular"),
@@ -66,9 +56,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
+        "selectMobi":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
+        "selectSubscription":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
         "sendCodeAgain":
             MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
->>>>>>> master
         "step1": MessageLookupByLibrary.simpleMessage("PASO 1"),
         "step2": MessageLookupByLibrary.simpleMessage("PASO 2"),
         "step3": MessageLookupByLibrary.simpleMessage("PASO 3"),
