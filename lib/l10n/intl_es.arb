@@ -36,5 +36,6 @@
   "verify": "Verificar",
   "codeSuccess": "Código exitoso",
   "welcomeToMOBI": "BIENVENIDO A MOBI",
-  "codeSent": "Código Enviado"
+  "codeSent": "Código Enviado",
+  "thisFieldIsMandatory": "Este campo es obligatorio"
 }

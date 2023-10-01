@@ -419,6 +419,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Este campo es obligatorio`
+  String get thisFieldIsMandatory {
+    return Intl.message(
+      'Este campo es obligatorio',
+      name: 'thisFieldIsMandatory',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

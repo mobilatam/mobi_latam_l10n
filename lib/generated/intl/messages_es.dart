@@ -64,6 +64,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "step5": MessageLookupByLibrary.simpleMessage("PASO 5"),
         "support": MessageLookupByLibrary.simpleMessage("Soporte"),
         "test": MessageLookupByLibrary.simpleMessage("español"),
+        "thisFieldIsMandatory":
+            MessageLookupByLibrary.simpleMessage("Este campo es obligatorio"),
         "verificationCode":
             MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
         "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
