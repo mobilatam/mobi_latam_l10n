@@ -429,6 +429,36 @@ class S {
       args: [],
     );
   }
+
+  /// `SELECCIONA TU MOBI`
+  String get selectMobi {
+    return Intl.message(
+      'SELECCIONA TU MOBI',
+      name: 'selectMobi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SELECCIONA TU SUSCRIPCIÓN`
+  String get selectSubscription {
+    return Intl.message(
+      'SELECCIONA TU SUSCRIPCIÓN',
+      name: 'selectSubscription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Incluye`
+  String get includes {
+    return Intl.message(
+      'Incluye',
+      name: 'includes',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

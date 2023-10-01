@@ -47,6 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
+        "includes": MessageLookupByLibrary.simpleMessage("Incluye"),
         "name": MessageLookupByLibrary.simpleMessage("Nombre"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "phone": MessageLookupByLibrary.simpleMessage("Número de celular"),
@@ -55,6 +56,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
+        "selectMobi":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
+        "selectSubscription":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
         "sendCodeAgain":
             MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
         "step1": MessageLookupByLibrary.simpleMessage("PASO 1"),

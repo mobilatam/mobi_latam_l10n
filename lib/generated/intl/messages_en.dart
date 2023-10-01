@@ -54,6 +54,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
         "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
+        "selectMobi": MessageLookupByLibrary.simpleMessage("CHOOSE YOU MOBI"),
+        "selectSubscription":
+            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
         "sendCodeAgain": MessageLookupByLibrary.simpleMessage(
             "Resend the verification code"),
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
