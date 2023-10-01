@@ -171,10 +171,10 @@ class S {
   }
 
   /// `Registrate`
-  String get register {
+  String get registerYourSelf {
     return Intl.message(
       'Registrate',
-      name: 'register',
+      name: 'registerYourSelf',
       desc: '',
       args: [],
     );
@@ -242,6 +242,8 @@ class S {
 
   /// `Soporte`
   String get support {
+<<<<<<< HEAD
+=======
     return Intl.message(
       'Soporte',
       name: 'support',
@@ -262,39 +264,204 @@ class S {
 
   /// `¿Cómo funciona?`
   String get howItWorks {
+>>>>>>> master
+    return Intl.message(
+      'Soporte',
+      name: 'support',
+      desc: '',
+      args: [],
+    );
+  }
+
+<<<<<<< HEAD
+  /// `No`
+  String get no {
+    return Intl.message(
+      'No',
+      name: 'no',
+=======
+  /// `BIENVENIDO MOBIER!`
+  String get welcome {
+    return Intl.message(
+      'BIENVENIDO MOBIER!',
+      name: 'welcome',
+>>>>>>> master
+      desc: '',
+      args: [],
+    );
+  }
+
+<<<<<<< HEAD
+  /// `¿Cómo funciona?`
+  String get howItWorks {
     return Intl.message(
       '¿Cómo funciona?',
       name: 'howItWorks',
+=======
+  /// `Nombre`
+  String get name {
+    return Intl.message(
+      'Nombre',
+      name: 'name',
+>>>>>>> master
       desc: '',
       args: [],
     );
   }
 
+<<<<<<< HEAD
   /// `SELECCIONA TU MOBI`
   String get selectMobi {
+=======
+  /// `Correo electrónico`
+  String get email {
     return Intl.message(
-      'SELECCIONA TU MOBI',
-      name: 'selectMobi',
+      'Correo electrónico',
+      name: 'email',
       desc: '',
       args: [],
     );
   }
 
+  /// `Número de celular`
+  String get phone {
+    return Intl.message(
+      'Número de celular',
+      name: 'phone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Acepto términos y condiciones y política de privacidad.`
+  String get acceptClause {
+    return Intl.message(
+      'Acepto términos y condiciones y política de privacidad.',
+      name: 'acceptClause',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Acepto recibir correos electrónicos con descuentos y novedades.`
+  String get acceptEmailSend {
+    return Intl.message(
+      'Acepto recibir correos electrónicos con descuentos y novedades.',
+      name: 'acceptEmailSend',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrate con:`
+  String get registerWith {
+    return Intl.message(
+      'Registrate con:',
+      name: 'registerWith',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `CÓDIGO DE VERIFICACIÓN`
+  String get verificationCode {
+    return Intl.message(
+      'CÓDIGO DE VERIFICACIÓN',
+      name: 'verificationCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Revisa tu whatsapp y copia el código`
+  String get checkWhatsapp {
+    return Intl.message(
+      'Revisa tu whatsapp y copia el código',
+      name: 'checkWhatsapp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Volver a enviar código`
+  String get sendCodeAgain {
+    return Intl.message(
+      'Volver a enviar código',
+      name: 'sendCodeAgain',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrar`
+  String get register {
+    return Intl.message(
+      'Registrar',
+      name: 'register',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verificar`
+  String get verify {
+    return Intl.message(
+      'Verificar',
+      name: 'verify',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Código exitoso`
+  String get codeSuccess {
+    return Intl.message(
+      'Código exitoso',
+      name: 'codeSuccess',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `BIENVENIDO A MOBI`
+  String get welcomeToMOBI {
+>>>>>>> master
+    return Intl.message(
+      'BIENVENIDO A MOBI',
+      name: 'welcomeToMOBI',
+      desc: '',
+      args: [],
+    );
+  }
+
+<<<<<<< HEAD
   /// `SELECCIONA TU SUSCRIPCIÓN`
   String get selectSubscription {
+=======
+  /// `Código Enviado`
+  String get codeSent {
+>>>>>>> master
     return Intl.message(
-      'SELECCIONA TU SUSCRIPCIÓN',
-      name: 'selectSubscription',
+      'Código Enviado',
+      name: 'codeSent',
       desc: '',
       args: [],
     );
   }
 
+<<<<<<< HEAD
   /// `Incluye`
   String get includes {
     return Intl.message(
       'Incluye',
       name: 'includes',
+=======
+  /// `Este campo es obligatorio`
+  String get thisFieldIsMandatory {
+    return Intl.message(
+      'Este campo es obligatorio',
+      name: 'thisFieldIsMandatory',
+>>>>>>> master
       desc: '',
       args: [],
     );

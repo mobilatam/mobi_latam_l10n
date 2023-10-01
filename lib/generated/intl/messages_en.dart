@@ -24,6 +24,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "Apply": MessageLookupByLibrary.simpleMessage("Apply"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continue"),
         "Next": MessageLookupByLibrary.simpleMessage("Next"),
+        "acceptClause": MessageLookupByLibrary.simpleMessage(
+            "I agree to the Terms, Conditions and Privacy Policy."),
+        "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
+            "I would like to receive exclusive emails with discounts and news."),
+        "checkWhatsapp": MessageLookupByLibrary.simpleMessage(
+            "Check your whatsapp and paste the code"),
         "chooseYouSubscriptionType": MessageLookupByLibrary.simpleMessage(
             "Choose Your Subscription Type"),
         "chooseYouSubscriptionTypeExplanation":
@@ -31,6 +37,9 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Select whether you want to purchase a monthly subscription for delivery work or for personal use as transportation and/or recreational use."),
         "chooseYourMobi":
             MessageLookupByLibrary.simpleMessage("Choose Your Mobi"),
+        "codeSent": MessageLookupByLibrary.simpleMessage("Code sent"),
+        "codeSuccess": MessageLookupByLibrary.simpleMessage("Success code"),
+        "email": MessageLookupByLibrary.simpleMessage("Email"),
         "enjoyYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Enjoy Your Mobi Vehicle"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
@@ -38,6 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Receive Your Mobi Vehicle"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
+<<<<<<< HEAD
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
@@ -45,6 +55,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectMobi": MessageLookupByLibrary.simpleMessage("CHOOSE YOU MOBI"),
         "selectSubscription":
             MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
+=======
+        "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "no": MessageLookupByLibrary.simpleMessage("No"),
+        "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
+        "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
+            "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
+        "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
+        "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
+        "sendCodeAgain": MessageLookupByLibrary.simpleMessage(
+            "Resend the verification code"),
+>>>>>>> master
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
         "step2": MessageLookupByLibrary.simpleMessage("STEP 2"),
         "step3": MessageLookupByLibrary.simpleMessage("STEP 3"),
@@ -52,6 +73,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "step5": MessageLookupByLibrary.simpleMessage("STEP 5"),
         "support": MessageLookupByLibrary.simpleMessage("Support"),
         "test": MessageLookupByLibrary.simpleMessage("english"),
+        "thisFieldIsMandatory":
+            MessageLookupByLibrary.simpleMessage("This field is mandatory"),
+        "verificationCode":
+            MessageLookupByLibrary.simpleMessage("Verify your code"),
+        "verify": MessageLookupByLibrary.simpleMessage("Verify"),
+        "welcome": MessageLookupByLibrary.simpleMessage("WELCOME MOBIER!"),
+        "welcomeToMOBI":
+            MessageLookupByLibrary.simpleMessage("WELCOME TO MOBI"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
