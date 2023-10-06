@@ -36,7 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage(
                 "Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo."),
         "chooseYourMobi":
-            MessageLookupByLibrary.simpleMessage("Slecciona tu Mobi"),
+            MessageLookupByLibrary.simpleMessage("Selecciona tu Mobi"),
         "codeSent": MessageLookupByLibrary.simpleMessage("Código Enviado"),
         "codeSuccess": MessageLookupByLibrary.simpleMessage("Código exitoso"),
         "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
@@ -80,6 +80,28 @@ class MessageLookup extends MessageLookupByLibrary {
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.")
+            "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
+        "jobMarketplace":
+            MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
+        "personalData":
+            MessageLookupByLibrary.simpleMessage("DATOS PERSONALES"),
+        "nameUser": MessageLookupByLibrary.simpleMessage("Nombre"),
+        "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
+        "birthDate":
+            MessageLookupByLibrary.simpleMessage("Fecha de nacimiento"),
+        "birthDateHover": MessageLookupByLibrary.simpleMessage("DD/MM/AAAA"),
+        "ci": MessageLookupByLibrary.simpleMessage("Carnet de identidad"),
+        "extensionCi": MessageLookupByLibrary.simpleMessage("Extensión"),
+        "hasLicense":
+            MessageLookupByLibrary.simpleMessage("¿Tiene licencia de moto?"),
+        "numberLicense":
+            MessageLookupByLibrary.simpleMessage("Número de licencia de moto"),
+        "yes": MessageLookupByLibrary.simpleMessage("Si"),
+        "save": MessageLookupByLibrary.simpleMessage("Guardar"),
+        "select": MessageLookupByLibrary.simpleMessage("Selecciona"),
+        "successApply":
+            MessageLookupByLibrary.simpleMessage("APLICACIÓN EXITOSA!"),
+        "congratulations": MessageLookupByLibrary.simpleMessage(
+            "Felicidades aplicaste exitosamente el equipo de el genio x se contactará contigo en las próximas horas"),
       };
 }
