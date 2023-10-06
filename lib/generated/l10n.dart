@@ -459,6 +459,141 @@ class S {
       args: [],
     );
   }
+
+  String get JobMarketplace {
+    return Intl.message(
+      'JOB MARKETPLACE',
+      name: 'jobMarketplace',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get personalData {
+    return Intl.message(
+      'DATOS PERSONALES',
+      name: 'personalData',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get nameUser {
+    return Intl.message(
+      'Nombre',
+      name: 'nameUser',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get nameHover {
+    return Intl.message(
+      'Juan Valdez Suarez',
+      name: 'nameHover',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get birthDate {
+    return Intl.message(
+      'Fecha de nacimiento',
+      name: 'birthDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get birthDateHover {
+    return Intl.message(
+      'DD/MM/AAAA',
+      name: 'birthDateHover',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get ci {
+    return Intl.message(
+      'Carnet de identidad',
+      name: 'ci',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get extensionCi {
+    return Intl.message(
+      'Extensión',
+      name: 'extensionCi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get hasLicense {
+    return Intl.message(
+      '¿Tienes licencia de moto?',
+      name: 'hasLicense',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get numberLicense {
+    return Intl.message(
+      'Número de licencia de moto',
+      name: 'numberLicense',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get yes {
+    return Intl.message(
+      'Si',
+      name: 'yes',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get save {
+    return Intl.message(
+      'Guardar',
+      name: 'save',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get successApply {
+    return Intl.message(
+      'APLICACIÓN EXITOSA!',
+      name: 'successApply',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get congratulations {
+    return Intl.message(
+      'Felicidades aplicaste exitosamente el equipo de el genio x se contactará contigo en las próximas horas',
+      name: 'congratulations',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get select {
+    return Intl.message(
+      'Selecciona',
+      name: 'select',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
