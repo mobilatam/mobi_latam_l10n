@@ -25,11 +25,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "Continue": MessageLookupByLibrary.simpleMessage("Continue"),
         "Next": MessageLookupByLibrary.simpleMessage("Next"),
         "acceptClause": MessageLookupByLibrary.simpleMessage(
-            "I agree to the Terms, Conditions and Privacy Policy."),
+            "I accept the terms and conditions and privacy policy."),
         "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
-            "I would like to receive exclusive emails with discounts and news."),
+            "I agree to receive emails with discounts and news."),
+        "birthDate": MessageLookupByLibrary.simpleMessage("Date of birth"),
+        "birthDateHover": MessageLookupByLibrary.simpleMessage("MM/DD/YYYY"),
         "checkWhatsapp": MessageLookupByLibrary.simpleMessage(
-            "Check your whatsapp and paste the code"),
+            "Check your WhatsApp and copy the code"),
         "chooseYouSubscriptionType": MessageLookupByLibrary.simpleMessage(
             "Choose Your Subscription Type"),
         "chooseYouSubscriptionTypeExplanation":
@@ -37,47 +39,66 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Select whether you want to purchase a monthly subscription for delivery work or for personal use as transportation and/or recreational use."),
         "chooseYourMobi":
             MessageLookupByLibrary.simpleMessage("Choose Your Mobi"),
-        "codeSent": MessageLookupByLibrary.simpleMessage("Code sent"),
-        "codeSuccess": MessageLookupByLibrary.simpleMessage("Success code"),
+        "ci": MessageLookupByLibrary.simpleMessage("Identity card"),
+        "codeSent": MessageLookupByLibrary.simpleMessage("Code Sent"),
+        "codeSuccess": MessageLookupByLibrary.simpleMessage("Successful code"),
+        "congratulations": MessageLookupByLibrary.simpleMessage(
+            "Congratulations, you successfully applied! The team from \'el genio x\' will contact you in the next few hours."),
+        "deliveryTime": MessageLookupByLibrary.simpleMessage(
+            "Your moped will arrive at your home in just 24 hours after your purchase confirmation."),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "enjoyYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Enjoy Your Mobi Vehicle"),
+        "extensionCi": MessageLookupByLibrary.simpleMessage("Extension"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Earn from \$800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."),
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Receive Your Mobi Vehicle"),
+        "hasLicense": MessageLookupByLibrary.simpleMessage(
+            "Do you have a motorcycle license?"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
+        "includes": MessageLookupByLibrary.simpleMessage("Includes"),
         "jobMarketplace":
-            MessageLookupByLibrary.simpleMessage("Job Marketplace"),
+            MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
+        "nameUser": MessageLookupByLibrary.simpleMessage("Name"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
+        "numberLicense":
+            MessageLookupByLibrary.simpleMessage("Motorcycle license number"),
+        "personalData": MessageLookupByLibrary.simpleMessage("PERSONAL DATA"),
         "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
+        "register": MessageLookupByLibrary.simpleMessage("Register"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
-        "selectMobi": MessageLookupByLibrary.simpleMessage("CHOOSE YOU MOBI"),
+        "save": MessageLookupByLibrary.simpleMessage("Save"),
+        "select": MessageLookupByLibrary.simpleMessage("Select"),
+        "selectMobi": MessageLookupByLibrary.simpleMessage("SELECT YOUR MOBI"),
         "selectSubscription":
             MessageLookupByLibrary.simpleMessage("CHOOSE YOUR SUBSCRIPTION"),
-        "sendCodeAgain": MessageLookupByLibrary.simpleMessage(
-            "Resend the verification code"),
+        "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Resend code"),
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
         "step2": MessageLookupByLibrary.simpleMessage("STEP 2"),
         "step3": MessageLookupByLibrary.simpleMessage("STEP 3"),
         "step4": MessageLookupByLibrary.simpleMessage("STEP 4"),
         "step5": MessageLookupByLibrary.simpleMessage("STEP 5"),
+        "successApply":
+            MessageLookupByLibrary.simpleMessage("SUCCESSFUL APPLICATION!"),
         "support": MessageLookupByLibrary.simpleMessage("Support"),
         "test": MessageLookupByLibrary.simpleMessage("english"),
         "thisFieldIsMandatory":
             MessageLookupByLibrary.simpleMessage("This field is mandatory"),
         "verificationCode":
-            MessageLookupByLibrary.simpleMessage("Verify your code"),
+            MessageLookupByLibrary.simpleMessage("VERIFICATION CODE"),
         "verify": MessageLookupByLibrary.simpleMessage("Verify"),
         "welcome": MessageLookupByLibrary.simpleMessage("WELCOME MOBIER!"),
         "welcomeToMOBI":
             MessageLookupByLibrary.simpleMessage("WELCOME TO MOBI"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
+        "yes": MessageLookupByLibrary.simpleMessage("Yes"),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
             "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.")
       };

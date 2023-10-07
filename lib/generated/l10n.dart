@@ -50,11 +50,21 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Continuar`
-  String get Continue {
+  /// `Acepto términos y condiciones y política de privacidad.`
+  String get acceptClause {
     return Intl.message(
-      'Continuar',
-      name: 'Continue',
+      'Acepto términos y condiciones y política de privacidad.',
+      name: 'acceptClause',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Acepto recibir correos electrónicos con descuentos y novedades.`
+  String get acceptEmailSend {
+    return Intl.message(
+      'Acepto recibir correos electrónicos con descuentos y novedades.',
+      name: 'acceptEmailSend',
       desc: '',
       args: [],
     );
@@ -70,11 +80,381 @@ class S {
     );
   }
 
+  /// `Fecha de nacimiento`
+  String get birthDate {
+    return Intl.message(
+      'Fecha de nacimiento',
+      name: 'birthDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `DD/MM/AAAA`
+  String get birthDateHover {
+    return Intl.message(
+      'DD/MM/AAAA',
+      name: 'birthDateHover',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Revisa tu whatsapp y copia el código`
+  String get checkWhatsapp {
+    return Intl.message(
+      'Revisa tu whatsapp y copia el código',
+      name: 'checkWhatsapp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selecciona tu tipo de suscripción`
+  String get chooseYouSubscriptionType {
+    return Intl.message(
+      'Selecciona tu tipo de suscripción',
+      name: 'chooseYouSubscriptionType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.`
+  String get chooseYouSubscriptionTypeExplanation {
+    return Intl.message(
+      'Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.',
+      name: 'chooseYouSubscriptionTypeExplanation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Slecciona tu Mobi`
+  String get chooseYourMobi {
+    return Intl.message(
+      'Slecciona tu Mobi',
+      name: 'chooseYourMobi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Carnet de identidad`
+  String get ci {
+    return Intl.message(
+      'Carnet de identidad',
+      name: 'ci',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Código Enviado`
+  String get codeSent {
+    return Intl.message(
+      'Código Enviado',
+      name: 'codeSent',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Código exitoso`
+  String get codeSuccess {
+    return Intl.message(
+      'Código exitoso',
+      name: 'codeSuccess',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Felicidades aplicaste exitosamente el equipo de el genio x se contactará contigo en las próximas horas`
+  String get congratulations {
+    return Intl.message(
+      'Felicidades aplicaste exitosamente el equipo de el genio x se contactará contigo en las próximas horas',
+      name: 'congratulations',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continuar`
+  String get Continue {
+    return Intl.message(
+      'Continuar',
+      name: 'Continue',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tu moped llegará a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.`
+  String get deliveryTime {
+    return Intl.message(
+      'Tu moped llegará a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.',
+      name: 'deliveryTime',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Correo electrónico`
+  String get email {
+    return Intl.message(
+      'Correo electrónico',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Disfruta de tu vehículo mobi`
+  String get enjoyYourMobiVehicle {
+    return Intl.message(
+      'Disfruta de tu vehículo mobi',
+      name: 'enjoyYourMobiVehicle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Extensión`
+  String get extensionCi {
+    return Intl.message(
+      'Extensión',
+      name: 'extensionCi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recibe desde 800 US$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad.`
+  String get getSince800Dollars {
+    return Intl.message(
+      'Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad.',
+      name: 'getSince800Dollars',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recibe tu vehículo mobi`
+  String get getYourMobiVehicle {
+    return Intl.message(
+      'Recibe tu vehículo mobi',
+      name: 'getYourMobiVehicle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Tiene licencia de moto?`
+  String get hasLicense {
+    return Intl.message(
+      '¿Tiene licencia de moto?',
+      name: 'hasLicense',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Cómo funciona?`
+  String get howItWorks {
+    return Intl.message(
+      '¿Cómo funciona?',
+      name: 'howItWorks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Incluye`
+  String get includes {
+    return Intl.message(
+      'Incluye',
+      name: 'includes',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `JOB MARKETPLACE`
+  String get jobMarketplace {
+    return Intl.message(
+      'JOB MARKETPLACE',
+      name: 'jobMarketplace',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nombre`
+  String get name {
+    return Intl.message(
+      'Nombre',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Juan Valdez Suarez`
+  String get nameHover {
+    return Intl.message(
+      'Juan Valdez Suarez',
+      name: 'nameHover',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nombre`
+  String get nameUser {
+    return Intl.message(
+      'Nombre',
+      name: 'nameUser',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Siguiente`
   String get Next {
     return Intl.message(
       'Siguiente',
       name: 'Next',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No`
+  String get no {
+    return Intl.message(
+      'No',
+      name: 'no',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Número de licencia de moto`
+  String get numberLicense {
+    return Intl.message(
+      'Número de licencia de moto',
+      name: 'numberLicense',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `DATOS PERSONALES`
+  String get personalData {
+    return Intl.message(
+      'DATOS PERSONALES',
+      name: 'personalData',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Número de celular`
+  String get phone {
+    return Intl.message(
+      'Número de celular',
+      name: 'phone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.`
+  String get pickAnyOfOurVehicles {
+    return Intl.message(
+      'Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.',
+      name: 'pickAnyOfOurVehicles',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrar`
+  String get register {
+    return Intl.message(
+      'Registrar',
+      name: 'register',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrate con:`
+  String get registerWith {
+    return Intl.message(
+      'Registrate con:',
+      name: 'registerWith',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrate`
+  String get registerYourSelf {
+    return Intl.message(
+      'Registrate',
+      name: 'registerYourSelf',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Guardar`
+  String get save {
+    return Intl.message(
+      'Guardar',
+      name: 'save',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selecciona`
+  String get select {
+    return Intl.message(
+      'Selecciona',
+      name: 'select',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SELECCIONA TU MOBI`
+  String get selectMobi {
+    return Intl.message(
+      'SELECCIONA TU MOBI',
+      name: 'selectMobi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SELECCIONA TU SUSCRIPCIÓN`
+  String get selectSubscription {
+    return Intl.message(
+      'SELECCIONA TU SUSCRIPCIÓN',
+      name: 'selectSubscription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Volver a enviar código`
+  String get sendCodeAgain {
+    return Intl.message(
+      'Volver a enviar código',
+      name: 'sendCodeAgain',
       desc: '',
       args: [],
     );
@@ -130,111 +510,11 @@ class S {
     );
   }
 
-  /// `Slecciona tu Mobi`
-  String get chooseYourMobi {
+  /// `APLICACIÓN EXITOSA!`
+  String get successApply {
     return Intl.message(
-      'Slecciona tu Mobi',
-      name: 'chooseYourMobi',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.`
-  String get pickAnyOfOurVehicles {
-    return Intl.message(
-      'Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.',
-      name: 'pickAnyOfOurVehicles',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Selecciona tu tipo de suscripción`
-  String get chooseYouSubscriptionType {
-    return Intl.message(
-      'Selecciona tu tipo de suscripción',
-      name: 'chooseYouSubscriptionType',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.`
-  String get chooseYouSubscriptionTypeExplanation {
-    return Intl.message(
-      'Elige si quieres adquirir tu suscripción mensual \npara trabajar realizando envíos o para uso personal como transporte y/o uso recreativo.',
-      name: 'chooseYouSubscriptionTypeExplanation',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Registrate`
-  String get registerYourSelf {
-    return Intl.message(
-      'Registrate',
-      name: 'registerYourSelf',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.`
-  String get withOnlyFiveDays {
-    return Intl.message(
-      'Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.',
-      name: 'withOnlyFiveDays',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Recibe tu vehículo mobi`
-  String get getYourMobiVehicle {
-    return Intl.message(
-      'Recibe tu vehículo mobi',
-      name: 'getYourMobiVehicle',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.`
-  String get youWillGetMopedIn24hrs {
-    return Intl.message(
-      'Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.',
-      name: 'youWillGetMopedIn24hrs',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Disfruta de tu vehículo mobi`
-  String get enjoyYourMobiVehicle {
-    return Intl.message(
-      'Disfruta de tu vehículo mobi',
-      name: 'enjoyYourMobiVehicle',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Recibe desde 800 US$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad.`
-  String get getSince800Dollars {
-    return Intl.message(
-      'Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad.',
-      name: 'getSince800Dollars',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `español`
-  String get test {
-    return Intl.message(
-      'español',
-      name: 'test',
+      'APLICACIÓN EXITOSA!',
+      name: 'successApply',
       desc: '',
       args: [],
     );
@@ -250,171 +530,11 @@ class S {
     );
   }
 
-  /// `No`
-  String get no {
+  /// `español`
+  String get test {
     return Intl.message(
-      'No',
-      name: 'no',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `¿Cómo funciona?`
-  String get howItWorks {
-    return Intl.message(
-      '¿Cómo funciona?',
-      name: 'howItWorks',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `BIENVENIDO MOBIER!`
-  String get welcome {
-    return Intl.message(
-      'BIENVENIDO MOBIER!',
-      name: 'welcome',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Nombre`
-  String get name {
-    return Intl.message(
-      'Nombre',
-      name: 'name',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Correo electrónico`
-  String get email {
-    return Intl.message(
-      'Correo electrónico',
-      name: 'email',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Número de celular`
-  String get phone {
-    return Intl.message(
-      'Número de celular',
-      name: 'phone',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Acepto términos y condiciones y política de privacidad.`
-  String get acceptClause {
-    return Intl.message(
-      'Acepto términos y condiciones y política de privacidad.',
-      name: 'acceptClause',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Acepto recibir correos electrónicos con descuentos y novedades.`
-  String get acceptEmailSend {
-    return Intl.message(
-      'Acepto recibir correos electrónicos con descuentos y novedades.',
-      name: 'acceptEmailSend',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Registrate con:`
-  String get registerWith {
-    return Intl.message(
-      'Registrate con:',
-      name: 'registerWith',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `CÓDIGO DE VERIFICACIÓN`
-  String get verificationCode {
-    return Intl.message(
-      'CÓDIGO DE VERIFICACIÓN',
-      name: 'verificationCode',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Revisa tu whatsapp y copia el código`
-  String get checkWhatsapp {
-    return Intl.message(
-      'Revisa tu whatsapp y copia el código',
-      name: 'checkWhatsapp',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Volver a enviar código`
-  String get sendCodeAgain {
-    return Intl.message(
-      'Volver a enviar código',
-      name: 'sendCodeAgain',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Registrar`
-  String get register {
-    return Intl.message(
-      'Registrar',
-      name: 'register',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Verificar`
-  String get verify {
-    return Intl.message(
-      'Verificar',
-      name: 'verify',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Código exitoso`
-  String get codeSuccess {
-    return Intl.message(
-      'Código exitoso',
-      name: 'codeSuccess',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `BIENVENIDO A MOBI`
-  String get welcomeToMOBI {
-    return Intl.message(
-      'BIENVENIDO A MOBI',
-      name: 'welcomeToMOBI',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Código Enviado`
-  String get codeSent {
-    return Intl.message(
-      'Código Enviado',
-      name: 'codeSent',
+      'español',
+      name: 'test',
       desc: '',
       args: [],
     );
@@ -430,41 +550,71 @@ class S {
     );
   }
 
-  /// `SELECCIONA TU MOBI`
-  String get selectMobi {
+  /// `CÓDIGO DE VERIFICACIÓN`
+  String get verificationCode {
     return Intl.message(
-      'SELECCIONA TU MOBI',
-      name: 'selectMobi',
+      'CÓDIGO DE VERIFICACIÓN',
+      name: 'verificationCode',
       desc: '',
       args: [],
     );
   }
 
-  /// `SELECCIONA TU SUSCRIPCIÓN`
-  String get selectSubscription {
+  /// `Verificar`
+  String get verify {
     return Intl.message(
-      'SELECCIONA TU SUSCRIPCIÓN',
-      name: 'selectSubscription',
+      'Verificar',
+      name: 'verify',
       desc: '',
       args: [],
     );
   }
 
-  /// `Incluye`
-  String get includes {
+  /// `BIENVENIDO MOBIER!`
+  String get welcome {
     return Intl.message(
-      'Incluye',
-      name: 'includes',
+      'BIENVENIDO MOBIER!',
+      name: 'welcome',
       desc: '',
       args: [],
     );
   }
 
-  /// `Job Marketplace`
-  String get jobMarketplace {
+  /// `BIENVENIDO A MOBI`
+  String get welcomeToMOBI {
     return Intl.message(
-      'Job Marketplace',
-      name: 'jobMarketplace',
+      'BIENVENIDO A MOBI',
+      name: 'welcomeToMOBI',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.`
+  String get withOnlyFiveDays {
+    return Intl.message(
+      'Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.',
+      name: 'withOnlyFiveDays',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si`
+  String get yes {
+    return Intl.message(
+      'Si',
+      name: 'yes',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.`
+  String get youWillGetMopedIn24hrs {
+    return Intl.message(
+      'Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.',
+      name: 'youWillGetMopedIn24hrs',
       desc: '',
       args: [],
     );
