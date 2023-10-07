@@ -56,7 +56,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
         "selectMobi": MessageLookupByLibrary.simpleMessage("CHOOSE YOU MOBI"),
         "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("SELECCIONA TU SUSCRIPCIÓN"),
+            MessageLookupByLibrary.simpleMessage("CHOOSE YOUR SUBSCRIPTION"),
         "sendCodeAgain": MessageLookupByLibrary.simpleMessage(
             "Resend the verification code"),
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
