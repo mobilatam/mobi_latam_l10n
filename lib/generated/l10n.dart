@@ -460,7 +460,7 @@ class S {
     );
   }
 
-  String get JobMarketplace {
+  String get jobMarketplace {
     return Intl.message(
       'JOB MARKETPLACE',
       name: 'jobMarketplace',
