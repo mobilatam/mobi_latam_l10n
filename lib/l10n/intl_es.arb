@@ -40,5 +40,7 @@
   "thisFieldIsMandatory": "Este campo es obligatorio",
   "selectMobi": "SELECCIONA TU MOBI",
   "selectSubscription": "SELECCIONA TU SUSCRIPCIÓN",
-  "includes": "Incluye"
+  "includes": "Incluye",
+  "jobMarketplace": "Job Marketplace"
+
 }

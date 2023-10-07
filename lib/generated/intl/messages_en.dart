@@ -47,6 +47,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Receive Your Mobi Vehicle"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
+        "jobMarketplace":
+            MessageLookupByLibrary.simpleMessage("Job Marketplace"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
@@ -77,25 +79,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation."),
-        "jobMarketplace":
-            MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
-        "personalData": MessageLookupByLibrary.simpleMessage("Personal Data"),
-        "nameUser": MessageLookupByLibrary.simpleMessage("Name"),
-        "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
-        "birthDate": MessageLookupByLibrary.simpleMessage("Date of birth"),
-        "birthDateHover": MessageLookupByLibrary.simpleMessage("DD/MM/AAAA"),
-        "ci": MessageLookupByLibrary.simpleMessage("Identity Card"),
-        "extensionCi": MessageLookupByLibrary.simpleMessage("Extension"),
-        "hasLicense": MessageLookupByLibrary.simpleMessage(
-            "Do you have a motorcycle license?"),
-        "numberLicense": MessageLookupByLibrary.simpleMessage("License number"),
-        "yes": MessageLookupByLibrary.simpleMessage("Yes"),
-        "save": MessageLookupByLibrary.simpleMessage("Save"),
-        "select": MessageLookupByLibrary.simpleMessage("Select"),
-        "successApply":
-            MessageLookupByLibrary.simpleMessage("SUCCESSFUL APPLY"),
-        "congratulations": MessageLookupByLibrary.simpleMessage(
-            "Congratulations, you successfully applied, the genius x team will contact you in the next few hours"),
+            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.")
       };
 }
