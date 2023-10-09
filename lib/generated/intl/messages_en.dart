@@ -100,6 +100,22 @@ class MessageLookup extends MessageLookupByLibrary {
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
         "yes": MessageLookupByLibrary.simpleMessage("Yes"),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.")
+            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation."),
+        "paySubscription":
+            MessageLookupByLibrary.simpleMessage("PAY SUBSCRIPTION"),
+        "cardNumber": MessageLookupByLibrary.simpleMessage("Card Number"),
+        "securityCode":
+            MessageLookupByLibrary.simpleMessage("Security Code (VCC)"),
+        "expirationDate":
+            MessageLookupByLibrary.simpleMessage("Expiration Date"),
+        "appyDebit":
+            MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
+        "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
+        "successPayment": MessageLookupByLibrary.simpleMessage(
+            "YOUR PAYMENT WAS SUCCESSFUL!"),
+        "confirmDirection":
+            MessageLookupByLibrary.simpleMessage("Confirm shipping address"),
+        "successSubscriptionPayment": MessageLookupByLibrary.simpleMessage(
+            "Your subscription ID 48938439 has been successful. We will send your moped to you within 24 hours")
       };
 }
