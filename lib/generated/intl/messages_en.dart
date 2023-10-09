@@ -28,8 +28,11 @@ class MessageLookup extends MessageLookupByLibrary {
             "I accept the terms and conditions and privacy policy."),
         "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
             "I agree to receive emails with discounts and news."),
+        "applyDebit":
+            MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
         "birthDate": MessageLookupByLibrary.simpleMessage("Date of birth"),
         "birthDateHover": MessageLookupByLibrary.simpleMessage("MM/DD/YYYY"),
+        "cardNumber": MessageLookupByLibrary.simpleMessage("Card number"),
         "checkWhatsapp": MessageLookupByLibrary.simpleMessage(
             "Check your WhatsApp and copy the code"),
         "chooseYouSubscriptionType": MessageLookupByLibrary.simpleMessage(
@@ -42,6 +45,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "ci": MessageLookupByLibrary.simpleMessage("Identity card"),
         "codeSent": MessageLookupByLibrary.simpleMessage("Code Sent"),
         "codeSuccess": MessageLookupByLibrary.simpleMessage("Successful code"),
+        "confirmDirection":
+            MessageLookupByLibrary.simpleMessage("Confirm shipping address"),
         "congratulations": MessageLookupByLibrary.simpleMessage(
             "Congratulations, you successfully applied! The team from \'el genio x\' will contact you in the next few hours."),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
@@ -49,6 +54,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "enjoyYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Enjoy Your Mobi Vehicle"),
+        "expirationDate":
+            MessageLookupByLibrary.simpleMessage("Expiration date"),
         "extensionCi": MessageLookupByLibrary.simpleMessage("Extension"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Earn from \$800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."),
@@ -66,6 +73,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Motorcycle license number"),
+        "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
+        "paySubscription":
+            MessageLookupByLibrary.simpleMessage("PAY SUBSCRIPTION"),
         "personalData": MessageLookupByLibrary.simpleMessage("PERSONAL DATA"),
         "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
@@ -74,6 +84,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
         "save": MessageLookupByLibrary.simpleMessage("Save"),
+        "securityCode":
+            MessageLookupByLibrary.simpleMessage("Security code (VCC)"),
         "select": MessageLookupByLibrary.simpleMessage("Select"),
         "selectMobi": MessageLookupByLibrary.simpleMessage("SELECT YOUR MOBI"),
         "selectSubscription":
@@ -86,6 +98,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "step5": MessageLookupByLibrary.simpleMessage("STEP 5"),
         "successApply":
             MessageLookupByLibrary.simpleMessage("SUCCESSFUL APPLICATION!"),
+        "successPayment":
+            MessageLookupByLibrary.simpleMessage("SUCCESSFUL PAYMENT!"),
+        "successSubscriptionPayment": MessageLookupByLibrary.simpleMessage(
+            "Your subscription ID 48938439 has been successful. We will send your moped to you within 24 hours."),
         "support": MessageLookupByLibrary.simpleMessage("Support"),
         "test": MessageLookupByLibrary.simpleMessage("english"),
         "thisFieldIsMandatory":
@@ -100,22 +116,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
         "yes": MessageLookupByLibrary.simpleMessage("Yes"),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
-            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation."),
-        "paySubscription":
-            MessageLookupByLibrary.simpleMessage("PAY SUBSCRIPTION"),
-        "cardNumber": MessageLookupByLibrary.simpleMessage("Card Number"),
-        "securityCode":
-            MessageLookupByLibrary.simpleMessage("Security Code (VCC)"),
-        "expirationDate":
-            MessageLookupByLibrary.simpleMessage("Expiration Date"),
-        "appyDebit":
-            MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
-        "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
-        "successPayment": MessageLookupByLibrary.simpleMessage(
-            "YOUR PAYMENT WAS SUCCESSFUL!"),
-        "confirmDirection":
-            MessageLookupByLibrary.simpleMessage("Confirm shipping address"),
-        "successSubscriptionPayment": MessageLookupByLibrary.simpleMessage(
-            "Your subscription ID 48938439 has been successful. We will send your moped to you within 24 hours")
+            "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.")
       };
 }

@@ -56,5 +56,14 @@
   "welcomeToMOBI": "WELCOME TO MOBI",
   "withOnlyFiveDays": "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep.",
   "yes": "Yes",
-  "youWillGetMopedIn24hrs": "Your moped will arrive at your doorstep within 24 hours of purchase confirmation."
+  "youWillGetMopedIn24hrs": "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.",
+  "paySubscription": "PAY SUBSCRIPTION",
+  "cardNumber": "Card number",
+  "securityCode": "Security code (VCC)",
+  "expirationDate": "Expiration date",
+  "applyDebit": "Apply automatic debit",
+  "passwordHint": "*****",
+  "successPayment": "SUCCESSFUL PAYMENT!",
+  "confirmDirection": "Confirm shipping address",
+  "successSubscriptionPayment": "Your subscription ID 48938439 has been successful. We will send your moped to you within 24 hours."
 }

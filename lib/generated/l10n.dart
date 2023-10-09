@@ -619,6 +619,96 @@ class S {
       args: [],
     );
   }
+
+  /// `PAGAR SUSCRIPCIÓN`
+  String get paySubscription {
+    return Intl.message(
+      'PAGAR SUSCRIPCIÓN',
+      name: 'paySubscription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Número de tarjeta`
+  String get cardNumber {
+    return Intl.message(
+      'Número de tarjeta',
+      name: 'cardNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Código de seguridad (VCC)`
+  String get securityCode {
+    return Intl.message(
+      'Código de seguridad (VCC)',
+      name: 'securityCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fecha de vencimiento`
+  String get expirationDate {
+    return Intl.message(
+      'Fecha de vencimiento',
+      name: 'expirationDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aplicar débito automático`
+  String get applyDebit {
+    return Intl.message(
+      'Aplicar débito automático',
+      name: 'applyDebit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `*****`
+  String get passwordHint {
+    return Intl.message(
+      '*****',
+      name: 'passwordHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¡PAGO DE SUBSCRIPCIÓN EXITOSO!`
+  String get successPayment {
+    return Intl.message(
+      '¡PAGO DE SUBSCRIPCIÓN EXITOSO!',
+      name: 'successPayment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirmar dirección de envío`
+  String get confirmDirection {
+    return Intl.message(
+      'Confirmar dirección de envío',
+      name: 'confirmDirection',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tu suscripción ID 48938439 ha sido exitosa. Te enviaremos tu moped dentro de 24 horas`
+  String get successSubscriptionPayment {
+    return Intl.message(
+      'Tu suscripción ID 48938439 ha sido exitosa. Te enviaremos tu moped dentro de 24 horas',
+      name: 'successSubscriptionPayment',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
