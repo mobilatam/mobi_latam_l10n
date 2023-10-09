@@ -28,9 +28,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Acepto términos y condiciones y política de privacidad."),
         "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
             "Acepto recibir correos electrónicos con descuentos y novedades."),
+        "applyDebit":
+            MessageLookupByLibrary.simpleMessage("Aplicar débito automático"),
         "birthDate":
             MessageLookupByLibrary.simpleMessage("Fecha de nacimiento"),
         "birthDateHover": MessageLookupByLibrary.simpleMessage("DD/MM/AAAA"),
+        "cardNumber": MessageLookupByLibrary.simpleMessage("Número de tarjeta"),
         "checkWhatsapp": MessageLookupByLibrary.simpleMessage(
             "Revisa tu whatsapp y copia el código"),
         "chooseYouSubscriptionType": MessageLookupByLibrary.simpleMessage(
@@ -43,6 +46,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "ci": MessageLookupByLibrary.simpleMessage("Carnet de identidad"),
         "codeSent": MessageLookupByLibrary.simpleMessage("Código Enviado"),
         "codeSuccess": MessageLookupByLibrary.simpleMessage("Código exitoso"),
+        "confirmDirection": MessageLookupByLibrary.simpleMessage(
+            "Confirmar dirección de envío"),
         "congratulations": MessageLookupByLibrary.simpleMessage(
             "Felicidades aplicaste exitosamente el equipo de el genio x se contactará contigo en las próximas horas"),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
@@ -50,6 +55,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
         "enjoyYourMobiVehicle": MessageLookupByLibrary.simpleMessage(
             "Disfruta de tu vehículo mobi"),
+        "expirationDate":
+            MessageLookupByLibrary.simpleMessage("Fecha de vencimiento"),
         "extensionCi": MessageLookupByLibrary.simpleMessage("Extensión"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad."),
@@ -67,6 +74,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Número de licencia de moto"),
+        "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
+        "paySubscription":
+            MessageLookupByLibrary.simpleMessage("PAGAR SUSCRIPCIÓN"),
         "personalData":
             MessageLookupByLibrary.simpleMessage("DATOS PERSONALES"),
         "phone": MessageLookupByLibrary.simpleMessage("Número de celular"),
@@ -76,6 +86,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
         "save": MessageLookupByLibrary.simpleMessage("Guardar"),
+        "securityCode":
+            MessageLookupByLibrary.simpleMessage("Código de seguridad (VCC)"),
         "select": MessageLookupByLibrary.simpleMessage("Selecciona"),
         "selectMobi":
             MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
@@ -90,6 +102,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "step5": MessageLookupByLibrary.simpleMessage("PASO 5"),
         "successApply":
             MessageLookupByLibrary.simpleMessage("APLICACIÓN EXITOSA!"),
+        "successPayment": MessageLookupByLibrary.simpleMessage(
+            "¡PAGO DE SUBSCRIPCIÓN EXITOSO!"),
+        "successSubscriptionPayment": MessageLookupByLibrary.simpleMessage(
+            "Tu suscripción ID 48938439 ha sido exitosa. Te enviaremos tu moped dentro de 24 horas"),
         "support": MessageLookupByLibrary.simpleMessage("Soporte"),
         "test": MessageLookupByLibrary.simpleMessage("español"),
         "thisFieldIsMandatory":
