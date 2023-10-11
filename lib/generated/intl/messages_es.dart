@@ -28,6 +28,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Acepto términos y condiciones y política de privacidad."),
         "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
             "Acepto recibir correos electrónicos con descuentos y novedades."),
+        "activateMoped":
+            MessageLookupByLibrary.simpleMessage("Activa tu moped"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Aplicar débito automático"),
         "birthDate":
@@ -46,12 +48,20 @@ class MessageLookup extends MessageLookupByLibrary {
         "ci": MessageLookupByLibrary.simpleMessage("Carnet de identidad"),
         "codeSent": MessageLookupByLibrary.simpleMessage("Código Enviado"),
         "codeSuccess": MessageLookupByLibrary.simpleMessage("Código exitoso"),
+        "confirm": MessageLookupByLibrary.simpleMessage("Confirmar"),
         "confirmDirection": MessageLookupByLibrary.simpleMessage(
             "Confirmar dirección de envío"),
         "congratulations": MessageLookupByLibrary.simpleMessage(
             "Felicidades aplicaste exitosamente el equipo de el genio x se contactará contigo en las próximas horas"),
+        "delivered": MessageLookupByLibrary.simpleMessage("Entregado"),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
             "Tu moped llegará a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
+        "directionDelivery":
+            MessageLookupByLibrary.simpleMessage("DIRECCIÓN DE ENTREGA"),
+        "directionShipping":
+            MessageLookupByLibrary.simpleMessage("Dirección de entrega"),
+        "doTrackingMoped":
+            MessageLookupByLibrary.simpleMessage("Haz el tracking de tu moped"),
         "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
         "enjoyYourMobiVehicle": MessageLookupByLibrary.simpleMessage(
             "Disfruta de tu vehículo mobi"),
@@ -68,12 +78,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "includes": MessageLookupByLibrary.simpleMessage("Incluye"),
         "jobMarketplace":
             MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
+        "mopedDelivered":
+            MessageLookupByLibrary.simpleMessage("MOPED ENTREGADA"),
         "name": MessageLookupByLibrary.simpleMessage("Nombre"),
         "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
         "nameUser": MessageLookupByLibrary.simpleMessage("Nombre"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Número de licencia de moto"),
+        "onArrival": MessageLookupByLibrary.simpleMessage("En camino"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
         "paySubscription":
             MessageLookupByLibrary.simpleMessage("PAGAR SUSCRIPCIÓN"),
@@ -82,12 +95,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "phone": MessageLookupByLibrary.simpleMessage("Número de celular"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas."),
+        "prepared": MessageLookupByLibrary.simpleMessage("En preparación"),
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
         "save": MessageLookupByLibrary.simpleMessage("Guardar"),
         "securityCode":
             MessageLookupByLibrary.simpleMessage("Código de seguridad (VCC)"),
+        "seeStatus": MessageLookupByLibrary.simpleMessage("Ver status"),
         "select": MessageLookupByLibrary.simpleMessage("Selecciona"),
         "selectMobi":
             MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
@@ -110,12 +125,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "test": MessageLookupByLibrary.simpleMessage("español"),
         "thisFieldIsMandatory":
             MessageLookupByLibrary.simpleMessage("Este campo es obligatorio"),
+        "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
         "verificationCode":
             MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
         "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
         "welcome": MessageLookupByLibrary.simpleMessage("BIENVENIDO MOBIER!"),
         "welcomeToMOBI":
             MessageLookupByLibrary.simpleMessage("BIENVENIDO A MOBI"),
+        "wellcomeMobier":
+            MessageLookupByLibrary.simpleMessage("BIEVENIDO MOBIER"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "yes": MessageLookupByLibrary.simpleMessage("Si"),

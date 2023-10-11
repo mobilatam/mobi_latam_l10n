@@ -65,5 +65,17 @@
   "passwordHint": "*****",
   "successPayment": "SUCCESSFUL PAYMENT!",
   "confirmDirection": "Confirm shipping address",
-  "successSubscriptionPayment": "Your subscription ID 48938439 has been successful. We will send your moped to you within 24 hours."
+  "successSubscriptionPayment": "Your subscription ID 48938439 has been successful. We will send your moped to you within 24 hours.",
+  "directionDelivery": "DELIVERY ADDRESS",
+  "directionShipping": "Shipping address",
+  "confirm": "Confirm",
+  "wellcomeMobier": "WELLCOME MOBIER",
+  "doTrackingMoped": "Do tracking of your moped",
+  "seeStatus": "See status",
+  "tracking": "TRACKING",
+  "prepared": "Prepared",
+  "onArrival": "On arrival",
+  "delivered": "Delivered",
+  "mopedDelivered": "MOBID DELIVERED",
+  "activateMoped": "Activate your moped"
 }
