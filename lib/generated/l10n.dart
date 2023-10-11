@@ -709,6 +709,126 @@ class S {
       args: [],
     );
   }
+
+  /// `DIRECCIÓN DE ENTREGA`
+  String get directionDelivery {
+    return Intl.message(
+      'DIRECCIÓN DE ENTREGA',
+      name: 'directionDelivery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dirección de entrega`
+  String get directionShipping {
+    return Intl.message(
+      'Dirección de entrega',
+      name: 'directionShipping',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirmar`
+  String get confirm {
+    return Intl.message(
+      'Confirmar',
+      name: 'confirm',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `BIEVENIDO MOBIER`
+  String get wellcomeMobier {
+    return Intl.message(
+      'BIEVENIDO MOBIER',
+      name: 'wellcomeMobier',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Haz el tracking de tu moped`
+  String get doTrackingMoped {
+    return Intl.message(
+      'Haz el tracking de tu moped',
+      name: 'doTrackingMoped',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ver status`
+  String get seeStatus {
+    return Intl.message(
+      'Ver status',
+      name: 'seeStatus',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `TRACKING`
+  String get tracking {
+    return Intl.message(
+      'TRACKING',
+      name: 'tracking',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En preparación`
+  String get prepared {
+    return Intl.message(
+      'En preparación',
+      name: 'prepared',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En camino`
+  String get onArrival {
+    return Intl.message(
+      'En camino',
+      name: 'onArrival',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Entregado`
+  String get delivered {
+    return Intl.message(
+      'Entregado',
+      name: 'delivered',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `MOPED ENTREGADA`
+  String get mopedDelivered {
+    return Intl.message(
+      'MOPED ENTREGADA',
+      name: 'mopedDelivered',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Activa tu moped`
+  String get activateMoped {
+    return Intl.message(
+      'Activa tu moped',
+      name: 'activateMoped',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
