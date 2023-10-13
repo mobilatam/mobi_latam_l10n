@@ -829,6 +829,56 @@ class S {
       args: [],
     );
   }
+
+  /// `¿Cómo conducir?`
+  String get howDrive {
+    return Intl.message(
+      '¿Cómo conducir?',
+      name: 'howDrive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Abre la App y enciende la moped`
+  String get openAppAndTurnOnMoped {
+    return Intl.message(
+      'Abre la App y enciende la moped',
+      name: 'openAppAndTurnOnMoped',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Abre la App y enciende tu scooter`
+  String get openAppAndTurnOnScooter {
+    return Intl.message(
+      'Abre la App y enciende tu scooter',
+      name: 'openAppAndTurnOnScooter',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc.`
+  String get mopedIntructions {
+    return Intl.message(
+      'Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc.',
+      name: 'mopedIntructions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc.`
+  String get scooterIntrucions {
+    return Intl.message(
+      'Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc.',
+      name: 'scooterIntrucions',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
