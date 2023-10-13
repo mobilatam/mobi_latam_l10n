@@ -74,12 +74,15 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
         "hasLicense":
             MessageLookupByLibrary.simpleMessage("¿Tiene licencia de moto?"),
+        "howDrive": MessageLookupByLibrary.simpleMessage("¿Cómo conducir?"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
         "includes": MessageLookupByLibrary.simpleMessage("Incluye"),
         "jobMarketplace":
             MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
         "mopedDelivered":
             MessageLookupByLibrary.simpleMessage("MOPED ENTREGADA"),
+        "mopedIntructions": MessageLookupByLibrary.simpleMessage(
+            "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc."),
         "name": MessageLookupByLibrary.simpleMessage("Nombre"),
         "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
         "nameUser": MessageLookupByLibrary.simpleMessage("Nombre"),
@@ -87,6 +90,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Número de licencia de moto"),
         "onArrival": MessageLookupByLibrary.simpleMessage("En camino"),
+        "openAppAndTurnOnMoped": MessageLookupByLibrary.simpleMessage(
+            "Abre la App y enciende la moped"),
+        "openAppAndTurnOnScooter": MessageLookupByLibrary.simpleMessage(
+            "Abre la App y enciende tu scooter"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
         "paySubscription":
             MessageLookupByLibrary.simpleMessage("PAGAR SUSCRIPCIÓN"),
@@ -100,6 +107,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
         "save": MessageLookupByLibrary.simpleMessage("Guardar"),
+        "scooterIntrucions": MessageLookupByLibrary.simpleMessage(
+            "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc."),
         "securityCode":
             MessageLookupByLibrary.simpleMessage("Código de seguridad (VCC)"),
         "seeStatus": MessageLookupByLibrary.simpleMessage("Ver status"),

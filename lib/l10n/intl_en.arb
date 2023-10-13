@@ -77,5 +77,10 @@
   "onArrival": "On arrival",
   "delivered": "Delivered",
   "mopedDelivered": "MOBID DELIVERED",
-  "activateMoped": "Activate your moped"
+  "activateMoped": "Activate your moped",
+  "howDrive": "How to drive?",
+  "openAppAndTurnOnMoped": "Open the App and turn on your moped",
+  "openAppAndTurnOnScooter": "Open the App and turn on your scooter",
+  "mopedIntructions": "From the App you can view all the widgets necessary to locate what your moped needs, from maintenance, battery level, support, etc. ",
+  "scooterIntrucions": "From the App you can view all the widgets necessary to locate what your moped needs, from maintenance, battery level, support, etc. "
 }

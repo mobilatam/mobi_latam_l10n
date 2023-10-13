@@ -78,5 +78,10 @@
   "onArrival": "En camino",
   "delivered": "Entregado",
   "mopedDelivered": "MOPED ENTREGADA",
-  "activateMoped": "Activa tu moped"
+  "activateMoped": "Activa tu moped",
+  "howDrive": "¿Cómo conducir?",
+  "openAppAndTurnOnMoped": "Abre la App y enciende la moped",
+  "openAppAndTurnOnScooter": "Abre la App y enciende tu scooter",
+  "mopedIntructions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc.",
+  "scooterIntrucions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc."
 }
