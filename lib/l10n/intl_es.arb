@@ -83,5 +83,8 @@
   "openAppAndTurnOnMoped": "Abre la App y enciende la moped",
   "openAppAndTurnOnScooter": "Abre la App y enciende tu scooter",
   "mopedIntructions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc.",
-  "scooterIntrucions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc."
+  "scooterIntrucions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc.",
+  "activeMoped": "ACTIVAR MOPED",
+  "scanQR": "Escanear QR",
+  "scanQRCode": "Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes"
 }

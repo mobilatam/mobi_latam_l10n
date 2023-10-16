@@ -30,6 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Acepto recibir correos electrónicos con descuentos y novedades."),
         "activateMoped":
             MessageLookupByLibrary.simpleMessage("Activa tu moped"),
+        "activeMoped": MessageLookupByLibrary.simpleMessage("ACTIVAR MOPED"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Aplicar débito automático"),
         "birthDate":
@@ -107,6 +108,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
         "save": MessageLookupByLibrary.simpleMessage("Guardar"),
+        "scanQR": MessageLookupByLibrary.simpleMessage("Escanear QR"),
+        "scanQRCode": MessageLookupByLibrary.simpleMessage(
+            "Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes"),
         "scooterIntrucions": MessageLookupByLibrary.simpleMessage(
             "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc."),
         "securityCode":

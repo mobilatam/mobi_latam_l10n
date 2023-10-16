@@ -879,6 +879,36 @@ class S {
       args: [],
     );
   }
+
+  /// `ACTIVAR MOPED`
+  String get activeMoped {
+    return Intl.message(
+      'ACTIVAR MOPED',
+      name: 'activeMoped',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Escanear QR`
+  String get scanQR {
+    return Intl.message(
+      'Escanear QR',
+      name: 'scanQR',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes`
+  String get scanQRCode {
+    return Intl.message(
+      'Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes',
+      name: 'scanQRCode',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
