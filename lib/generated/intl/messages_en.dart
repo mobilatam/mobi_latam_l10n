@@ -33,6 +33,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "activeMoped": MessageLookupByLibrary.simpleMessage("ACTIVE MOPED"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
+        "batteryLevel": MessageLookupByLibrary.simpleMessage("Battery Level"),
+        "batterySerialNumber":
+            MessageLookupByLibrary.simpleMessage("Battery Serial Number"),
+        "billAndPayments":
+            MessageLookupByLibrary.simpleMessage("Billing and Payments"),
+        "billing": MessageLookupByLibrary.simpleMessage("Billing"),
+        "billingHistory":
+            MessageLookupByLibrary.simpleMessage("Billing History"),
         "birthDate": MessageLookupByLibrary.simpleMessage("Date of birth"),
         "birthDateHover": MessageLookupByLibrary.simpleMessage("MM/DD/YYYY"),
         "cardNumber": MessageLookupByLibrary.simpleMessage("Card number"),
@@ -46,6 +54,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chooseYourMobi":
             MessageLookupByLibrary.simpleMessage("Choose Your Mobi"),
         "ci": MessageLookupByLibrary.simpleMessage("Identity card"),
+        "closeSession": MessageLookupByLibrary.simpleMessage("Close Session"),
         "codeSent": MessageLookupByLibrary.simpleMessage("Code Sent"),
         "codeSuccess": MessageLookupByLibrary.simpleMessage("Successful code"),
         "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
@@ -53,6 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Confirm shipping address"),
         "congratulations": MessageLookupByLibrary.simpleMessage(
             "Congratulations, you successfully applied! The team from \'el genio x\' will contact you in the next few hours."),
+        "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
         "delivered": MessageLookupByLibrary.simpleMessage("Delivered"),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
             "Your moped will arrive at your home in just 24 hours after your purchase confirmation."),
@@ -63,6 +73,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "doTrackingMoped":
             MessageLookupByLibrary.simpleMessage("Do tracking of your moped"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "english": MessageLookupByLibrary.simpleMessage("Inglés"),
         "enjoyYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Enjoy Your Mobi Vehicle"),
         "expirationDate":
@@ -79,13 +90,26 @@ class MessageLookup extends MessageLookupByLibrary {
         "includes": MessageLookupByLibrary.simpleMessage("Includes"),
         "jobMarketplace":
             MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
+        "kmTraveled": MessageLookupByLibrary.simpleMessage("Km. Traveled"),
+        "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "legalDocuments":
+            MessageLookupByLibrary.simpleMessage("Legal Documents"),
+        "mopedBikeDescription": MessageLookupByLibrary.simpleMessage(
+            "Ciber Bike One, The first electric motorcycle with IoT technology in the Latin American region. The vehicle can be controlled through a technological platform; designed, developed, manufactured in Bolivia that uses Bolivian lithium batteries."),
         "mopedDelivered":
             MessageLookupByLibrary.simpleMessage("MOBID DELIVERED"),
-        "mopedIntructions": MessageLookupByLibrary.simpleMessage(
+        "mopedInstructions": MessageLookupByLibrary.simpleMessage(
             "From the App you can view all the widgets necessary to locate what your moped needs, from maintenance, battery level, support, etc. "),
+        "mopedNameBike":
+            MessageLookupByLibrary.simpleMessage("Ciber Bike One (CK1)"),
+        "myMoped": MessageLookupByLibrary.simpleMessage("My Moped"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
         "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
         "nameUser": MessageLookupByLibrary.simpleMessage("Name"),
+        "newsAndDiscounts": MessageLookupByLibrary.simpleMessage(
+            "News and Discounts via email"),
+        "nextMaintaining":
+            MessageLookupByLibrary.simpleMessage("Next Maintenance"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Motorcycle license number"),
@@ -97,19 +121,32 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
         "paySubscription":
             MessageLookupByLibrary.simpleMessage("PAY SUBSCRIPTION"),
+        "paymentHistory":
+            MessageLookupByLibrary.simpleMessage("Payment History"),
         "personalData": MessageLookupByLibrary.simpleMessage("PERSONAL DATA"),
         "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
+        "portuguese": MessageLookupByLibrary.simpleMessage("Portugués"),
         "prepared": MessageLookupByLibrary.simpleMessage("Prepared"),
+        "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+        "profile": MessageLookupByLibrary.simpleMessage("Profile"),
+        "referredCode": MessageLookupByLibrary.simpleMessage("Referral Code"),
+        "referredDescription": MessageLookupByLibrary.simpleMessage(
+            "Receive a 10% discount on your next installment by sharing this code with your friends"),
+        "referredDiscount":
+            MessageLookupByLibrary.simpleMessage("Referred Discount"),
+        "referredSmallText": MessageLookupByLibrary.simpleMessage(
+            "The discount will be applied when your friend starts working with mobi."),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
         "save": MessageLookupByLibrary.simpleMessage("Save"),
+        "saveChanges": MessageLookupByLibrary.simpleMessage("Save Changes"),
         "scanQR": MessageLookupByLibrary.simpleMessage("Scan QR"),
         "scanQRCode": MessageLookupByLibrary.simpleMessage(
             "Scan the moped QR code to activate your moped and start your trips"),
-        "scooterIntrucions": MessageLookupByLibrary.simpleMessage(
+        "scooterInstructions": MessageLookupByLibrary.simpleMessage(
             "From the App you can view all the widgets necessary to locate what your moped needs, from maintenance, battery level, support, etc. "),
         "securityCode":
             MessageLookupByLibrary.simpleMessage("Security code (VCC)"),
@@ -119,6 +156,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectSubscription":
             MessageLookupByLibrary.simpleMessage("CHOOSE YOUR SUBSCRIPTION"),
         "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Resend code"),
+        "sendEmail": MessageLookupByLibrary.simpleMessage("Send us an email"),
+        "serialNumber": MessageLookupByLibrary.simpleMessage("Serial Number"),
+        "spanish": MessageLookupByLibrary.simpleMessage("Español"),
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
         "step2": MessageLookupByLibrary.simpleMessage("STEP 2"),
         "step3": MessageLookupByLibrary.simpleMessage("STEP 3"),
@@ -131,10 +171,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "successSubscriptionPayment": MessageLookupByLibrary.simpleMessage(
             "Your subscription ID 48938439 has been successful. We will send your moped to you within 24 hours."),
         "support": MessageLookupByLibrary.simpleMessage("Support"),
+        "talkUs": MessageLookupByLibrary.simpleMessage("Talk to us"),
+        "termsAndConditions":
+            MessageLookupByLibrary.simpleMessage("Terms and Conditions"),
         "test": MessageLookupByLibrary.simpleMessage("english"),
         "thisFieldIsMandatory":
             MessageLookupByLibrary.simpleMessage("This field is mandatory"),
+        "totalPayment": MessageLookupByLibrary.simpleMessage("Total Payment"),
         "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
+        "userEmail":
+            MessageLookupByLibrary.simpleMessage("juan.valdez@gmail.com"),
+        "userLastName": MessageLookupByLibrary.simpleMessage("Valdez Suarez"),
         "verificationCode":
             MessageLookupByLibrary.simpleMessage("VERIFICATION CODE"),
         "verify": MessageLookupByLibrary.simpleMessage("Verify"),
@@ -145,6 +192,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("WELLCOME MOBIER"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
+        "working": MessageLookupByLibrary.simpleMessage("Trabajo"),
         "yes": MessageLookupByLibrary.simpleMessage("Yes"),
         "youWillGetMopedIn24hrs": MessageLookupByLibrary.simpleMessage(
             "Your moped will arrive at your doorstep within 24 hours of purchase confirmation.")

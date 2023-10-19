@@ -620,10 +620,10 @@ class S {
     );
   }
 
-  /// `PAGAR SUSCRIPCIÓN`
+  /// `Pagar suscripción`
   String get paySubscription {
     return Intl.message(
-      'PAGAR SUSCRIPCIÓN',
+      'Pagar suscripción',
       name: 'paySubscription',
       desc: '',
       args: [],
@@ -861,20 +861,20 @@ class S {
   }
 
   /// `Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc.`
-  String get mopedIntructions {
+  String get mopedInstructions {
     return Intl.message(
       'Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc.',
-      name: 'mopedIntructions',
+      name: 'mopedInstructions',
       desc: '',
       args: [],
     );
   }
 
   /// `Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc.`
-  String get scooterIntrucions {
+  String get scooterInstructions {
     return Intl.message(
       'Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc.',
-      name: 'scooterIntrucions',
+      name: 'scooterInstructions',
       desc: '',
       args: [],
     );
@@ -905,6 +905,346 @@ class S {
     return Intl.message(
       'Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes',
       name: 'scanQRCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nro. de serie`
+  String get serialNumber {
+    return Intl.message(
+      'Nro. de serie',
+      name: 'serialNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nro. de serie de batería`
+  String get batterySerialNumber {
+    return Intl.message(
+      'Nro. de serie de batería',
+      name: 'batterySerialNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nivel de batería`
+  String get batteryLevel {
+    return Intl.message(
+      'Nivel de batería',
+      name: 'batteryLevel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Km. recorridos`
+  String get kmTraveled {
+    return Intl.message(
+      'Km. recorridos',
+      name: 'kmTraveled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Próximo mantenimiento`
+  String get nextMaintaining {
+    return Intl.message(
+      'Próximo mantenimiento',
+      name: 'nextMaintaining',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Perfil`
+  String get profile {
+    return Intl.message(
+      'Perfil',
+      name: 'profile',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mi Moped`
+  String get myMoped {
+    return Intl.message(
+      'Mi Moped',
+      name: 'myMoped',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Facturación y pagos`
+  String get billAndPayments {
+    return Intl.message(
+      'Facturación y pagos',
+      name: 'billAndPayments',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Envíanos un email`
+  String get sendEmail {
+    return Intl.message(
+      'Envíanos un email',
+      name: 'sendEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Habla con nosotros`
+  String get talkUs {
+    return Intl.message(
+      'Habla con nosotros',
+      name: 'talkUs',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Descuento referido`
+  String get referredDiscount {
+    return Intl.message(
+      'Descuento referido',
+      name: 'referredDiscount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Código referido`
+  String get referredCode {
+    return Intl.message(
+      'Código referido',
+      name: 'referredCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recibe descuento de 10% en tu próxima cuota compartiendo este código con tus amigos`
+  String get referredDescription {
+    return Intl.message(
+      'Recibe descuento de 10% en tu próxima cuota compartiendo este código con tus amigos',
+      name: 'referredDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El descuento será aplicado cuando tu amigo comience a trabajar con mobi.`
+  String get referredSmallText {
+    return Intl.message(
+      'El descuento será aplicado cuando tu amigo comience a trabajar con mobi.',
+      name: 'referredSmallText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ciber Bike One (CK1)`
+  String get mopedNameBike {
+    return Intl.message(
+      'Ciber Bike One (CK1)',
+      name: 'mopedNameBike',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ciber Bike One, La primera motocicleta eléctrica con tecnología de IoT en la región de América Latina. El vehículo puede ser controlado mediante una plataforma tecnológica; diseñada, desarrollada, fabricada en Bolivia que utiliza baterías de litio bolivianas.`
+  String get mopedBikeDescription {
+    return Intl.message(
+      'Ciber Bike One, La primera motocicleta eléctrica con tecnología de IoT en la región de América Latina. El vehículo puede ser controlado mediante una plataforma tecnológica; diseñada, desarrollada, fabricada en Bolivia que utiliza baterías de litio bolivianas.',
+      name: 'mopedBikeDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Historial de pagos`
+  String get paymentHistory {
+    return Intl.message(
+      'Historial de pagos',
+      name: 'paymentHistory',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Total a pagar`
+  String get totalPayment {
+    return Intl.message(
+      'Total a pagar',
+      name: 'totalPayment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Facturación`
+  String get billing {
+    return Intl.message(
+      'Facturación',
+      name: 'billing',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Historial de facturación`
+  String get billingHistory {
+    return Intl.message(
+      'Historial de facturación',
+      name: 'billingHistory',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Trabajo`
+  String get working {
+    return Intl.message(
+      'Trabajo',
+      name: 'working',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `juan.valdez@gmail.com`
+  String get userEmail {
+    return Intl.message(
+      'juan.valdez@gmail.com',
+      name: 'userEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Idioma`
+  String get language {
+    return Intl.message(
+      'Idioma',
+      name: 'language',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Documentos legales`
+  String get legalDocuments {
+    return Intl.message(
+      'Documentos legales',
+      name: 'legalDocuments',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Noticias y descuentos vía email`
+  String get newsAndDiscounts {
+    return Intl.message(
+      'Noticias y descuentos vía email',
+      name: 'newsAndDiscounts',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Borrar cuenta`
+  String get deleteAccount {
+    return Intl.message(
+      'Borrar cuenta',
+      name: 'deleteAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Guardar cambios`
+  String get saveChanges {
+    return Intl.message(
+      'Guardar cambios',
+      name: 'saveChanges',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Términos y condiciones`
+  String get termsAndConditions {
+    return Intl.message(
+      'Términos y condiciones',
+      name: 'termsAndConditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Políticas de privacidad`
+  String get privacyPolicy {
+    return Intl.message(
+      'Políticas de privacidad',
+      name: 'privacyPolicy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Inglés`
+  String get english {
+    return Intl.message(
+      'Inglés',
+      name: 'english',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Español`
+  String get spanish {
+    return Intl.message(
+      'Español',
+      name: 'spanish',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Portugués`
+  String get portuguese {
+    return Intl.message(
+      'Portugués',
+      name: 'portuguese',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Valdez Suarez`
+  String get userLastName {
+    return Intl.message(
+      'Valdez Suarez',
+      name: 'userLastName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cerrar sesión`
+  String get closeSession {
+    return Intl.message(
+      'Cerrar sesión',
+      name: 'closeSession',
       desc: '',
       args: [],
     );
