@@ -1249,6 +1249,146 @@ class S {
       args: [],
     );
   }
+
+  /// `Video`
+  String get video {
+    return Intl.message(
+      'Video',
+      name: 'video',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Bloquear`
+  String get bloc {
+    return Intl.message(
+      'Bloquear',
+      name: 'bloc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aceptado`
+  String get accept {
+    return Intl.message(
+      'Aceptado',
+      name: 'accept',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fecha de mantenimiento`
+  String get maintenanceDate {
+    return Intl.message(
+      'Fecha de mantenimiento',
+      name: 'maintenanceDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sigue las intrucciones de la swap station`
+  String get followInstructions {
+    return Intl.message(
+      'Sigue las intrucciones de la swap station',
+      name: 'followInstructions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Carga actual`
+  String get actualCharge {
+    return Intl.message(
+      'Carga actual',
+      name: 'actualCharge',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Batería baja`
+  String get lowBattery {
+    return Intl.message(
+      'Batería baja',
+      name: 'lowBattery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Batería cambiada`
+  String get batteryChange {
+    return Intl.message(
+      'Batería cambiada',
+      name: 'batteryChange',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Intercambia tu batería en la estación más cercana a tu ubicación`
+  String get changeBattery {
+    return Intl.message(
+      'Intercambia tu batería en la estación más cercana a tu ubicación',
+      name: 'changeBattery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ver swaps`
+  String get seeSwaps {
+    return Intl.message(
+      'Ver swaps',
+      name: 'seeSwaps',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Vencimiento de suscripción`
+  String get subscriptionExpiration {
+    return Intl.message(
+      'Vencimiento de suscripción',
+      name: 'subscriptionExpiration',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Quieres intercambiar tu batería?`
+  String get wantExchangeBattery {
+    return Intl.message(
+      '¿Quieres intercambiar tu batería?',
+      name: 'wantExchangeBattery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Felicidades`
+  String get congratulationsWork {
+    return Intl.message(
+      'Felicidades',
+      name: 'congratulationsWork',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El Genio X ha confirmado que cumples con los requisitos para ser rider. A continuación podrás realizar el pago de tu moped para obtener tu vehículo y  comenzar a trabajar.`
+  String get congratulationsWorkDescription {
+    return Intl.message(
+      'El Genio X ha confirmado que cumples con los requisitos para ser rider. A continuación podrás realizar el pago de tu moped para obtener tu vehículo y  comenzar a trabajar.',
+      name: 'congratulationsWorkDescription',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
