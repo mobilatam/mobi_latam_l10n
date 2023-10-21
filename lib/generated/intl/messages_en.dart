@@ -24,6 +24,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "Apply": MessageLookupByLibrary.simpleMessage("Apply"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continue"),
         "Next": MessageLookupByLibrary.simpleMessage("Next"),
+        "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "acceptClause": MessageLookupByLibrary.simpleMessage(
             "I accept the terms and conditions and privacy policy."),
         "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
@@ -31,8 +32,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "activateMoped":
             MessageLookupByLibrary.simpleMessage("Activate your moped"),
         "activeMoped": MessageLookupByLibrary.simpleMessage("ACTIVE MOPED"),
+        "actualCharge": MessageLookupByLibrary.simpleMessage("Current charge"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
+        "batteryChange": MessageLookupByLibrary.simpleMessage("Battery change"),
         "batteryLevel": MessageLookupByLibrary.simpleMessage("Battery Level"),
         "batterySerialNumber":
             MessageLookupByLibrary.simpleMessage("Battery Serial Number"),
@@ -43,7 +46,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Billing History"),
         "birthDate": MessageLookupByLibrary.simpleMessage("Date of birth"),
         "birthDateHover": MessageLookupByLibrary.simpleMessage("MM/DD/YYYY"),
+        "bloc": MessageLookupByLibrary.simpleMessage("Bloc"),
         "cardNumber": MessageLookupByLibrary.simpleMessage("Card number"),
+        "changeBattery": MessageLookupByLibrary.simpleMessage(
+            "Swap your battery at the nearest station to your location"),
         "checkWhatsapp": MessageLookupByLibrary.simpleMessage(
             "Check your WhatsApp and copy the code"),
         "chooseYouSubscriptionType": MessageLookupByLibrary.simpleMessage(
@@ -62,6 +68,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Confirm shipping address"),
         "congratulations": MessageLookupByLibrary.simpleMessage(
             "Congratulations, you successfully applied! The team from \'el genio x\' will contact you in the next few hours."),
+        "congratulationsWork":
+            MessageLookupByLibrary.simpleMessage("Congratulations"),
+        "congratulationsWorkDescription": MessageLookupByLibrary.simpleMessage(
+            "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working."),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
         "delivered": MessageLookupByLibrary.simpleMessage("Delivered"),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
@@ -79,6 +89,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "expirationDate":
             MessageLookupByLibrary.simpleMessage("Expiration date"),
         "extensionCi": MessageLookupByLibrary.simpleMessage("Extension"),
+        "followInstructions": MessageLookupByLibrary.simpleMessage(
+            "Follow the instructions from the swap station"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Earn from \$800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."),
         "getYourMobiVehicle":
@@ -94,6 +106,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "legalDocuments":
             MessageLookupByLibrary.simpleMessage("Legal Documents"),
+        "lowBattery": MessageLookupByLibrary.simpleMessage("Low battery"),
+        "maintenanceDate":
+            MessageLookupByLibrary.simpleMessage("Maintenance Date"),
         "mopedBikeDescription": MessageLookupByLibrary.simpleMessage(
             "Ciber Bike One, The first electric motorcycle with IoT technology in the Latin American region. The vehicle can be controlled through a technological platform; designed, developed, manufactured in Bolivia that uses Bolivian lithium batteries."),
         "mopedDelivered":
@@ -151,6 +166,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "securityCode":
             MessageLookupByLibrary.simpleMessage("Security code (VCC)"),
         "seeStatus": MessageLookupByLibrary.simpleMessage("See status"),
+        "seeSwaps": MessageLookupByLibrary.simpleMessage("View swaps"),
         "select": MessageLookupByLibrary.simpleMessage("Select"),
         "selectMobi": MessageLookupByLibrary.simpleMessage("SELECT YOUR MOBI"),
         "selectSubscription":
@@ -164,6 +180,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "step3": MessageLookupByLibrary.simpleMessage("STEP 3"),
         "step4": MessageLookupByLibrary.simpleMessage("STEP 4"),
         "step5": MessageLookupByLibrary.simpleMessage("STEP 5"),
+        "subscriptionExpiration":
+            MessageLookupByLibrary.simpleMessage("Subscription expiration"),
         "successApply":
             MessageLookupByLibrary.simpleMessage("SUCCESSFUL APPLICATION!"),
         "successPayment":
@@ -185,6 +203,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "verificationCode":
             MessageLookupByLibrary.simpleMessage("VERIFICATION CODE"),
         "verify": MessageLookupByLibrary.simpleMessage("Verify"),
+        "video": MessageLookupByLibrary.simpleMessage("Video"),
+        "wantExchangeBattery": MessageLookupByLibrary.simpleMessage(
+            "Do you want to exchange your battery?"),
         "welcome": MessageLookupByLibrary.simpleMessage("WELCOME MOBIER!"),
         "welcomeToMOBI":
             MessageLookupByLibrary.simpleMessage("WELCOME TO MOBI"),

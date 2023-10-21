@@ -120,5 +120,19 @@
   "spanish": "Español",
   "portuguese": "Portugués",
   "userLastName": "Valdez Suarez",
-  "closeSession": "Cerrar sesión"
+  "closeSession": "Cerrar sesión",
+  "video": "Video",
+  "bloc": "Bloquear",
+  "accept": "Aceptado",
+  "maintenanceDate": "Fecha de mantenimiento",
+  "followInstructions": "Sigue las intrucciones de la swap station",
+  "actualCharge": "Carga actual",
+  "lowBattery": "Batería baja",
+  "batteryChange": "Batería cambiada",
+  "changeBattery": "Intercambia tu batería en la estación más cercana a tu ubicación",
+  "seeSwaps": "Ver swaps",
+  "subscriptionExpiration": "Vencimiento de suscripción",
+  "wantExchangeBattery": "¿Quieres intercambiar tu batería?",
+  "congratulationsWork": "Felicidades",
+  "congratulationsWorkDescription": "El Genio X ha confirmado que cumples con los requisitos para ser rider. A continuación podrás realizar el pago de tu moped para obtener tu vehículo y  comenzar a trabajar."
 }

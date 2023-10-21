@@ -119,5 +119,19 @@
   "spanish": "Español",
   "portuguese": "Portugués",
   "userLastName": "Valdez Suarez",
-  "closeSession": "Close Session"
+  "closeSession": "Close Session",
+  "video": "Video",
+  "bloc": "Bloc",
+  "accept": "Accept",
+  "maintenanceDate": "Maintenance Date",
+  "followInstructions": "Follow the instructions from the swap station",
+  "actualCharge": "Current charge",
+  "batteryChange": "Battery change",
+  "lowBattery": "Low battery",
+  "changeBattery": "Swap your battery at the nearest station to your location",
+  "seeSwaps": "View swaps",
+  "subscriptionExpiration": "Subscription expiration",
+  "wantExchangeBattery": "Do you want to exchange your battery?",
+  "congratulationsWork": "Congratulations",
+  "congratulationsWorkDescription": "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working."
 }
