@@ -135,7 +135,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Open the App and turn on your scooter"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
         "paySubscription":
-            MessageLookupByLibrary.simpleMessage("PAY SUBSCRIPTION"),
+            MessageLookupByLibrary.simpleMessage("Pay subscription"),
         "paymentHistory":
             MessageLookupByLibrary.simpleMessage("Payment History"),
         "personalData": MessageLookupByLibrary.simpleMessage("PERSONAL DATA"),
