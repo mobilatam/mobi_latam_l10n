@@ -133,5 +133,9 @@
   "subscriptionExpiration": "Subscription expiration",
   "wantExchangeBattery": "Do you want to exchange your battery?",
   "congratulationsWork": "Congratulations",
-  "congratulationsWorkDescription": "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working."
+  "congratulationsWorkDescription": "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working.",
+  "firstSession": "First login link new device?",
+  "noDeviceFind": "No device is connected",
+  "noServiceFind": "Service not found",
+  "qrError": "Invalid QR code"
 }

@@ -92,6 +92,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "expirationDate":
             MessageLookupByLibrary.simpleMessage("Fecha de vencimiento"),
         "extensionCi": MessageLookupByLibrary.simpleMessage("Extensión"),
+        "firstSession": MessageLookupByLibrary.simpleMessage(
+            "¿Primer inicio de session vincular nuevo dispositivo?"),
         "followInstructions": MessageLookupByLibrary.simpleMessage(
             "Sigue las intrucciones de la swap station"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
@@ -129,6 +131,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "nextMaintaining":
             MessageLookupByLibrary.simpleMessage("Próximo mantenimiento"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
+        "noDeviceFind": MessageLookupByLibrary.simpleMessage(
+            "No hay ningún dispositivo conectado"),
+        "noServiceFind":
+            MessageLookupByLibrary.simpleMessage("Servicio no encontrado"),
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Número de licencia de moto"),
         "onArrival": MessageLookupByLibrary.simpleMessage("En camino"),
@@ -151,6 +157,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("Políticas de privacidad"),
         "profile": MessageLookupByLibrary.simpleMessage("Perfil"),
+        "qrError": MessageLookupByLibrary.simpleMessage("Código QR no válido"),
         "referredCode": MessageLookupByLibrary.simpleMessage("Código referido"),
         "referredDescription": MessageLookupByLibrary.simpleMessage(
             "Recibe descuento de 10% en tu próxima cuota compartiendo este código con tus amigos"),
