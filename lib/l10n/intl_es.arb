@@ -134,5 +134,9 @@
   "subscriptionExpiration": "Vencimiento de suscripción",
   "wantExchangeBattery": "¿Quieres intercambiar tu batería?",
   "congratulationsWork": "Felicidades",
-  "congratulationsWorkDescription": "El Genio X ha confirmado que cumples con los requisitos para ser rider. A continuación podrás realizar el pago de tu moped para obtener tu vehículo y  comenzar a trabajar."
+  "congratulationsWorkDescription": "El Genio X ha confirmado que cumples con los requisitos para ser rider. A continuación podrás realizar el pago de tu moped para obtener tu vehículo y  comenzar a trabajar.",
+  "firstSession": "¿Primer inicio de session vincular nuevo dispositivo?",
+  "noDeviceFind": "No hay ningún dispositivo conectado",
+  "noServiceFind": "Servicio no encontrado",
+  "qrError": "Código QR no válido"
 }

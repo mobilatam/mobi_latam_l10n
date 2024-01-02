@@ -89,6 +89,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "expirationDate":
             MessageLookupByLibrary.simpleMessage("Expiration date"),
         "extensionCi": MessageLookupByLibrary.simpleMessage("Extension"),
+        "firstSession": MessageLookupByLibrary.simpleMessage(
+            "First login link new device?"),
         "followInstructions": MessageLookupByLibrary.simpleMessage(
             "Follow the instructions from the swap station"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
@@ -126,6 +128,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "nextMaintaining":
             MessageLookupByLibrary.simpleMessage("Next Maintenance"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
+        "noDeviceFind":
+            MessageLookupByLibrary.simpleMessage("No device is connected"),
+        "noServiceFind":
+            MessageLookupByLibrary.simpleMessage("Service not found"),
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Motorcycle license number"),
         "onArrival": MessageLookupByLibrary.simpleMessage("On arrival"),
@@ -135,7 +141,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Open the App and turn on your scooter"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
         "paySubscription":
-            MessageLookupByLibrary.simpleMessage("Pay subscription"),
+            MessageLookupByLibrary.simpleMessage("PAY SUBSCRIPTION"),
         "paymentHistory":
             MessageLookupByLibrary.simpleMessage("Payment History"),
         "personalData": MessageLookupByLibrary.simpleMessage("PERSONAL DATA"),
@@ -146,6 +152,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "prepared": MessageLookupByLibrary.simpleMessage("Prepared"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
+        "qrError": MessageLookupByLibrary.simpleMessage("Invalid QR code"),
         "referredCode": MessageLookupByLibrary.simpleMessage("Referral Code"),
         "referredDescription": MessageLookupByLibrary.simpleMessage(
             "Receive a 10% discount on your next installment by sharing this code with your friends"),

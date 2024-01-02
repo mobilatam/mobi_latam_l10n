@@ -1389,6 +1389,46 @@ class S {
       args: [],
     );
   }
+
+  /// `¿Primer inicio de session vincular nuevo dispositivo?`
+  String get firstSession {
+    return Intl.message(
+      '¿Primer inicio de session vincular nuevo dispositivo?',
+      name: 'firstSession',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No hay ningún dispositivo conectado`
+  String get noDeviceFind {
+    return Intl.message(
+      'No hay ningún dispositivo conectado',
+      name: 'noDeviceFind',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Servicio no encontrado`
+  String get noServiceFind {
+    return Intl.message(
+      'Servicio no encontrado',
+      name: 'noServiceFind',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Código QR no válido`
+  String get qrError {
+    return Intl.message(
+      'Código QR no válido',
+      name: 'qrError',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
