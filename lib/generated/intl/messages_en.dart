@@ -73,6 +73,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "congratulationsWorkDescription": MessageLookupByLibrary.simpleMessage(
             "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working."),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
+        "deleteData": MessageLookupByLibrary.simpleMessage("Delete data"),
         "delivered": MessageLookupByLibrary.simpleMessage("Delivered"),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
             "Your moped will arrive at your home in just 24 hours after your purchase confirmation."),

@@ -138,5 +138,6 @@
   "firstSession": "¿Primer inicio de session vincular nuevo dispositivo?",
   "noDeviceFind": "No hay ningún dispositivo conectado",
   "noServiceFind": "Servicio no encontrado",
-  "qrError": "Código QR no válido"
+  "qrError": "Código QR no válido",
+  "deleteData": "Borrar datos"
 }

@@ -76,6 +76,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "congratulationsWorkDescription": MessageLookupByLibrary.simpleMessage(
             "El Genio X ha confirmado que cumples con los requisitos para ser rider. A continuación podrás realizar el pago de tu moped para obtener tu vehículo y  comenzar a trabajar."),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Borrar cuenta"),
+        "deleteData": MessageLookupByLibrary.simpleMessage("Borrar datos"),
         "delivered": MessageLookupByLibrary.simpleMessage("Entregado"),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
             "Tu moped llegará a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
