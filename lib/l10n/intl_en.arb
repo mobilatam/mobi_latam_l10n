@@ -137,5 +137,6 @@
   "firstSession": "First login link new device?",
   "noDeviceFind": "No device is connected",
   "noServiceFind": "Service not found",
-  "qrError": "Invalid QR code"
+  "qrError": "Invalid QR code",
+  "deleteData": "Delete data"
 }
