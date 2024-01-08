@@ -35,6 +35,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "actualCharge": MessageLookupByLibrary.simpleMessage("Carga actual"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Aplicar débito automático"),
+        "badResponse": MessageLookupByLibrary.simpleMessage(
+            "Ocurrió un problema al procesar tu solicitud. Vuelve a intentarlo o contacta con soporte."),
         "batteryChange":
             MessageLookupByLibrary.simpleMessage("Batería cambiada"),
         "batteryLevel":
@@ -93,6 +95,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "expirationDate":
             MessageLookupByLibrary.simpleMessage("Fecha de vencimiento"),
         "extensionCi": MessageLookupByLibrary.simpleMessage("Extensión"),
+        "fetchDataException": MessageLookupByLibrary.simpleMessage(
+            "No se pudo obtener la respuesta del servidor. Verifica tu conexión a internet e inténtalo de nuevo."),
         "firstSession": MessageLookupByLibrary.simpleMessage(
             "¿Primer inicio de session vincular nuevo dispositivo?"),
         "followInstructions": MessageLookupByLibrary.simpleMessage(
@@ -188,7 +192,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendCodeAgain":
             MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
         "sendEmail": MessageLookupByLibrary.simpleMessage("Envíanos un email"),
+        "sendTimeoutException": MessageLookupByLibrary.simpleMessage(
+            "Se excedió el tiempo de espera de la solicitud. Verifica tu conexión a internet e inténtalo de nuevo."),
         "serialNumber": MessageLookupByLibrary.simpleMessage("Nro. de serie"),
+        "serializationException": MessageLookupByLibrary.simpleMessage(
+            "Hubo un error al procesar los datos recibidos del servidor."),
         "spanish": MessageLookupByLibrary.simpleMessage("Español"),
         "step1": MessageLookupByLibrary.simpleMessage("PASO 1"),
         "step2": MessageLookupByLibrary.simpleMessage("PASO 2"),
@@ -212,6 +220,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Este campo es obligatorio"),
         "totalPayment": MessageLookupByLibrary.simpleMessage("Total a pagar"),
         "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
+        "unrecognizedException": MessageLookupByLibrary.simpleMessage(
+            "Se ha producido un error desconocido."),
         "userEmail":
             MessageLookupByLibrary.simpleMessage("juan.valdez@gmail.com"),
         "userLastName": MessageLookupByLibrary.simpleMessage("Valdez Suarez"),

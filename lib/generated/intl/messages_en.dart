@@ -35,6 +35,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "actualCharge": MessageLookupByLibrary.simpleMessage("Current charge"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
+        "badResponse": MessageLookupByLibrary.simpleMessage(
+            "There was a problem processing your request. Please try again or contact support."),
         "batteryChange": MessageLookupByLibrary.simpleMessage("Battery change"),
         "batteryLevel": MessageLookupByLibrary.simpleMessage("Battery Level"),
         "batterySerialNumber":
@@ -90,6 +92,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "expirationDate":
             MessageLookupByLibrary.simpleMessage("Expiration date"),
         "extensionCi": MessageLookupByLibrary.simpleMessage("Extension"),
+        "fetchDataException": MessageLookupByLibrary.simpleMessage(
+            "Unable to retrieve response from the server. Please check your internet connection and try again."),
         "firstSession": MessageLookupByLibrary.simpleMessage(
             "First login link new device?"),
         "followInstructions": MessageLookupByLibrary.simpleMessage(
@@ -181,7 +185,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("CHOOSE YOUR SUBSCRIPTION"),
         "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Resend code"),
         "sendEmail": MessageLookupByLibrary.simpleMessage("Send us an email"),
+        "sendTimeoutException": MessageLookupByLibrary.simpleMessage(
+            "The request timed out. Please check your internet connection and try again."),
         "serialNumber": MessageLookupByLibrary.simpleMessage("Serial Number"),
+        "serializationException": MessageLookupByLibrary.simpleMessage(
+            "There was an error processing data received from the server."),
         "spanish": MessageLookupByLibrary.simpleMessage("Español"),
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
         "step2": MessageLookupByLibrary.simpleMessage("STEP 2"),
@@ -205,6 +213,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("This field is mandatory"),
         "totalPayment": MessageLookupByLibrary.simpleMessage("Total Payment"),
         "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
+        "unrecognizedException": MessageLookupByLibrary.simpleMessage(
+            "An unknown error has occurred."),
         "userEmail":
             MessageLookupByLibrary.simpleMessage("juan.valdez@gmail.com"),
         "userLastName": MessageLookupByLibrary.simpleMessage("Valdez Suarez"),

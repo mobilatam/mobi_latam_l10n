@@ -1439,6 +1439,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Se excedió el tiempo de espera de la solicitud. Verifica tu conexión a internet e inténtalo de nuevo.`
+  String get sendTimeoutException {
+    return Intl.message(
+      'Se excedió el tiempo de espera de la solicitud. Verifica tu conexión a internet e inténtalo de nuevo.',
+      name: 'sendTimeoutException',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ocurrió un problema al procesar tu solicitud. Vuelve a intentarlo o contacta con soporte.`
+  String get badResponse {
+    return Intl.message(
+      'Ocurrió un problema al procesar tu solicitud. Vuelve a intentarlo o contacta con soporte.',
+      name: 'badResponse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No se pudo obtener la respuesta del servidor. Verifica tu conexión a internet e inténtalo de nuevo.`
+  String get fetchDataException {
+    return Intl.message(
+      'No se pudo obtener la respuesta del servidor. Verifica tu conexión a internet e inténtalo de nuevo.',
+      name: 'fetchDataException',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hubo un error al procesar los datos recibidos del servidor.`
+  String get serializationException {
+    return Intl.message(
+      'Hubo un error al procesar los datos recibidos del servidor.',
+      name: 'serializationException',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se ha producido un error desconocido.`
+  String get unrecognizedException {
+    return Intl.message(
+      'Se ha producido un error desconocido.',
+      name: 'unrecognizedException',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
