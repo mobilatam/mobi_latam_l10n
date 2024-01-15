@@ -143,6 +143,7 @@
   "badResponse": "There was a problem processing your request. Please try again or contact support.",
   "fetchDataException": "Unable to retrieve response from the server. Please check your internet connection and try again.",
   "serializationException": "There was an error processing data received from the server.",
-  "unrecognizedException": "An unknown error has occurred."
-
+  "unrecognizedException": "An unknown error has occurred.",
+  "lockDevice": "Lock",
+  "unlockDevice": "Unlock"
 }

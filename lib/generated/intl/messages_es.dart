@@ -116,6 +116,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "language": MessageLookupByLibrary.simpleMessage("Idioma"),
         "legalDocuments":
             MessageLookupByLibrary.simpleMessage("Documentos legales"),
+        "lockDevice": MessageLookupByLibrary.simpleMessage("Bloqueado"),
         "lowBattery": MessageLookupByLibrary.simpleMessage("Batería baja"),
         "maintenanceDate":
             MessageLookupByLibrary.simpleMessage("Fecha de mantenimiento"),
@@ -220,6 +221,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Este campo es obligatorio"),
         "totalPayment": MessageLookupByLibrary.simpleMessage("Total a pagar"),
         "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
+        "unlockDevice": MessageLookupByLibrary.simpleMessage("Desbloqueado"),
         "unrecognizedException": MessageLookupByLibrary.simpleMessage(
             "Se ha producido un error desconocido."),
         "userEmail":

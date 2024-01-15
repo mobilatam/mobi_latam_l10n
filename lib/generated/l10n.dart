@@ -1489,6 +1489,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Bloqueado`
+  String get lockDevice {
+    return Intl.message(
+      'Bloqueado',
+      name: 'lockDevice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Desbloqueado`
+  String get unlockDevice {
+    return Intl.message(
+      'Desbloqueado',
+      name: 'unlockDevice',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
