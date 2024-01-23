@@ -21,7 +21,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "Apply": MessageLookupByLibrary.simpleMessage("Aplicar"),
+        "Apply": MessageLookupByLibrary.simpleMessage("Aplicar a mobi"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continuar"),
         "Next": MessageLookupByLibrary.simpleMessage("Siguiente"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceptado"),
@@ -101,6 +101,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Primer inicio de session vincular nuevo dispositivo?"),
         "followInstructions": MessageLookupByLibrary.simpleMessage(
             "Sigue las intrucciones de la swap station"),
+        "frequentQuestions":
+            MessageLookupByLibrary.simpleMessage("Preguntas Frecuentes"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad."),
         "getYourMobiVehicle":
@@ -178,6 +180,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
+        "reserve": MessageLookupByLibrary.simpleMessage("Reserva"),
         "save": MessageLookupByLibrary.simpleMessage("Guardar"),
         "saveChanges": MessageLookupByLibrary.simpleMessage("Guardar cambios"),
         "scanQR": MessageLookupByLibrary.simpleMessage("Escanear QR"),

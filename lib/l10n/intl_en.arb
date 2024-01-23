@@ -153,5 +153,7 @@
   "lowVelocity": "Low",
   "mediumVelocity": "Medium",
   "highVelocity": "High",
-  "lightButton": "Lights"
+  "lightButton": "Lights",
+  "reserve": "Reserve",
+  "frequentQuestions": "Frequent Questions"
 }

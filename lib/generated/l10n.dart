@@ -70,10 +70,10 @@ class S {
     );
   }
 
-  /// `Aplicar`
+  /// `Aplicar a mobi`
   String get Apply {
     return Intl.message(
-      'Aplicar',
+      'Aplicar a mobi',
       name: 'Apply',
       desc: '',
       args: [],
@@ -1565,6 +1565,26 @@ class S {
     return Intl.message(
       'Luces',
       name: 'lightButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reserva`
+  String get reserve {
+    return Intl.message(
+      'Reserva',
+      name: 'reserve',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Preguntas Frecuentes`
+  String get frequentQuestions {
+    return Intl.message(
+      'Preguntas Frecuentes',
+      name: 'frequentQuestions',
       desc: '',
       args: [],
     );

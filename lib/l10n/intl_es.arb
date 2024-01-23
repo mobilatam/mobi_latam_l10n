@@ -2,7 +2,7 @@
   "@@locale": "es",
   "acceptClause": "Acepto términos y condiciones y política de privacidad.",
   "acceptEmailSend": "Acepto recibir correos electrónicos con descuentos y novedades.",
-  "Apply": "Aplicar",
+  "Apply": "Aplicar a mobi",
   "birthDate": "Fecha de nacimiento",
   "birthDateHover": "DD/MM/AAAA",
   "checkWhatsapp": "Revisa tu whatsapp y copia el código",
@@ -57,7 +57,6 @@
   "withOnlyFiveDays": "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.",
   "yes": "Si",
   "youWillGetMopedIn24hrs": "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.",
-
   "paySubscription": "Pagar suscripción",
   "cardNumber": "Número de tarjeta",
   "securityCode": "Código de seguridad (VCC)",
@@ -152,7 +151,7 @@
   "lowVelocity": "Baja",
   "mediumVelocity": "Media",
   "highVelocity": "Alta",
-  "lightButton": "Luces"
-
-
+  "lightButton": "Luces",
+  "reserve": "Reserva",
+  "frequentQuestions": "Preguntas Frecuentes"
 }

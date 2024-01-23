@@ -98,6 +98,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "First login link new device?"),
         "followInstructions": MessageLookupByLibrary.simpleMessage(
             "Follow the instructions from the swap station"),
+        "frequentQuestions":
+            MessageLookupByLibrary.simpleMessage("Frequent Questions"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Earn from \$800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."),
         "getYourMobiVehicle":
@@ -173,6 +175,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
+        "reserve": MessageLookupByLibrary.simpleMessage("Reserve"),
         "save": MessageLookupByLibrary.simpleMessage("Save"),
         "saveChanges": MessageLookupByLibrary.simpleMessage("Save Changes"),
         "scanQR": MessageLookupByLibrary.simpleMessage("Scan QR"),
