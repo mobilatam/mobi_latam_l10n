@@ -146,5 +146,13 @@
   "serializationException": "Hubo un error al procesar los datos recibidos del servidor.",
   "unrecognizedException": "Se ha producido un error desconocido.",
   "lockDevice": "Bloqueado",
-  "unlockDevice": "Desbloqueado"
+  "unlockDevice": "Desbloqueado",
+  "velocity": "Velocidad",
+  "velocityShort": "Vel.",
+  "lowVelocity": "Baja",
+  "mediumVelocity": "Media",
+  "highVelocity": "Alta",
+  "lightButton": "Luces"
+
+
 }

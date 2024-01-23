@@ -145,5 +145,13 @@
   "serializationException": "There was an error processing data received from the server.",
   "unrecognizedException": "An unknown error has occurred.",
   "lockDevice": "Lock",
-  "unlockDevice": "Unlock"
+  "unlockDevice": "Unlock",
+  "lockDevice": "Locked",
+  "unlockDevice": "Unlocked",
+  "velocity": "Velocity",
+  "velocityShort": "Vel.",
+  "lowVelocity": "Low",
+  "mediumVelocity": "Medium",
+  "highVelocity": "High",
+  "lightButton": "Lights"
 }

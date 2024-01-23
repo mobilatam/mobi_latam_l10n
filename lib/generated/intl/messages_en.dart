@@ -104,6 +104,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Receive Your Mobi Vehicle"),
         "hasLicense": MessageLookupByLibrary.simpleMessage(
             "Do you have a motorcycle license?"),
+        "highVelocity": MessageLookupByLibrary.simpleMessage("High"),
         "howDrive": MessageLookupByLibrary.simpleMessage("How to drive?"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
         "includes": MessageLookupByLibrary.simpleMessage("Includes"),
@@ -113,10 +114,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "legalDocuments":
             MessageLookupByLibrary.simpleMessage("Legal Documents"),
-        "lockDevice": MessageLookupByLibrary.simpleMessage("Lock"),
+        "lightButton": MessageLookupByLibrary.simpleMessage("Lights"),
+        "lockDevice": MessageLookupByLibrary.simpleMessage("Locked"),
         "lowBattery": MessageLookupByLibrary.simpleMessage("Low battery"),
+        "lowVelocity": MessageLookupByLibrary.simpleMessage("Low"),
         "maintenanceDate":
             MessageLookupByLibrary.simpleMessage("Maintenance Date"),
+        "mediumVelocity": MessageLookupByLibrary.simpleMessage("Medium"),
         "mopedBikeDescription": MessageLookupByLibrary.simpleMessage(
             "Ciber Bike One, The first electric motorcycle with IoT technology in the Latin American region. The vehicle can be controlled through a technological platform; designed, developed, manufactured in Bolivia that uses Bolivian lithium batteries."),
         "mopedDelivered":
@@ -214,12 +218,14 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("This field is mandatory"),
         "totalPayment": MessageLookupByLibrary.simpleMessage("Total Payment"),
         "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
-        "unlockDevice": MessageLookupByLibrary.simpleMessage("Unlock"),
+        "unlockDevice": MessageLookupByLibrary.simpleMessage("Unlocked"),
         "unrecognizedException": MessageLookupByLibrary.simpleMessage(
             "An unknown error has occurred."),
         "userEmail":
             MessageLookupByLibrary.simpleMessage("juan.valdez@gmail.com"),
         "userLastName": MessageLookupByLibrary.simpleMessage("Valdez Suarez"),
+        "velocity": MessageLookupByLibrary.simpleMessage("Velocity"),
+        "velocityShort": MessageLookupByLibrary.simpleMessage("Vel."),
         "verificationCode":
             MessageLookupByLibrary.simpleMessage("VERIFICATION CODE"),
         "verify": MessageLookupByLibrary.simpleMessage("Verify"),

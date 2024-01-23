@@ -107,6 +107,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
         "hasLicense":
             MessageLookupByLibrary.simpleMessage("¿Tiene licencia de moto?"),
+        "highVelocity": MessageLookupByLibrary.simpleMessage("Alta"),
         "howDrive": MessageLookupByLibrary.simpleMessage("¿Cómo conducir?"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("¿Cómo funciona?"),
         "includes": MessageLookupByLibrary.simpleMessage("Incluye"),
@@ -116,10 +117,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "language": MessageLookupByLibrary.simpleMessage("Idioma"),
         "legalDocuments":
             MessageLookupByLibrary.simpleMessage("Documentos legales"),
+        "lightButton": MessageLookupByLibrary.simpleMessage("Luces"),
         "lockDevice": MessageLookupByLibrary.simpleMessage("Bloqueado"),
         "lowBattery": MessageLookupByLibrary.simpleMessage("Batería baja"),
+        "lowVelocity": MessageLookupByLibrary.simpleMessage("Baja"),
         "maintenanceDate":
             MessageLookupByLibrary.simpleMessage("Fecha de mantenimiento"),
+        "mediumVelocity": MessageLookupByLibrary.simpleMessage("Media"),
         "mopedBikeDescription": MessageLookupByLibrary.simpleMessage(
             "Ciber Bike One, La primera motocicleta eléctrica con tecnología de IoT en la región de América Latina. El vehículo puede ser controlado mediante una plataforma tecnológica; diseñada, desarrollada, fabricada en Bolivia que utiliza baterías de litio bolivianas."),
         "mopedDelivered":
@@ -227,6 +231,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "userEmail":
             MessageLookupByLibrary.simpleMessage("juan.valdez@gmail.com"),
         "userLastName": MessageLookupByLibrary.simpleMessage("Valdez Suarez"),
+        "velocity": MessageLookupByLibrary.simpleMessage("Velocidad"),
+        "velocityShort": MessageLookupByLibrary.simpleMessage("Vel."),
         "verificationCode":
             MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
         "verify": MessageLookupByLibrary.simpleMessage("Verificar"),
