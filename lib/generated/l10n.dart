@@ -1489,6 +1489,86 @@ class S {
       args: [],
     );
   }
+
+  /// `Bloqueado`
+  String get lockDevice {
+    return Intl.message(
+      'Bloqueado',
+      name: 'lockDevice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Desbloqueado`
+  String get unlockDevice {
+    return Intl.message(
+      'Desbloqueado',
+      name: 'unlockDevice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Velocidad`
+  String get velocity {
+    return Intl.message(
+      'Velocidad',
+      name: 'velocity',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Vel.`
+  String get velocityShort {
+    return Intl.message(
+      'Vel.',
+      name: 'velocityShort',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Baja`
+  String get lowVelocity {
+    return Intl.message(
+      'Baja',
+      name: 'lowVelocity',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Media`
+  String get mediumVelocity {
+    return Intl.message(
+      'Media',
+      name: 'mediumVelocity',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Alta`
+  String get highVelocity {
+    return Intl.message(
+      'Alta',
+      name: 'highVelocity',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Luces`
+  String get lightButton {
+    return Intl.message(
+      'Luces',
+      name: 'lightButton',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

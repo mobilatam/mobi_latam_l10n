@@ -144,5 +144,15 @@
   "badResponse": "Ocurrió un problema al procesar tu solicitud. Vuelve a intentarlo o contacta con soporte.",
   "fetchDataException": "No se pudo obtener la respuesta del servidor. Verifica tu conexión a internet e inténtalo de nuevo.",
   "serializationException": "Hubo un error al procesar los datos recibidos del servidor.",
-  "unrecognizedException": "Se ha producido un error desconocido."
+  "unrecognizedException": "Se ha producido un error desconocido.",
+  "lockDevice": "Bloqueado",
+  "unlockDevice": "Desbloqueado",
+  "velocity": "Velocidad",
+  "velocityShort": "Vel.",
+  "lowVelocity": "Baja",
+  "mediumVelocity": "Media",
+  "highVelocity": "Alta",
+  "lightButton": "Luces"
+
+
 }
