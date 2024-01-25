@@ -142,6 +142,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "noDeviceFind":
             MessageLookupByLibrary.simpleMessage("No device is connected"),
+        "noDeviceFound":
+            MessageLookupByLibrary.simpleMessage("Scooter not found"),
         "noServiceFind":
             MessageLookupByLibrary.simpleMessage("Service not found"),
         "numberLicense":
@@ -221,6 +223,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("This field is mandatory"),
         "totalPayment": MessageLookupByLibrary.simpleMessage("Total Payment"),
         "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
+        "tryReconnectDevice": MessageLookupByLibrary.simpleMessage(
+            "Try reconnecting the scooter"),
         "unlockDevice": MessageLookupByLibrary.simpleMessage("Unlocked"),
         "unrecognizedException": MessageLookupByLibrary.simpleMessage(
             "An unknown error has occurred."),

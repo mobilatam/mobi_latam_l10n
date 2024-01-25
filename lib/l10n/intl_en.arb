@@ -155,5 +155,8 @@
   "highVelocity": "High",
   "lightButton": "Lights",
   "reserve": "Reserve",
-  "frequentQuestions": "Frequent Questions"
+  "frequentQuestions": "Frequent Questions",
+  "noDeviceFound": "Scooter not found",
+  "tryReconnectDevice": "Try reconnecting the scooter"
+
 }
