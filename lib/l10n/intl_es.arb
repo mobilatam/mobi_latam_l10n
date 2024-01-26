@@ -153,5 +153,7 @@
   "highVelocity": "Alta",
   "lightButton": "Luces",
   "reserve": "Reserva",
-  "frequentQuestions": "Preguntas Frecuentes"
+  "frequentQuestions": "Preguntas Frecuentes",
+  "noDeviceFound": "Scooter no encontrado",
+  "tryReconnectDevice": "Intenta reconectar el scooter"
 }

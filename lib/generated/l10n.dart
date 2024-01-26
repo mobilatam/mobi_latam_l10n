@@ -1589,6 +1589,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Scooter no encontrado`
+  String get noDeviceFound {
+    return Intl.message(
+      'Scooter no encontrado',
+      name: 'noDeviceFound',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Intenta reconectar el scooter`
+  String get tryReconnectDevice {
+    return Intl.message(
+      'Intenta reconectar el scooter',
+      name: 'tryReconnectDevice',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
