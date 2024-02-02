@@ -117,7 +117,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "legalDocuments":
             MessageLookupByLibrary.simpleMessage("Legal Documents"),
         "lightButton": MessageLookupByLibrary.simpleMessage("Lights"),
-        "lockDevice": MessageLookupByLibrary.simpleMessage("Locked"),
+        "lockDevice": MessageLookupByLibrary.simpleMessage("Turn off\nScooter"),
         "lowBattery": MessageLookupByLibrary.simpleMessage("Low battery"),
         "lowVelocity": MessageLookupByLibrary.simpleMessage("Low"),
         "maintenanceDate":
@@ -200,6 +200,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "serialNumber": MessageLookupByLibrary.simpleMessage("Serial Number"),
         "serializationException": MessageLookupByLibrary.simpleMessage(
             "There was an error processing data received from the server."),
+        "singIn": MessageLookupByLibrary.simpleMessage("Sign In"),
         "spanish": MessageLookupByLibrary.simpleMessage("Español"),
         "step1": MessageLookupByLibrary.simpleMessage("STEP 1"),
         "step2": MessageLookupByLibrary.simpleMessage("STEP 2"),
@@ -225,7 +226,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
         "tryReconnectDevice": MessageLookupByLibrary.simpleMessage(
             "Try reconnecting the scooter"),
-        "unlockDevice": MessageLookupByLibrary.simpleMessage("Unlocked"),
+        "unlockDevice":
+            MessageLookupByLibrary.simpleMessage("Turn on\nScooter"),
         "unrecognizedException": MessageLookupByLibrary.simpleMessage(
             "An unknown error has occurred."),
         "userEmail":

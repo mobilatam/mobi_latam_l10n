@@ -144,10 +144,8 @@
   "fetchDataException": "Unable to retrieve response from the server. Please check your internet connection and try again.",
   "serializationException": "There was an error processing data received from the server.",
   "unrecognizedException": "An unknown error has occurred.",
-  "lockDevice": "Lock",
-  "unlockDevice": "Unlock",
-  "lockDevice": "Locked",
-  "unlockDevice": "Unlocked",
+  "lockDevice": "Turn off\nScooter",
+  "unlockDevice": "Turn on\nScooter",
   "velocity": "Velocity",
   "velocityShort": "Vel.",
   "lowVelocity": "Low",
@@ -157,6 +155,6 @@
   "reserve": "Reserve",
   "frequentQuestions": "Frequent Questions",
   "noDeviceFound": "Scooter not found",
-  "tryReconnectDevice": "Try reconnecting the scooter"
-
+  "tryReconnectDevice": "Try reconnecting the scooter",
+  "singIn": "Sign In"
 }

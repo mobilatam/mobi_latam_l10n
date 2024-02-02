@@ -1490,20 +1490,20 @@ class S {
     );
   }
 
-  /// `Bloqueado`
+  /// `Apagar\nScooter`
   String get lockDevice {
     return Intl.message(
-      'Bloqueado',
+      'Apagar\nScooter',
       name: 'lockDevice',
       desc: '',
       args: [],
     );
   }
 
-  /// `Desbloqueado`
+  /// `Encender\nScooter`
   String get unlockDevice {
     return Intl.message(
-      'Desbloqueado',
+      'Encender\nScooter',
       name: 'unlockDevice',
       desc: '',
       args: [],
@@ -1605,6 +1605,16 @@ class S {
     return Intl.message(
       'Intenta reconectar el scooter',
       name: 'tryReconnectDevice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Iniciar sesión`
+  String get singIn {
+    return Intl.message(
+      'Iniciar sesión',
+      name: 'singIn',
       desc: '',
       args: [],
     );
