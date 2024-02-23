@@ -210,6 +210,16 @@ class S {
     );
   }
 
+  /// `Introduzca un email válido`
+  String get emailisNotValid {
+    return Intl.message(
+      'Introduzca un email válido',
+      name: 'emailisNotValid',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Disfruta de tu vehículo mobi`
   String get enjoyYourMobiVehicle {
     return Intl.message(
@@ -290,11 +300,21 @@ class S {
     );
   }
 
-  /// `Nombre`
+  /// `Nombres`
   String get name {
     return Intl.message(
-      'Nombre',
+      'Nombres',
       name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apellidos`
+  String get lastName {
+    return Intl.message(
+      'Apellidos',
+      name: 'lastName',
       desc: '',
       args: [],
     );
@@ -680,10 +700,10 @@ class S {
     );
   }
 
-  /// `¡PAGO DE SUBSCRIPCIÓN EXITOSO!`
+  /// `¡PAGO EXITOSO!`
   String get successPayment {
     return Intl.message(
-      '¡PAGO DE SUBSCRIPCIÓN EXITOSO!',
+      '¡PAGO EXITOSO!',
       name: 'successPayment',
       desc: '',
       args: [],
@@ -700,10 +720,10 @@ class S {
     );
   }
 
-  /// `Tu suscripción ID 48938439 ha sido exitosa. Te enviaremos tu moped dentro de 24 horas`
+  /// `Nos contactaremos contigo para coordinar la entrega de tu vehículo`
   String get successSubscriptionPayment {
     return Intl.message(
-      'Tu suscripción ID 48938439 ha sido exitosa. Te enviaremos tu moped dentro de 24 horas',
+      'Nos contactaremos contigo para coordinar la entrega de tu vehículo',
       name: 'successSubscriptionPayment',
       desc: '',
       args: [],
@@ -715,6 +735,26 @@ class S {
     return Intl.message(
       'DIRECCIÓN DE ENTREGA',
       name: 'directionDelivery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Toca y arrastra para mover tu marcador`
+  String get directionDeliverySub {
+    return Intl.message(
+      'Toca y arrastra para mover tu marcador',
+      name: 'directionDeliverySub',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Para continuar, es necesario mover el mapa y colocar el marcador en tu ubicación actual.`
+  String get directionDeliveryError {
+    return Intl.message(
+      'Para continuar, es necesario mover el mapa y colocar el marcador en tu ubicación actual.',
+      name: 'directionDeliveryError',
       desc: '',
       args: [],
     );
@@ -810,20 +850,20 @@ class S {
     );
   }
 
-  /// `MOPED ENTREGADA`
+  /// `SCOOTER ENTREGADA`
   String get mopedDelivered {
     return Intl.message(
-      'MOPED ENTREGADA',
+      'SCOOTER ENTREGADA',
       name: 'mopedDelivered',
       desc: '',
       args: [],
     );
   }
 
-  /// `Activa tu moped`
+  /// `Activa tu Scooter`
   String get activateMoped {
     return Intl.message(
-      'Activa tu moped',
+      'Activa tu Scooter',
       name: 'activateMoped',
       desc: '',
       args: [],
@@ -840,10 +880,10 @@ class S {
     );
   }
 
-  /// `Abre la App y enciende la moped`
+  /// `Abre la App y enciende la scooter`
   String get openAppAndTurnOnMoped {
     return Intl.message(
-      'Abre la App y enciende la moped',
+      'Abre la App y enciende la scooter',
       name: 'openAppAndTurnOnMoped',
       desc: '',
       args: [],
@@ -880,10 +920,10 @@ class S {
     );
   }
 
-  /// `ACTIVAR MOPED`
+  /// `ACTIVAR SCOOTER`
   String get activeMoped {
     return Intl.message(
-      'ACTIVAR MOPED',
+      'ACTIVAR SCOOTER',
       name: 'activeMoped',
       desc: '',
       args: [],
@@ -900,10 +940,10 @@ class S {
     );
   }
 
-  /// `Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes`
+  /// `Escanear el codigo QR de la scooter para activar tu scooter y comenzar tus viajes`
   String get scanQRCode {
     return Intl.message(
-      'Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes',
+      'Escanear el codigo QR de la scooter para activar tu scooter y comenzar tus viajes',
       name: 'scanQRCode',
       desc: '',
       args: [],
@@ -1570,10 +1610,10 @@ class S {
     );
   }
 
-  /// `Reserva`
+  /// `Reservar`
   String get reserve {
     return Intl.message(
-      'Reserva',
+      'Reservar',
       name: 'reserve',
       desc: '',
       args: [],
@@ -1615,6 +1655,36 @@ class S {
     return Intl.message(
       'Iniciar sesión',
       name: 'singIn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancelar`
+  String get cancel {
+    return Intl.message(
+      'Cancelar',
+      name: 'cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Datos de tarjeta`
+  String get creditCard {
+    return Intl.message(
+      'Datos de tarjeta',
+      name: 'creditCard',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué incluye?`
+  String get whatIncludes {
+    return Intl.message(
+      '¿Qué incluye?',
+      name: 'whatIncludes',
       desc: '',
       args: [],
     );

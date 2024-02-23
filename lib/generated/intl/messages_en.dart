@@ -30,8 +30,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
             "I agree to receive emails with discounts and news."),
         "activateMoped":
-            MessageLookupByLibrary.simpleMessage("Activate your moped"),
-        "activeMoped": MessageLookupByLibrary.simpleMessage("ACTIVE MOPED"),
+            MessageLookupByLibrary.simpleMessage("Activate your Scooter"),
+        "activeMoped": MessageLookupByLibrary.simpleMessage("ACTIVE SCOOTER"),
         "actualCharge": MessageLookupByLibrary.simpleMessage("Current charge"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
@@ -49,6 +49,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "birthDate": MessageLookupByLibrary.simpleMessage("Date of birth"),
         "birthDateHover": MessageLookupByLibrary.simpleMessage("MM/DD/YYYY"),
         "bloc": MessageLookupByLibrary.simpleMessage("Bloc"),
+        "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "cardNumber": MessageLookupByLibrary.simpleMessage("Card number"),
         "changeBattery": MessageLookupByLibrary.simpleMessage(
             "Swap your battery at the nearest station to your location"),
@@ -74,6 +75,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Congratulations"),
         "congratulationsWorkDescription": MessageLookupByLibrary.simpleMessage(
             "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working."),
+        "creditCard":
+            MessageLookupByLibrary.simpleMessage("Data of your credit card"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
         "deleteData": MessageLookupByLibrary.simpleMessage("Delete data"),
         "delivered": MessageLookupByLibrary.simpleMessage("Delivered"),
@@ -81,11 +84,17 @@ class MessageLookup extends MessageLookupByLibrary {
             "Your moped will arrive at your home in just 24 hours after your purchase confirmation."),
         "directionDelivery":
             MessageLookupByLibrary.simpleMessage("DELIVERY ADDRESS"),
+        "directionDeliveryError": MessageLookupByLibrary.simpleMessage(
+            "Moving the map is required to continue. Please place the marker on your current location."),
+        "directionDeliverySub": MessageLookupByLibrary.simpleMessage(
+            "Tap and drag to move your marker"),
         "directionShipping":
             MessageLookupByLibrary.simpleMessage("Shipping address"),
         "doTrackingMoped":
             MessageLookupByLibrary.simpleMessage("Do tracking of your moped"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "emailisNotValid":
+            MessageLookupByLibrary.simpleMessage("Enter a valid email address"),
         "english": MessageLookupByLibrary.simpleMessage("Inglés"),
         "enjoyYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Enjoy Your Mobi Vehicle"),
@@ -114,6 +123,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
         "kmTraveled": MessageLookupByLibrary.simpleMessage("Km. Traveled"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "lastName": MessageLookupByLibrary.simpleMessage("Surnames"),
         "legalDocuments":
             MessageLookupByLibrary.simpleMessage("Legal Documents"),
         "lightButton": MessageLookupByLibrary.simpleMessage("Lights"),
@@ -132,7 +142,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "mopedNameBike":
             MessageLookupByLibrary.simpleMessage("Ciber Bike One (CK1)"),
         "myMoped": MessageLookupByLibrary.simpleMessage("My Moped"),
-        "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "name": MessageLookupByLibrary.simpleMessage("Names"),
         "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
         "nameUser": MessageLookupByLibrary.simpleMessage("Name"),
         "newsAndDiscounts": MessageLookupByLibrary.simpleMessage(
@@ -150,7 +160,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Motorcycle license number"),
         "onArrival": MessageLookupByLibrary.simpleMessage("On arrival"),
         "openAppAndTurnOnMoped": MessageLookupByLibrary.simpleMessage(
-            "Open the App and turn on your moped"),
+            "Open the App and turn on your scooter"),
         "openAppAndTurnOnScooter": MessageLookupByLibrary.simpleMessage(
             "Open the App and turn on your scooter"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
@@ -182,7 +192,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "saveChanges": MessageLookupByLibrary.simpleMessage("Save Changes"),
         "scanQR": MessageLookupByLibrary.simpleMessage("Scan QR"),
         "scanQRCode": MessageLookupByLibrary.simpleMessage(
-            "Scan the moped QR code to activate your moped and start your trips"),
+            "Scan the scooter QR code to activate your moped and start your trips"),
         "scooterInstructions": MessageLookupByLibrary.simpleMessage(
             "From the App you can view all the widgets necessary to locate what your moped needs, from maintenance, battery level, support, etc. "),
         "securityCode":
@@ -246,6 +256,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("WELCOME TO MOBI"),
         "wellcomeMobier":
             MessageLookupByLibrary.simpleMessage("WELLCOME MOBIER"),
+        "whatIncludes": MessageLookupByLibrary.simpleMessage("What includes?"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "You can register with just 5 pieces of information to have your mobi vehicle delivered to your doorstep."),
         "working": MessageLookupByLibrary.simpleMessage("Trabajo"),

@@ -30,8 +30,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "acceptEmailSend": MessageLookupByLibrary.simpleMessage(
             "Acepto recibir correos electrónicos con descuentos y novedades."),
         "activateMoped":
-            MessageLookupByLibrary.simpleMessage("Activa tu moped"),
-        "activeMoped": MessageLookupByLibrary.simpleMessage("ACTIVAR MOPED"),
+            MessageLookupByLibrary.simpleMessage("Activa tu Scooter"),
+        "activeMoped": MessageLookupByLibrary.simpleMessage("ACTIVAR SCOOTER"),
         "actualCharge": MessageLookupByLibrary.simpleMessage("Carga actual"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Aplicar débito automático"),
@@ -52,6 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Fecha de nacimiento"),
         "birthDateHover": MessageLookupByLibrary.simpleMessage("DD/MM/AAAA"),
         "bloc": MessageLookupByLibrary.simpleMessage("Bloquear"),
+        "cancel": MessageLookupByLibrary.simpleMessage("Cancelar"),
         "cardNumber": MessageLookupByLibrary.simpleMessage("Número de tarjeta"),
         "changeBattery": MessageLookupByLibrary.simpleMessage(
             "Intercambia tu batería en la estación más cercana a tu ubicación"),
@@ -77,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Felicidades"),
         "congratulationsWorkDescription": MessageLookupByLibrary.simpleMessage(
             "El Genio X ha confirmado que cumples con los requisitos para ser rider. A continuación podrás realizar el pago de tu moped para obtener tu vehículo y  comenzar a trabajar."),
+        "creditCard": MessageLookupByLibrary.simpleMessage("Datos de tarjeta"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Borrar cuenta"),
         "deleteData": MessageLookupByLibrary.simpleMessage("Borrar datos"),
         "delivered": MessageLookupByLibrary.simpleMessage("Entregado"),
@@ -84,11 +86,17 @@ class MessageLookup extends MessageLookupByLibrary {
             "Tu moped llegará a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra."),
         "directionDelivery":
             MessageLookupByLibrary.simpleMessage("DIRECCIÓN DE ENTREGA"),
+        "directionDeliveryError": MessageLookupByLibrary.simpleMessage(
+            "Para continuar, es necesario mover el mapa y colocar el marcador en tu ubicación actual."),
+        "directionDeliverySub": MessageLookupByLibrary.simpleMessage(
+            "Toca y arrastra para mover tu marcador"),
         "directionShipping":
             MessageLookupByLibrary.simpleMessage("Dirección de entrega"),
         "doTrackingMoped":
             MessageLookupByLibrary.simpleMessage("Haz el tracking de tu moped"),
         "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
+        "emailisNotValid":
+            MessageLookupByLibrary.simpleMessage("Introduzca un email válido"),
         "english": MessageLookupByLibrary.simpleMessage("Inglés"),
         "enjoyYourMobiVehicle": MessageLookupByLibrary.simpleMessage(
             "Disfruta de tu vehículo mobi"),
@@ -117,6 +125,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
         "kmTraveled": MessageLookupByLibrary.simpleMessage("Km. recorridos"),
         "language": MessageLookupByLibrary.simpleMessage("Idioma"),
+        "lastName": MessageLookupByLibrary.simpleMessage("Apellidos"),
         "legalDocuments":
             MessageLookupByLibrary.simpleMessage("Documentos legales"),
         "lightButton": MessageLookupByLibrary.simpleMessage("Luces"),
@@ -129,13 +138,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "mopedBikeDescription": MessageLookupByLibrary.simpleMessage(
             "Ciber Bike One, La primera motocicleta eléctrica con tecnología de IoT en la región de América Latina. El vehículo puede ser controlado mediante una plataforma tecnológica; diseñada, desarrollada, fabricada en Bolivia que utiliza baterías de litio bolivianas."),
         "mopedDelivered":
-            MessageLookupByLibrary.simpleMessage("MOPED ENTREGADA"),
+            MessageLookupByLibrary.simpleMessage("SCOOTER ENTREGADA"),
         "mopedInstructions": MessageLookupByLibrary.simpleMessage(
             "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc."),
         "mopedNameBike":
             MessageLookupByLibrary.simpleMessage("Ciber Bike One (CK1)"),
         "myMoped": MessageLookupByLibrary.simpleMessage("Mi Moped"),
-        "name": MessageLookupByLibrary.simpleMessage("Nombre"),
+        "name": MessageLookupByLibrary.simpleMessage("Nombres"),
         "nameHover": MessageLookupByLibrary.simpleMessage("Juan Valdez Suarez"),
         "nameUser": MessageLookupByLibrary.simpleMessage("Nombre"),
         "newsAndDiscounts": MessageLookupByLibrary.simpleMessage(
@@ -153,7 +162,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Número de licencia de moto"),
         "onArrival": MessageLookupByLibrary.simpleMessage("En camino"),
         "openAppAndTurnOnMoped": MessageLookupByLibrary.simpleMessage(
-            "Abre la App y enciende la moped"),
+            "Abre la App y enciende la scooter"),
         "openAppAndTurnOnScooter": MessageLookupByLibrary.simpleMessage(
             "Abre la App y enciende tu scooter"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
@@ -182,12 +191,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
-        "reserve": MessageLookupByLibrary.simpleMessage("Reserva"),
+        "reserve": MessageLookupByLibrary.simpleMessage("Reservar"),
         "save": MessageLookupByLibrary.simpleMessage("Guardar"),
         "saveChanges": MessageLookupByLibrary.simpleMessage("Guardar cambios"),
         "scanQR": MessageLookupByLibrary.simpleMessage("Escanear QR"),
         "scanQRCode": MessageLookupByLibrary.simpleMessage(
-            "Escanear el codigo QR de la moped para activar tu moped y comenzar tus viajes"),
+            "Escanear el codigo QR de la scooter para activar tu scooter y comenzar tus viajes"),
         "scooterInstructions": MessageLookupByLibrary.simpleMessage(
             "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc."),
         "securityCode":
@@ -218,10 +227,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Vencimiento de suscripción"),
         "successApply":
             MessageLookupByLibrary.simpleMessage("APLICACIÓN EXITOSA!"),
-        "successPayment": MessageLookupByLibrary.simpleMessage(
-            "¡PAGO DE SUBSCRIPCIÓN EXITOSO!"),
+        "successPayment":
+            MessageLookupByLibrary.simpleMessage("¡PAGO EXITOSO!"),
         "successSubscriptionPayment": MessageLookupByLibrary.simpleMessage(
-            "Tu suscripción ID 48938439 ha sido exitosa. Te enviaremos tu moped dentro de 24 horas"),
+            "Nos contactaremos contigo para coordinar la entrega de tu vehículo"),
         "support": MessageLookupByLibrary.simpleMessage("Soporte"),
         "talkUs": MessageLookupByLibrary.simpleMessage("Habla con nosotros"),
         "termsAndConditions":
@@ -253,6 +262,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("BIENVENIDO A MOBI"),
         "wellcomeMobier":
             MessageLookupByLibrary.simpleMessage("BIEVENIDO MOBIER"),
+        "whatIncludes": MessageLookupByLibrary.simpleMessage("¿Qué incluye?"),
         "withOnlyFiveDays": MessageLookupByLibrary.simpleMessage(
             "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa."),
         "working": MessageLookupByLibrary.simpleMessage("Trabajo"),
