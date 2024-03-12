@@ -1689,6 +1689,76 @@ class S {
       args: [],
     );
   }
+
+  /// `Pendiente de aprobación`
+  String get pending {
+    return Intl.message(
+      'Pendiente de aprobación',
+      name: 'pending',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Completo`
+  String get complete {
+    return Intl.message(
+      'Completo',
+      name: 'complete',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aprobado`
+  String get inProgress {
+    return Intl.message(
+      'Aprobado',
+      name: 'inProgress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Denegado`
+  String get declined {
+    return Intl.message(
+      'Denegado',
+      name: 'declined',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En camino`
+  String get onTheWay {
+    return Intl.message(
+      'En camino',
+      name: 'onTheWay',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Llegamos`
+  String get arrived {
+    return Intl.message(
+      'Llegamos',
+      name: 'arrived',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pagar reserva`
+  String get payReserve {
+    return Intl.message(
+      'Pagar reserva',
+      name: 'payReserve',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

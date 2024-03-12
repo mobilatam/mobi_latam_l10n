@@ -163,5 +163,13 @@
   "singIn": "Iniciar sesión",
   "cancel": "Cancelar",
   "creditCard": "Datos de tarjeta",
-  "whatIncludes":"¿Qué incluye?"
+  "whatIncludes":"¿Qué incluye?",
+  "pending": "Pendiente de aprobación",
+  "complete": "Completo",
+  "inProgress": "Aprobado",
+  "declined": "Denegado",
+  "onTheWay": "En camino",
+  "arrived": "Llegamos",
+  "payReserve":"Pagar reserva"
+
 }

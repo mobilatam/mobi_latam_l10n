@@ -163,5 +163,13 @@
   "creditCard": "Data of your credit card",
   "directionDeliverySub": "Tap and drag to move your marker",
   "directionDeliveryError": "Moving the map is required to continue. Please place the marker on your current location.",
-  "whatIncludes":"What includes?"
+  "whatIncludes":"What includes?",
+  "pending": "Pending",
+  "complete": "Complete",
+  "inProgress": "In Progress",
+  "declined": "Declined",
+  "onTheWay": "On The Way",
+  "arrived": "Arrived",
+  "payReserve":"Pay Reserve"
+
 }

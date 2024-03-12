@@ -35,6 +35,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "actualCharge": MessageLookupByLibrary.simpleMessage("Current charge"),
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
+        "arrived": MessageLookupByLibrary.simpleMessage("Arrived"),
         "badResponse": MessageLookupByLibrary.simpleMessage(
             "There was a problem processing your request. Please try again or contact support."),
         "batteryChange": MessageLookupByLibrary.simpleMessage("Battery change"),
@@ -66,6 +67,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "closeSession": MessageLookupByLibrary.simpleMessage("Close Session"),
         "codeSent": MessageLookupByLibrary.simpleMessage("Code Sent"),
         "codeSuccess": MessageLookupByLibrary.simpleMessage("Successful code"),
+        "complete": MessageLookupByLibrary.simpleMessage("Complete"),
         "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
         "confirmDirection":
             MessageLookupByLibrary.simpleMessage("Confirm shipping address"),
@@ -77,6 +79,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working."),
         "creditCard":
             MessageLookupByLibrary.simpleMessage("Data of your credit card"),
+        "declined": MessageLookupByLibrary.simpleMessage("Declined"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
         "deleteData": MessageLookupByLibrary.simpleMessage("Delete data"),
         "delivered": MessageLookupByLibrary.simpleMessage("Delivered"),
@@ -118,6 +121,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "highVelocity": MessageLookupByLibrary.simpleMessage("High"),
         "howDrive": MessageLookupByLibrary.simpleMessage("How to drive?"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
+        "inProgress": MessageLookupByLibrary.simpleMessage("In Progress"),
         "includes": MessageLookupByLibrary.simpleMessage("Includes"),
         "jobMarketplace":
             MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
@@ -159,15 +163,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "numberLicense":
             MessageLookupByLibrary.simpleMessage("Motorcycle license number"),
         "onArrival": MessageLookupByLibrary.simpleMessage("On arrival"),
+        "onTheWay": MessageLookupByLibrary.simpleMessage("On The Way"),
         "openAppAndTurnOnMoped": MessageLookupByLibrary.simpleMessage(
             "Open the App and turn on your scooter"),
         "openAppAndTurnOnScooter": MessageLookupByLibrary.simpleMessage(
             "Open the App and turn on your scooter"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
+        "payReserve": MessageLookupByLibrary.simpleMessage("Pay Reserve"),
         "paySubscription":
             MessageLookupByLibrary.simpleMessage("PAY SUBSCRIPTION"),
         "paymentHistory":
             MessageLookupByLibrary.simpleMessage("Payment History"),
+        "pending": MessageLookupByLibrary.simpleMessage("Pending"),
         "personalData": MessageLookupByLibrary.simpleMessage("PERSONAL DATA"),
         "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
