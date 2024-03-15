@@ -2,7 +2,7 @@
   "@@locale": "en",
   "acceptClause": "I accept the terms and conditions and privacy policy.",
   "acceptEmailSend": "I agree to receive emails with discounts and news.",
-  "Apply": "Apply",
+  "Apply": "Apply to MOBI",
   "birthDate": "Date of birth",
   "birthDateHover": "MM/DD/YYYY",
   "checkWhatsapp": "Check your WhatsApp and copy the code",
@@ -41,7 +41,7 @@
   "save": "Save",
   "select": "Select",
   "selectMobi": "SELECT YOUR MOBI",
-  "selectSubscription": "CHOOSE YOUR SUBSCRIPTION",
+  "selectSubscription": "Select your vehicle",
   "sendCodeAgain": "Resend code",
   "step1": "STEP 1",
   "step2": "STEP 2",
@@ -170,6 +170,8 @@
   "declined": "Declined",
   "onTheWay": "On The Way",
   "arrived": "Arrived",
-  "payReserve":"Pay Reserve"
+  "payReserve":"Pay Reserve",
+  "retry": "Retry"
+
 
 }

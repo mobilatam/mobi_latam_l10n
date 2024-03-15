@@ -21,7 +21,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "Apply": MessageLookupByLibrary.simpleMessage("Apply"),
+        "Apply": MessageLookupByLibrary.simpleMessage("Apply to MOBI"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continue"),
         "Next": MessageLookupByLibrary.simpleMessage("Next"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
@@ -195,6 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
         "reserve": MessageLookupByLibrary.simpleMessage("Reserve"),
+        "retry": MessageLookupByLibrary.simpleMessage("Retry"),
         "save": MessageLookupByLibrary.simpleMessage("Save"),
         "saveChanges": MessageLookupByLibrary.simpleMessage("Save Changes"),
         "scanQR": MessageLookupByLibrary.simpleMessage("Scan QR"),
@@ -209,7 +210,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "select": MessageLookupByLibrary.simpleMessage("Select"),
         "selectMobi": MessageLookupByLibrary.simpleMessage("SELECT YOUR MOBI"),
         "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("CHOOSE YOUR SUBSCRIPTION"),
+            MessageLookupByLibrary.simpleMessage("Select your vehicle"),
         "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Resend code"),
         "sendEmail": MessageLookupByLibrary.simpleMessage("Send us an email"),
         "sendTimeoutException": MessageLookupByLibrary.simpleMessage(
