@@ -70,10 +70,10 @@ class S {
     );
   }
 
-  /// `Aplicar a MOBI`
+  /// `Descubre MOBI`
   String get Apply {
     return Intl.message(
-      'Aplicar a MOBI',
+      'Descubre MOBI',
       name: 'Apply',
       desc: '',
       args: [],
@@ -460,10 +460,10 @@ class S {
     );
   }
 
-  /// `Selecciona tu vehículo`
+  /// `Elige tu vehículo`
   String get selectSubscription {
     return Intl.message(
-      'Selecciona tu vehículo',
+      'Elige tu vehículo',
       name: 'selectSubscription',
       desc: '',
       args: [],
@@ -1610,10 +1610,10 @@ class S {
     );
   }
 
-  /// `Reservar`
+  /// `Seleccionar`
   String get reserve {
     return Intl.message(
-      'Reservar',
+      'Seleccionar',
       name: 'reserve',
       desc: '',
       args: [],

@@ -21,7 +21,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "Apply": MessageLookupByLibrary.simpleMessage("Aplicar a MOBI"),
+        "Apply": MessageLookupByLibrary.simpleMessage("Descubre MOBI"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continuar"),
         "Next": MessageLookupByLibrary.simpleMessage("Siguiente"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceptado"),
@@ -199,7 +199,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Registrar"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Registrate con:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Registrate"),
-        "reserve": MessageLookupByLibrary.simpleMessage("Reservar"),
+        "reserve": MessageLookupByLibrary.simpleMessage("Seleccionar"),
         "retry": MessageLookupByLibrary.simpleMessage("Reintentar"),
         "save": MessageLookupByLibrary.simpleMessage("Guardar"),
         "saveChanges": MessageLookupByLibrary.simpleMessage("Guardar cambios"),
@@ -216,7 +216,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectMobi":
             MessageLookupByLibrary.simpleMessage("SELECCIONA TU MOBI"),
         "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("Selecciona tu vehículo"),
+            MessageLookupByLibrary.simpleMessage("Elige tu vehículo"),
         "sendCodeAgain":
             MessageLookupByLibrary.simpleMessage("Volver a enviar código"),
         "sendEmail": MessageLookupByLibrary.simpleMessage("Envíanos un email"),
