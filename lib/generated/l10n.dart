@@ -290,10 +290,10 @@ class S {
     );
   }
 
-  /// `JOB MARKETPLACE`
+  /// `Job Marketplace`
   String get jobMarketplace {
     return Intl.message(
-      'JOB MARKETPLACE',
+      'Job Marketplace',
       name: 'jobMarketplace',
       desc: '',
       args: [],
@@ -310,11 +310,81 @@ class S {
     );
   }
 
+  /// `Nombre Completo`
+  String get fullName {
+    return Intl.message(
+      'Nombre Completo',
+      name: 'fullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ingrese su`
+  String get hintextPlaceholder {
+    return Intl.message(
+      'Ingrese su',
+      name: 'hintextPlaceholder',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Apellidos`
   String get lastName {
     return Intl.message(
       'Apellidos',
       name: 'lastName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `País`
+  String get country {
+    return Intl.message(
+      'País',
+      name: 'country',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Razón social`
+  String get businessName {
+    return Intl.message(
+      'Razón social',
+      name: 'businessName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Número de NIT`
+  String get nit {
+    return Intl.message(
+      'Número de NIT',
+      name: 'nit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contacto de referencia`
+  String get referenceContact {
+    return Intl.message(
+      'Contacto de referencia',
+      name: 'referenceContact',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Teléfono contacto de referencia`
+  String get referenceContactPhone {
+    return Intl.message(
+      'Teléfono contacto de referencia',
+      name: 'referenceContactPhone',
       desc: '',
       args: [],
     );
@@ -370,10 +440,10 @@ class S {
     );
   }
 
-  /// `DATOS PERSONALES`
+  /// `Datos del perfil`
   String get personalData {
     return Intl.message(
-      'DATOS PERSONALES',
+      'Datos del perfil',
       name: 'personalData',
       desc: '',
       args: [],

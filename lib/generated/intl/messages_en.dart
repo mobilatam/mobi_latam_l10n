@@ -50,6 +50,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "birthDate": MessageLookupByLibrary.simpleMessage("Date of birth"),
         "birthDateHover": MessageLookupByLibrary.simpleMessage("MM/DD/YYYY"),
         "bloc": MessageLookupByLibrary.simpleMessage("Bloc"),
+        "businessName": MessageLookupByLibrary.simpleMessage("Business name"),
         "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "cardNumber": MessageLookupByLibrary.simpleMessage("Card number"),
         "changeBattery": MessageLookupByLibrary.simpleMessage(
@@ -77,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Congratulations"),
         "congratulationsWorkDescription": MessageLookupByLibrary.simpleMessage(
             "Genius X has confirmed that you meet the requirements to be a rider. Next you can make the payment for your moped to obtain your vehicle and start working."),
+        "country": MessageLookupByLibrary.simpleMessage("Country"),
         "creditCard":
             MessageLookupByLibrary.simpleMessage("Data of your credit card"),
         "declined": MessageLookupByLibrary.simpleMessage("Declined"),
@@ -112,6 +114,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Follow the instructions from the swap station"),
         "frequentQuestions":
             MessageLookupByLibrary.simpleMessage("Frequent Questions"),
+        "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "getSince800Dollars": MessageLookupByLibrary.simpleMessage(
             "Earn from \$800 per month by making deliveries on your moped, or simply enjoy your vehicle for convenient city transportation."),
         "getYourMobiVehicle":
@@ -119,12 +122,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "hasLicense": MessageLookupByLibrary.simpleMessage(
             "Do you have a motorcycle license?"),
         "highVelocity": MessageLookupByLibrary.simpleMessage("High"),
+        "hintextPlaceholder":
+            MessageLookupByLibrary.simpleMessage("Enter your"),
         "howDrive": MessageLookupByLibrary.simpleMessage("How to drive?"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
         "inProgress": MessageLookupByLibrary.simpleMessage("In Progress"),
         "includes": MessageLookupByLibrary.simpleMessage("Includes"),
         "jobMarketplace":
-            MessageLookupByLibrary.simpleMessage("JOB MARKETPLACE"),
+            MessageLookupByLibrary.simpleMessage("Job Marketplace"),
         "kmTraveled": MessageLookupByLibrary.simpleMessage("Km. Traveled"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "lastName": MessageLookupByLibrary.simpleMessage("Surnames"),
@@ -153,6 +158,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "News and Discounts via email"),
         "nextMaintaining":
             MessageLookupByLibrary.simpleMessage("Next Maintenance"),
+        "nit": MessageLookupByLibrary.simpleMessage("NIT number"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "noDeviceFind":
             MessageLookupByLibrary.simpleMessage("No device is connected"),
@@ -175,7 +181,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "paymentHistory":
             MessageLookupByLibrary.simpleMessage("Payment History"),
         "pending": MessageLookupByLibrary.simpleMessage("Pending"),
-        "personalData": MessageLookupByLibrary.simpleMessage("PERSONAL DATA"),
+        "personalData": MessageLookupByLibrary.simpleMessage("Profile Data"),
         "phone": MessageLookupByLibrary.simpleMessage("Phone number"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds."),
@@ -184,6 +190,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "qrError": MessageLookupByLibrary.simpleMessage("Invalid QR code"),
+        "referenceContact":
+            MessageLookupByLibrary.simpleMessage("Reference contact"),
+        "referenceContactPhone": MessageLookupByLibrary.simpleMessage(
+            "Reference contact phone number"),
         "referredCode": MessageLookupByLibrary.simpleMessage("Referral Code"),
         "referredDescription": MessageLookupByLibrary.simpleMessage(
             "Receive a 10% discount on your next installment by sharing this code with your friends"),
