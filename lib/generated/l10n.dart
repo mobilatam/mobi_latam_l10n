@@ -410,6 +410,16 @@ class S {
     );
   }
 
+  /// `Beneficios`
+  String get benefits {
+    return Intl.message(
+      'Beneficios',
+      name: 'benefits',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Siguiente`
   String get Next {
     return Intl.message(
@@ -530,11 +540,31 @@ class S {
     );
   }
 
-  /// `Elige tu vehículo`
+  /// `Suscripción mensual`
   String get selectSubscription {
     return Intl.message(
-      'Elige tu vehículo',
+      'Suscripción mensual',
       name: 'selectSubscription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Agotado`
+  String get outOfstock {
+    return Intl.message(
+      'Agotado',
+      name: 'outOfstock',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Disponible`
+  String get availableStock {
+    return Intl.message(
+      'Disponible',
+      name: 'availableStock',
       desc: '',
       args: [],
     );
@@ -680,6 +710,16 @@ class S {
     );
   }
 
+  /// `Validación de número`
+  String get verifyNumberRegister {
+    return Intl.message(
+      'Validación de número',
+      name: 'verifyNumberRegister',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.`
   String get withOnlyFiveDays {
     return Intl.message(
@@ -800,20 +840,20 @@ class S {
     );
   }
 
-  /// `DIRECCIÓN DE ENTREGA`
+  /// `Confirma tu dirección para el envío de tu vehículo`
   String get directionDelivery {
     return Intl.message(
-      'DIRECCIÓN DE ENTREGA',
+      'Confirma tu dirección para el envío de tu vehículo',
       name: 'directionDelivery',
       desc: '',
       args: [],
     );
   }
 
-  /// `Toca y arrastra para mover tu marcador`
+  /// `Ingresa el PIN con la ubicación de tu domicilio`
   String get directionDeliverySub {
     return Intl.message(
-      'Toca y arrastra para mover tu marcador',
+      'Ingresa el PIN con la ubicación de tu domicilio',
       name: 'directionDeliverySub',
       desc: '',
       args: [],
@@ -830,10 +870,10 @@ class S {
     );
   }
 
-  /// `Dirección de entrega`
+  /// `Dirección completa`
   String get directionShipping {
     return Intl.message(
-      'Dirección de entrega',
+      'Dirección completa',
       name: 'directionShipping',
       desc: '',
       args: [],
@@ -880,10 +920,10 @@ class S {
     );
   }
 
-  /// `TRACKING`
+  /// `Rastreá tu entrega`
   String get tracking {
     return Intl.message(
-      'TRACKING',
+      'Rastreá tu entrega',
       name: 'tracking',
       desc: '',
       args: [],
@@ -1780,10 +1820,10 @@ class S {
     );
   }
 
-  /// `Aprobado`
+  /// `En proceso`
   String get inProgress {
     return Intl.message(
-      'Aprobado',
+      'En proceso',
       name: 'inProgress',
       desc: '',
       args: [],
@@ -1835,6 +1875,16 @@ class S {
     return Intl.message(
       'Reintentar',
       name: 'retry',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lugar de residencia`
+  String get PlaceOfResidence {
+    return Intl.message(
+      'Lugar de residencia',
+      name: 'PlaceOfResidence',
       desc: '',
       args: [],
     );

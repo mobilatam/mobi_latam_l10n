@@ -8,6 +8,7 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
+// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -24,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "Apply": MessageLookupByLibrary.simpleMessage("Discover MOBI"),
         "Continue": MessageLookupByLibrary.simpleMessage("Continue"),
         "Next": MessageLookupByLibrary.simpleMessage("Next"),
+        "PlaceOfResidence":
+            MessageLookupByLibrary.simpleMessage("Place of residence"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "acceptClause": MessageLookupByLibrary.simpleMessage(
             "I accept the terms and conditions and privacy policy."),
@@ -36,12 +39,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "applyDebit":
             MessageLookupByLibrary.simpleMessage("Apply automatic debit"),
         "arrived": MessageLookupByLibrary.simpleMessage("Arrived"),
+        "availableStock": MessageLookupByLibrary.simpleMessage("Available"),
         "badResponse": MessageLookupByLibrary.simpleMessage(
             "There was a problem processing your request. Please try again or contact support."),
         "batteryChange": MessageLookupByLibrary.simpleMessage("Battery change"),
         "batteryLevel": MessageLookupByLibrary.simpleMessage("Battery Level"),
         "batterySerialNumber":
             MessageLookupByLibrary.simpleMessage("Battery Serial Number"),
+        "benefits": MessageLookupByLibrary.simpleMessage("Benefits"),
         "billAndPayments":
             MessageLookupByLibrary.simpleMessage("Billing and Payments"),
         "billing": MessageLookupByLibrary.simpleMessage("Billing"),
@@ -87,14 +92,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "delivered": MessageLookupByLibrary.simpleMessage("Delivered"),
         "deliveryTime": MessageLookupByLibrary.simpleMessage(
             "Your moped will arrive at your home in just 24 hours after your purchase confirmation."),
-        "directionDelivery":
-            MessageLookupByLibrary.simpleMessage("DELIVERY ADDRESS"),
+        "directionDelivery": MessageLookupByLibrary.simpleMessage(
+            "Confirm your address for the shipment of your vehicle."),
         "directionDeliveryError": MessageLookupByLibrary.simpleMessage(
             "Moving the map is required to continue. Please place the marker on your current location."),
         "directionDeliverySub": MessageLookupByLibrary.simpleMessage(
-            "Tap and drag to move your marker"),
+            "Enter the PIN with the location of your residence."),
         "directionShipping":
-            MessageLookupByLibrary.simpleMessage("Shipping address"),
+            MessageLookupByLibrary.simpleMessage("Complete address"),
         "doTrackingMoped":
             MessageLookupByLibrary.simpleMessage("Do tracking of your moped"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
@@ -126,7 +131,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter your"),
         "howDrive": MessageLookupByLibrary.simpleMessage("How to drive?"),
         "howItWorks": MessageLookupByLibrary.simpleMessage("How it works?"),
-        "inProgress": MessageLookupByLibrary.simpleMessage("In Progress"),
+        "inProgress": MessageLookupByLibrary.simpleMessage("In Process"),
         "includes": MessageLookupByLibrary.simpleMessage("Includes"),
         "jobMarketplace":
             MessageLookupByLibrary.simpleMessage("Job Marketplace"),
@@ -174,6 +179,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Open the App and turn on your scooter"),
         "openAppAndTurnOnScooter": MessageLookupByLibrary.simpleMessage(
             "Open the App and turn on your scooter"),
+        "outOfstock": MessageLookupByLibrary.simpleMessage("Out of stock"),
         "passwordHint": MessageLookupByLibrary.simpleMessage("*****"),
         "payReserve": MessageLookupByLibrary.simpleMessage("Pay Reserve"),
         "paySubscription":
@@ -220,7 +226,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "select": MessageLookupByLibrary.simpleMessage("Select"),
         "selectMobi": MessageLookupByLibrary.simpleMessage("SELECT YOUR MOBI"),
         "selectSubscription":
-            MessageLookupByLibrary.simpleMessage("Choose your vehicle"),
+            MessageLookupByLibrary.simpleMessage("Monthly subscription"),
         "sendCodeAgain": MessageLookupByLibrary.simpleMessage("Resend code"),
         "sendEmail": MessageLookupByLibrary.simpleMessage("Send us an email"),
         "sendTimeoutException": MessageLookupByLibrary.simpleMessage(
@@ -251,7 +257,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "thisFieldIsMandatory":
             MessageLookupByLibrary.simpleMessage("This field is mandatory"),
         "totalPayment": MessageLookupByLibrary.simpleMessage("Total Payment"),
-        "tracking": MessageLookupByLibrary.simpleMessage("TRACKING"),
+        "tracking": MessageLookupByLibrary.simpleMessage("Track your delivery"),
         "tryReconnectDevice": MessageLookupByLibrary.simpleMessage(
             "Try reconnecting the scooter"),
         "unlockDevice":
@@ -266,6 +272,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "verificationCode":
             MessageLookupByLibrary.simpleMessage("VERIFICATION CODE"),
         "verify": MessageLookupByLibrary.simpleMessage("Verify"),
+        "verifyNumberRegister":
+            MessageLookupByLibrary.simpleMessage("Number validation"),
         "video": MessageLookupByLibrary.simpleMessage("Video"),
         "wantExchangeBattery": MessageLookupByLibrary.simpleMessage(
             "Do you want to exchange your battery?"),
