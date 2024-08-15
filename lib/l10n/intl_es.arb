@@ -2,7 +2,7 @@
   "@@locale": "es",
   "acceptClause": "Acepto términos y condiciones y política de privacidad.",
   "acceptEmailSend": "Acepto recibir correos electrónicos con descuentos y novedades.",
-  "Apply": "Descubre MOBI",
+  "apply": "Descubre MOBI",
   "birthDate": "Fecha de nacimiento",
   "birthDateHover": "DD/MM/AAAA",
   "checkWhatsapp": "Revisa tu whatsapp y copia el código",
@@ -13,7 +13,7 @@
   "codeSent": "Código Enviado",
   "codeSuccess": "Código exitoso",
   "congratulations": "Felicidades aplicaste exitosamente el equipo de el genio x se contactará contigo en las próximas horas",
-  "Continue": "Continuar",
+  "continueText": "Continuar",
   "deliveryTime": "Tu moped llegará a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.",
   "email": "Correo electrónico",
   "emailisNotValid": "Introduzca un email válido",
@@ -27,11 +27,11 @@
   "jobMarketplace": "Job Marketplace",
   "name": "Nombres",
   "fullName": "Nombre Completo",
-  "hintextPlaceholder":"Ingrese su",
+  "hintextPlaceholder": "Ingrese su",
   "lastName": "Apellidos",
-  "country":"País",
-  "businessName":"Razón social",
-  "nit":"Número de NIT",
+  "country": "País",
+  "businessName": "Razón social",
+  "nit": "Número de NIT",
   "referenceContact": "Contacto de referencia",
   "referenceContactPhone": "Teléfono contacto de referencia",
   "nameHover": "Juan Valdez Suarez",
@@ -42,7 +42,7 @@
   "numberLicense": "Número de licencia de moto",
   "personalData": "Datos del perfil",
   "phone": "Número de celular",
-  "pickAnyOfOurVehicles": "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: scooters o mopeds eléctricas.",
+  "pickAnyOfOurVehicles": "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: mopeds eléctricas.",
   "register": "Registrar",
   "registerWith": "Registrate con:",
   "registerYourSelf": "Registrate",
@@ -53,11 +53,6 @@
   "outOfstock": "Agotado",
   "availableStock": "Disponible",
   "sendCodeAgain": "Volver a enviar código",
-  "step1": "PASO 1",
-  "step2": "PASO 2",
-  "step3": "PASO 3",
-  "step4": "PASO 4",
-  "step5": "PASO 5",
   "successApply": "APLICACIÓN EXITOSA!",
   "support": "Soporte",
   "test": "español",
@@ -66,7 +61,7 @@
   "verify": "Verificar",
   "welcome": "BIENVENIDO MOBIER!",
   "welcomeToMOBI": "BIENVENIDO A MOBI",
-  "verifyNumberRegister":"Validación de número",
+  "verifyNumberRegister": "Validación de número",
   "withOnlyFiveDays": "Con tan solo 5 datos puedes registrarte para adquirir tu vehículo mobi en la puerta de tu casa.",
   "yes": "Si",
   "youWillGetMopedIn24hrs": "Tu moped llegara a tu domicilio en tan solo 24 Hrs. a partir de la confirmación de tu compra.",
@@ -91,16 +86,16 @@
   "prepared": "En preparación",
   "onArrival": "En camino",
   "delivered": "Entregado",
-  "mopedDelivered": "SCOOTER ENTREGADA",
-  "activateMoped": "Activa tu Scooter",
+  "mopedDelivered": "VEHÍCULO ENTREGADA",
+  "activateMoped": "Activa tu Vehículo",
   "howDrive": "¿Cómo conducir?",
-  "openAppAndTurnOnMoped": "Abre la App y enciende la scooter",
-  "openAppAndTurnOnScooter": "Abre la App y enciende tu scooter",
+  "openAppAndTurnOnMoped": "Abre la App y enciende la Vehículo",
+  "openAppAndTurnOnScooter": "Abre la App y enciende tu Vehículo",
   "mopedInstructions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu moped, desde mantenimientos, nivel de baterías, soporte,etc.",
-  "scooterInstructions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu scooter, desde mantenimientos, nivel de baterías, soporte,etc.",
-  "activeMoped": "ACTIVAR SCOOTER",
+  "scooterInstructions": "Desde la App podrás visualizar todos los widgets necesarios para localizar que necesita tu Vehículo, desde mantenimientos, nivel de baterías, soporte,etc.",
+  "activeMoped": "ACTIVAR VEHÍCULO",
   "scanQR": "Escanear QR",
-  "scanQRCode": "Escanear el codigo QR de la scooter para activar tu scooter y comenzar tus viajes",
+  "scanQRCode": "Escanear el codigo QR de la Vehículo para activar tu Vehículo y comenzar tus viajes",
   "serialNumber": "Nro. de serie",
   "batterySerialNumber": "Nro. de serie de batería",
   "batteryLevel": "Nivel de batería",
@@ -128,7 +123,6 @@
   "newsAndDiscounts": "Noticias y descuentos vía email",
   "deleteAccount": "Borrar cuenta",
   "saveChanges": "Guardar cambios",
-  "termsAndConditions": "Términos y condiciones",
   "privacyPolicy": "Políticas de privacidad",
   "english": "Inglés",
   "spanish": "Español",
@@ -159,8 +153,8 @@
   "fetchDataException": "No se pudo obtener la respuesta del servidor. Verifica tu conexión a internet e inténtalo de nuevo.",
   "serializationException": "Hubo un error al procesar los datos recibidos del servidor.",
   "unrecognizedException": "Se ha producido un error desconocido.",
-  "lockDevice": "Apagar\nScooter",
-  "unlockDevice": "Encender\nScooter",
+  "lockDevice": "Apagar\nVehículo",
+  "unlockDevice": "Encender\nVehículo",
   "velocity": "Velocidad",
   "velocityShort": "Vel.",
   "lowVelocity": "Baja",
@@ -169,20 +163,406 @@
   "lightButton": "Luces",
   "reserve": "Seleccionar",
   "frequentQuestions": "Preguntas Frecuentes",
-  "noDeviceFound": "Scooter no encontrado",
-  "tryReconnectDevice": "Intenta reconectar el scooter",
+  "noDeviceFound": "Vehículo no encontrado",
+  "tryReconnectDevice": "Intenta reconectar el Vehículo",
   "singIn": "Iniciar sesión",
   "cancel": "Cancelar",
   "creditCard": "Datos de tarjeta",
-  "whatIncludes":"¿Qué incluye?",
+  "whatIncludes": "¿Qué incluye?",
   "pending": "Pendiente de aprobación",
   "complete": "Completo",
   "inProgress": "En proceso",
   "declined": "Denegado",
   "onTheWay": "En camino",
   "arrived": "Llegamos",
-  "payReserve":"Pagar reserva",
+  "payReserve": "Pagar reserva",
   "retry": "Reintentar",
-  "PlaceOfResidence":"Lugar de residencia"
-
+  "PlaceOfResidence": "Lugar de residencia",
+  "onboardingOneTitle": "Conseguí empleo",
+  "onboardingOneSubtitle": "¡Encontrá en nuestro marketplace las mejores empresas que buscan un E-rider como vos!",
+  "onboardingTwoTitle": "Recibí tu motocicleta",
+  "onboardingTwoSubtitle": "Una vez aprobado tu empleo. ¡Recibí tu motocicleta eléctrica en tan solo 48 horas!",
+  "onboardingThreeTitle": "Comenzá a trabajar",
+  "onboardingThreeSubtitle": "¡Disfrutá de todos los beneficios de nuestra suscripción y ganá hasta 800 $us al mes!",
+  "countryQuestion": "¿En qué país vivís?",
+  "cityQuestion": "¿En qué ciudad vivís?",
+  "termsAndConditions": "Acepto términos y condiciones y política de privacidad.",
+  "termsAndConditionsTag": "términos y condiciones y política de privacidad.",
+  "emailMarketing": "Acepto recibir correos electrónicos con descuentos y novedades.",
+  "supportText": "¿Tienes problemas? Habla con soporte.",
+  "remainingTimeToResend": "Tiempo restante para reenviar:",
+  "resendCodePrompt": "¿No recibiste el código? Reenviar",
+  "incorrectCode": "Código incorrecto",
+  "verificationSuccess": "¡Verificación exitosa!",
+  "verificationCodeApplied": "El código de verificación fue aplicado con éxito.",
+  "completeYourAccount": "Completa tu cuenta",
+  "@completeYourAccount": {
+    "description": "Mensaje para completar la cuenta"
+  },
+  "accountComplete": "¡Cuenta Completa!",
+  "@accountComplete": {
+    "description": "Mensaje de cuenta completada"
+  },
+  "congratulationsAccountReady": "¡Felicidades! Has completado todos los pasos y tu cuenta está lista para usarse.",
+  "@congratulationsAccountReady": {
+    "description": "Mensaje de felicitación por completar la cuenta"
+  },
+  "stepsCompleted": "{completed} de {total} completado",
+  "@stepsCompleted": {
+    "description": "Indica cuántos pasos se han completado de un total",
+    "placeholders": {
+      "completed": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "completeMySubscription": "Completar mi suscripción",
+  "@completeMySubscription": {
+    "description": "Botón para completar la suscripción"
+  },
+  "step1": "Paso 1",
+  "@step1": {
+    "description": "Indicador del primer paso"
+  },
+  "step2": "Paso 2",
+  "@step2": {
+    "description": "Indicador del segundo paso"
+  },
+  "step3": "Paso 3",
+  "@step3": {
+    "description": "Indicador del tercer paso"
+  },
+  "step4": "Paso 4",
+  "@step4": {
+    "description": "Indicador del cuarto paso"
+  },
+  "phoneVerified": "Teléfono verificado",
+  "@phoneVerified": {
+    "description": "Mensaje de teléfono verificado"
+  },
+  "documentsVerified": "Documentos verificados",
+  "@documentsVerified": {
+    "description": "Mensaje de documentos verificados"
+  },
+  "documentsUploaded": "Documentos cargados {uploaded}/{total}",
+  "@documentsUploaded": {
+    "description": "Muestra cuántos documentos se han cargado de un total",
+    "placeholders": {
+      "uploaded": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "pendingAcceptedRejected": "Pendientes: {pending} | Aceptados: {accepted} | Rechazados: {rejected}",
+  "@pendingAcceptedRejected": {
+    "description": "Muestra el estado de los documentos: pendientes, aceptados y rechazados",
+    "placeholders": {
+      "pending": {
+        "type": "int",
+        "example": "2"
+      },
+      "accepted": {
+        "type": "int",
+        "example": "3"
+      },
+      "rejected": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "addressVerified": "Dirección verificada",
+  "@addressVerified": {
+    "description": "Mensaje de dirección verificada"
+  },
+  "address": "Dirección",
+  "@address": {
+    "description": "Etiqueta para dirección"
+  },
+  "pendingUploadDocument": "Pendiente de subir tu documento",
+  "@pendingUploadDocument": {
+    "description": "Mensaje de documento pendiente de subir"
+  },
+  "verificationInProcess": "Estamos en proceso de verificación",
+  "@verificationInProcess": {
+    "description": "Mensaje de verificación en proceso"
+  },
+  "needToApplyToCompany": "Necesitas postular a una empresa",
+  "@needToApplyToCompany": {
+    "description": "Mensaje para indicar que se necesita postular a una empresa"
+  },
+  "verificationInProcessStep4": "En proceso de verificación",
+  "@verificationInProcessStep4": {
+    "description": "Mensaje de verificación en proceso para el paso 4"
+  },
+  "completeYourDocuments": "Completa tus documentos",
+  "@completeYourDocuments": {
+    "description": "Mensaje para completar documentos"
+  },
+  "applicationAccepted": "Postulación aceptada",
+  "applicationSuccess": "Postulación aceptada",
+  "applicationSuccessMessage": "Estamos en proceso de verificación de tu postulación!",
+  "@applicationAccepted": {
+    "description": "Mensaje de postulación aceptada"
+  },
+  "application": "Postulación",
+  "@application": {
+    "description": "Etiqueta para postulación"
+  },
+  "applicationRequired": "Postulación requerida",
+  "@applicationRequired": {
+    "description": "Mensaje de postulación requerida"
+  },
+  "verified": "Verificado",
+  "@verified": {
+    "description": "Etiqueta de verificado"
+  },
+  "billingAndPayments": "Facturación y pagos",
+  "@billingAndPayments": {
+    "description": "Etiqueta para facturación y pagos"
+  },
+  "mySubscription": "Mi suscripción",
+  "@mySubscription": {
+    "description": "Etiqueta para mi suscripción"
+  },
+  "marketplaceJob": "Marketplace job",
+  "@marketplaceJob": {
+    "description": "Etiqueta para marketplace job"
+  },
+  "referralDiscount": "Descuento referido",
+  "@referralDiscount": {
+    "description": "Etiqueta para descuento referido"
+  },
+  "paymentMethods": "Métodos de pagos",
+  "@paymentMethods": {
+    "description": "Etiqueta para métodos de pagos"
+  },
+  "sectionComplete": "¡Esta sección se encuentra completa!",
+  "@sectionComplete": {
+    "description": "Mensaje de sección completa"
+  },
+  "identityDocumentFront": "Documento de identidad anverso",
+  "identityDocumentBack": "Documento de identidad reverso",
+  "driverLicenseFront": "Licencia de conducir de motocicleta anverso",
+  "driverLicenseBack": "Licencia de conducir de motocicleta reverso",
+  "criminalRecord": "Antecedentes penales",
+  "maxFileSizeHint": "(Archivo PNG, PDF y JPG de máx. 10MB)",
+  "pendingApproval": "Pendiente de Aprobación",
+  "documentApproved": "Documento aprobado",
+  "documentRejected": "Documento rechazado, intenta subir nuevamente",
+  "errorMaxSize": "Volvé a intentarlo. Imagen demasiado pesada",
+  "errorFileType": "Tipo de archivo no admitido, vuelve a intentarlo.",
+  "errorGeneral": "Algo salió mal, vuelve a intentarlo.",
+  "dataSaved": "¡Datos guardados!",
+  "documentVerificationInProcess": "¡Estamos en proceso de verificación de tus documentos!",
+  "camera": "Cámara",
+  "attach": "Adjuntar",
+  "directionHint": "Avenida, calle, departamento, piso 6",
+  "reference": "Referencia",
+  "referenceHint": "Ej: Portón negro",
+  "addressDocumentLabel": "Factura de servicios básicos o contrato de alquiler",
+  "scheduleDelivery": "Programar entrega",
+  "successfulUpload": "¡Carga exitosa!",
+  "dataSuccessfullySent": "Tus datos han sido enviados correctamente. Recibirás una notificación de aprobación cuando validemos tu información.",
+  "monToFri": "Lun a Vier",
+  "saturday": "Sábados",
+  "morning": "09:00 a 11:00 am",
+  "afternoon": "14:00 a 16:00 pm",
+  "evening": "18:00 a 20:00 pm",
+  "deliveryTimeSlot": "{day} - {time}",
+  "@deliveryTimeSlot": {
+    "placeholders": {
+      "day": {},
+      "time": {}
+    }
+  },
+  "youAreHere": "Usted está aquí",
+  "comingSoon": "PROXIMAMENTE",
+  "motorcycleReserved": "¡Motocicleta Reservada!",
+  "@motorcycleReserved": {
+    "description": "Título para confirmación de reserva de motocicleta"
+  },
+  "notificationMessage": "Nuestro equipo te enviará una notificación en cuanto tengamos tu motocicleta lista, para que puedas completar el pago de tu suscripción.",
+  "@notificationMessage": {
+    "description": "Mensaje de notificación sobre la motocicleta lista"
+  },
+  "paymentSuccessful": "¡Pago exitoso!",
+  "@paymentSuccessful": {
+    "description": "Mensaje de confirmación de pago exitoso"
+  },
+  "paymentProcessedMessage": "Tu pago fue procesado con éxito, recibirás tu vehículo en la dirección registrada en aproximadamente 48 horas.",
+  "@paymentProcessedMessage": {
+    "description": "Mensaje detallado de pago procesado"
+  },
+  "viewTracking": "Ver seguimiento",
+  "@viewTracking": {
+    "description": "Botón para ver el seguimiento"
+  },
+  "requestRefund": "¡Solicitar reembolso!",
+  "@requestRefund": {
+    "description": "Título para solicitar reembolso"
+  },
+  "refundInstructions": "Su reserva ha sido rechazada. \nPara procesar el reembolso, contáctenos. Indique que desea procesar el reembolso de su reserva rechazada. Nuestro equipo procesará su solicitud lo antes posible.",
+  "@refundInstructions": {
+    "description": "Instrucciones para solicitar un reembolso"
+  },
+  "requestRefundButton": "Solicitar reembolso",
+  "@requestRefundButton": {
+    "description": "Texto del botón para solicitar reembolso"
+  },
+  "refundHelpMessage": "Hola Mobi, necesito ayuda con mi reembolso.",
+  "@refundHelpMessage": {
+    "description": "Mensaje predefinido para solicitar ayuda con reembolso"
+  },
+  "payYourSubscription": "Paga tu suscripción",
+  "@payYourSubscription": {
+    "description": "Título para pagar la suscripción"
+  },
+  "reserveYourMotorcycle": "Reserva tu motocicleta",
+  "@reserveYourMotorcycle": {
+    "description": "Título para reservar una motocicleta"
+  },
+  "completeSubscriptionPayment": "Completa el pago de tu suscripción",
+  "@completeSubscriptionPayment": {
+    "description": "Instrucción para completar el pago de la suscripción"
+  },
+  "monthlyPayment": "Pago mensual",
+  "@monthlyPayment": {
+    "description": "Etiqueta para pago mensual"
+  },
+  "completePaymentMessage": "Completa luego el pago de $us 95 para recibir tu motocicleta eléctrica",
+  "@completePaymentMessage": {
+    "description": "Mensaje para completar el pago final"
+  },
+  "laterPaymentMessage": "Paga luego $us {amount} al mes",
+  "@laterPaymentMessage": {
+    "description": "Mensaje de pago posterior mensual",
+    "placeholders": {
+      "amount": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "reserveTextButtom": "Reserva",
+  "@reserveTextButtom": {
+    "description": "Botón de reserva"
+  },
+  "selectYourCard": "Selecciona tu tarjeta",
+  "@selectYourCard": {
+    "description": "Instrucción para seleccionar una tarjeta"
+  },
+  "deletePaymentMethod": "Eliminar Método de Pago",
+  "@deletePaymentMethod": {
+    "description": "Título para eliminar método de pago"
+  },
+  "confirmDeletePaymentMethod": "¿Estás seguro de que deseas eliminar este método de pago?",
+  "@confirmDeletePaymentMethod": {
+    "description": "Confirmación para eliminar método de pago"
+  },
+  "addAnotherCard": "Añadir otra tarjeta",
+  "@addAnotherCard": {
+    "description": "Opción para añadir otra tarjeta"
+  },
+  "pay": "Pagar",
+  "@pay": {
+    "description": "Botón de pago"
+  },
+  "requiredField": "Campo requerido",
+  "@requiredField": {
+    "description": "Mensaje de campo requerido"
+  },
+  "selectPaymentMethod": "Selecciona un método de pago!!",
+  "@selectPaymentMethod": {
+    "description": "Instrucción para seleccionar método de pago"
+  },
+  "confirmPayment": "Confirmar pago",
+  "@confirmPayment": {
+    "description": "Título de confirmación de pago"
+  },
+  "confirmPaymentMessage": "Está a punto de realizar un pago.\nUna vez confirmado, el pago se procesará inmediatamente.\n¿Está seguro de que desea proceder?",
+  "@confirmPaymentMessage": {
+    "description": "Mensaje de confirmación antes de procesar el pago"
+  },
+  "noPaymentMethodMessage": "Actualmente, no tienes ningún método de pago asociado a tu cuenta. Para realizar el pago de tu suscripción, agrega un método de pago válido.",
+  "@noPaymentMethodMessage": {
+    "description": "Mensaje cuando no hay métodos de pago"
+  },
+  "addPaymentMethod": "Añadir método de pago",
+  "@addPaymentMethod": {
+    "description": "Botón para añadir método de pago"
+  },
+  "pleaseCompleteFields": "Por favor, complete los campos.",
+  "processingPayment": "Procesando su pago...",
+  "paymentSuccessMessage": "Tu pago fue procesado con éxito, recibirás tu vehículo en la dirección registrada en aproximadamente 48 horas.",
+  "goHome": "Ir al Inicio",
+  "reservationRejectedMessage": "Su reserva ha sido rechazada. \nPara procesar el reembolso, contáctenos. Indique que desea procesar el reembolso de su reserva rechazada. Nuestro equipo procesará su solicitud lo antes posible.",
+  "discoverMobiBenefits": "Descubrí los beneficios de ser parte de MOBI y recibir tu sueldo en Ueno Bank.",
+  "acquireMyCard": "Adquirir mi tarjeta",
+  "accountActive": "¡Tu cuenta está activa!",
+  "goToHome": "Ir a Home",
+  "startUsingVehicle": "¡Puedes comenzar a usar tu vehículo!",
+  "reservationRejected": "¡Reserva rechazada!",
+  "refundRequest": "Nuestro equipo no pudo completar tu reserva, puedes solicitar tu reembolso",
+  "completeSubscription": "¡Completa tu suscripción!",
+  "continueServicesMessage": "Para continuar disfrutando de nuestros servicios, por favor complete el proceso de suscripción.",
+  "vehicleInProcess": "Vehículo en proceso",
+  "processingOrderMessage": "¡Estamos procesando tu pedido lo más rápido que podemos!",
+  "vehicleInPreparation": "Vehículo en preparación",
+  "vehicleOnTheWay": "¡Vehículo en camino!",
+  "vehicleComingMessage": "¡Estamos de ida con tu vehículo!",
+  "vehicleReady": "¡Tu vehículo está listo!",
+  "scan": "Escanear",
+  "scanVehicleMessage": "¡Escanea tu vehículo para poder empezar a disfrutarlo!",
+  "activate": "Activar",
+  "checkingPermissions": "Verificando permisos\nEspera un momento por favor...",
+  "connectingToVehicle": "Conectándose al vehículo...\nEspera un momento por favor...",
+  "scooterNotFound": "Vehículo no encontrado",
+  "approachVehicle": "Acércate al vehículo para poder conectarte a él.",
+  "searchAgain": "Buscar de nuevo",
+  "bluetoothDisabled": "Bluetooth desactivado",
+  "activateBluetoothMessage": "Para poder conectarte al vehículo, debes activarlo.",
+  "activateBluetooth": "Activar Bluetooth",
+  "permissionsDeniedMessage": "Parece que tienes Permisos denegados. Para poder conectarte al vehículo, debes activarlo.",
+  "activatePermissions": "Activar Permisos",
+  "turnOffLights": "Apagar\nLuces",
+  "turnOnLights": "Encender\nLuces",
+  "balancePaymentTable": "Saldo: $us {value}",
+  "@balancePaymentTable": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "totalPaymentTable": "Total: $us {value}",
+  "@totalPaymentTable": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "reservationAvailable": "Reserva disponible",
+  "reservationAvailableMessage": "Puedes realizar la reserva de tu vehículo. Se te enviará una notificación cuando tengamos el stock disponible para el pago total de la suscripción y la entrega de tu motocicleta.",
+  "cancelSubscription": "Cancelar suscripción",
+  "cancelMySubscription": "Cancelar mi suscripción",
+  "confirmCancelSubscription": "¿Estás seguro de que deseas cancelar tu suscripción?",
+  "cancelApplication": "Cancelar Postulación",
+  "applyForJob": "Aplicar a trabajo",
+  "postulationUnderReview": "Tu postulación está en revisión",
+  "vehicleAccessError": "No se puede acceder al vehículo en este momento. El sistema puede estar ocupado o ha ocurrido un inconveniente. Por favor, inténtelo nuevamente más tarde.",
+  "scanningError": "Error de escaneo",
+  "amount": "Monto",
+  "date": "Fecha"
 }

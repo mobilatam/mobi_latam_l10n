@@ -2,7 +2,7 @@
   "@@locale": "en",
   "acceptClause": "I accept the terms and conditions and privacy policy.",
   "acceptEmailSend": "I agree to receive emails with discounts and news.",
-  "Apply": "Discover MOBI",
+  "apply": "Discover MOBI",
   "birthDate": "Date of birth",
   "birthDateHover": "MM/DD/YYYY",
   "checkWhatsapp": "Check your WhatsApp and copy the code",
@@ -13,7 +13,7 @@
   "codeSent": "Code Sent",
   "codeSuccess": "Successful code",
   "congratulations": "Congratulations, you successfully applied! The team from 'el genio x' will contact you in the next few hours.",
-  "Continue": "Continue",
+  "continueText": "Continue",
   "deliveryTime": "Your moped will arrive at your home in just 24 hours after your purchase confirmation.",
   "email": "Email",
   "emailisNotValid": "Enter a valid email address",
@@ -27,12 +27,12 @@
   "jobMarketplace": "Job Marketplace",
   "name": "Names",
   "fullName": "Full Name",
-  "country":"Country",
+  "country": "Country",
   "lastName": "Surnames",
-  "hintextPlaceholder":"Enter your",
+  "hintextPlaceholder": "Enter your",
   "benefits": "Benefits",
   "businessName": "Business name",
-  "nit":"NIT number",
+  "nit": "NIT number",
   "nameHover": "Juan Valdez Suarez",
   "referenceContact": "Reference contact",
   "referenceContactPhone": "Reference contact phone number",
@@ -42,7 +42,7 @@
   "numberLicense": "Motorcycle license number",
   "personalData": "Profile Data",
   "phone": "Phone number",
-  "pickAnyOfOurVehicles": "You can choose any of our vehicles available for monthly subscription: electric scooters or mopeds.",
+  "pickAnyOfOurVehicles": "You can choose any of our vehicles available for monthly subscription: electric mopeds.",
   "register": "Register",
   "registerWith": "Register with:",
   "registerYourSelf": "Register",
@@ -53,11 +53,6 @@
   "outOfstock": "Out of stock",
   "availableStock": "Available",
   "sendCodeAgain": "Resend code",
-  "step1": "STEP 1",
-  "step2": "STEP 2",
-  "step3": "STEP 3",
-  "step4": "STEP 4",
-  "step5": "STEP 5",
   "successApply": "SUCCESSFUL APPLICATION!",
   "support": "Support",
   "test": "english",
@@ -89,15 +84,15 @@
   "onArrival": "On arrival",
   "delivered": "Delivered",
   "mopedDelivered": "MOBID DELIVERED",
-  "activateMoped": "Activate your Scooter",
+  "activateMoped": "Activate your vehicle",
   "howDrive": "How to drive?",
-  "openAppAndTurnOnMoped": "Open the App and turn on your scooter",
-  "openAppAndTurnOnScooter": "Open the App and turn on your scooter",
+  "openAppAndTurnOnMoped": "Open the App and turn on your vehicle",
+  "openAppAndTurnOnScooter": "Open the App and turn on your vehicle",
   "mopedInstructions": "From the App you can view all the widgets necessary to locate what your moped needs, from maintenance, battery level, support, etc. ",
   "scooterInstructions": "From the App you can view all the widgets necessary to locate what your moped needs, from maintenance, battery level, support, etc. ",
-  "activeMoped": "ACTIVE SCOOTER",
+  "activeMoped": "ACTIVE VEHICLE",
   "scanQR": "Scan QR",
-  "scanQRCode": "Scan the scooter QR code to activate your moped and start your trips",
+  "scanQRCode": "Scan the vehicle QR code to activate your moped and start your trips",
   "serialNumber": "Serial Number",
   "batterySerialNumber": "Battery Serial Number",
   "batteryLevel": "Battery Level",
@@ -125,7 +120,6 @@
   "newsAndDiscounts": "News and Discounts via email",
   "deleteAccount": "Delete Account",
   "saveChanges": "Save Changes",
-  "termsAndConditions": "Terms and Conditions",
   "privacyPolicy": "Privacy Policy",
   "english": "Inglés",
   "spanish": "Español",
@@ -156,8 +150,8 @@
   "fetchDataException": "Unable to retrieve response from the server. Please check your internet connection and try again.",
   "serializationException": "There was an error processing data received from the server.",
   "unrecognizedException": "An unknown error has occurred.",
-  "lockDevice": "Turn off\nScooter",
-  "unlockDevice": "Turn on\nScooter",
+  "lockDevice": "Turn off\nVehicle",
+  "unlockDevice": "Turn on\nVehicle",
   "velocity": "Velocity",
   "velocityShort": "Vel.",
   "lowVelocity": "Low",
@@ -166,23 +160,412 @@
   "lightButton": "Lights",
   "reserve": "Choose",
   "frequentQuestions": "Frequent Questions",
-  "noDeviceFound": "Scooter not found",
-  "tryReconnectDevice": "Try reconnecting the scooter",
+  "noDeviceFound": "Vehicle not found",
+  "tryReconnectDevice": "Try reconnecting the vehicle",
   "singIn": "Sign In",
   "cancel": "Cancel",
   "creditCard": "Data of your credit card",
   "directionDeliverySub": "Enter the PIN with the location of your residence.",
   "directionDeliveryError": "Moving the map is required to continue. Please place the marker on your current location.",
-  "whatIncludes":"What includes?",
+  "whatIncludes": "What includes?",
   "pending": "Pending",
   "complete": "Complete",
   "inProgress": "In Process",
   "declined": "Declined",
   "onTheWay": "On The Way",
   "arrived": "Arrived",
-  "payReserve":"Pay Reserve",
-  "verifyNumberRegister":"Number validation",
+  "payReserve": "Pay Reserve",
+  "verifyNumberRegister": "Number validation",
   "retry": "Retry",
-  "PlaceOfResidence":"Place of residence"
-
+  "PlaceOfResidence": "Place of residence",
+  "onboardingOneTitle": "Get employed",
+  "onboardingOneSubtitle": "Find the best companies looking for an E-rider like you in our marketplace!",
+  "onboardingTwoTitle": "Receive your motorcycle",
+  "onboardingTwoSubtitle": "Once your employment is approved, receive your electric motorcycle in just 48 hours!",
+  "onboardingThreeTitle": "Start working",
+  "onboardingThreeSubtitle": "Enjoy all the benefits of our subscription and earn up to $800 per month!",
+  "countryQuestion": "What country do you live in?",
+  "cityQuestion": "What city do you live in?",
+  "termsAndConditions": "I accept the terms and conditions and privacy policy.",
+  "termsAndConditionsTag": "terms and conditions and privacy policy.",
+  "emailMarketing": "I agree to receive emails with discounts and news.",
+  "supportText": "Having problems? Talk to support.",
+  "remainingTimeToResend": "Remaining time to resend:",
+  "resendCodePrompt": "Didn't receive the code? Resend",
+  "incorrectCode": "Incorrect code",
+  "verificationSuccess": "Verification successful!",
+  "verificationCodeApplied": "The verification code was successfully applied.",
+  "completeYourAccount": "Complete your account",
+  "@completeYourAccount": {
+    "description": "Message to complete the account"
+  },
+  "accountComplete": "Account Complete!",
+  "@accountComplete": {
+    "description": "Message for completed account"
+  },
+  "congratulationsAccountReady": "Congratulations! You have completed all steps and your account is ready to use.",
+  "@congratulationsAccountReady": {
+    "description": "Congratulatory message for completing the account"
+  },
+  "stepsCompleted": "{completed} of {total} completed",
+  "@stepsCompleted": {
+    "description": "Indicates how many steps have been completed out of a total",
+    "placeholders": {
+      "completed": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "completeMySubscription": "Complete my subscription",
+  "@completeMySubscription": {
+    "description": "Button to complete subscription"
+  },
+  "step1": "Step 1",
+  "@step1": {
+    "description": "Indicator for the first step"
+  },
+  "phoneVerified": "Phone verified",
+  "@phoneVerified": {
+    "description": "Message for verified phone"
+  },
+  "step2": "Step 2",
+  "@step2": {
+    "description": "Indicator for the second step"
+  },
+  "documentsVerified": "Documents verified",
+  "@documentsVerified": {
+    "description": "Message for verified documents"
+  },
+  "documentsUploaded": "Documents uploaded {uploaded}/{total}",
+  "@documentsUploaded": {
+    "description": "Shows how many documents have been uploaded out of a total",
+    "placeholders": {
+      "uploaded": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "pendingAcceptedRejected": "Pending: {pending} | Accepted: {accepted} | Rejected: {rejected}",
+  "@pendingAcceptedRejected": {
+    "description": "Shows the status of documents: pending, accepted, and rejected",
+    "placeholders": {
+      "pending": {
+        "type": "int",
+        "example": "2"
+      },
+      "accepted": {
+        "type": "int",
+        "example": "3"
+      },
+      "rejected": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "step3": "Step 3",
+  "@step3": {
+    "description": "Indicator for the third step"
+  },
+  "addressVerified": "Address verified",
+  "@addressVerified": {
+    "description": "Message for verified address"
+  },
+  "address": "Address",
+  "@address": {
+    "description": "Label for address"
+  },
+  "pendingUploadDocument": "Pending document upload",
+  "@pendingUploadDocument": {
+    "description": "Message for pending document upload"
+  },
+  "verificationInProcess": "Verification in process",
+  "@verificationInProcess": {
+    "description": "Message for verification in process"
+  },
+  "step4": "Step 4",
+  "@step4": {
+    "description": "Indicator for the fourth step"
+  },
+  "needToApplyToCompany": "You need to apply to a company",
+  "@needToApplyToCompany": {
+    "description": "Message indicating the need to apply to a company"
+  },
+  "verificationInProcessStep4": "Verification in process",
+  "@verificationInProcessStep4": {
+    "description": "Message for verification in process for step 4"
+  },
+  "completeYourDocuments": "Complete your documents",
+  "@completeYourDocuments": {
+    "description": "Message to complete documents"
+  },
+  "applicationAccepted": "Application accepted",
+  "@applicationAccepted": {
+    "description": "Message for accepted application"
+  },
+  "applicationSuccess": "Application accepted",
+  "applicationSuccessMessage": "We are in the process of verifying your application!",
+  "application": "Application",
+  "@application": {
+    "description": "Label for application"
+  },
+  "applicationRequired": "Application required",
+  "@applicationRequired": {
+    "description": "Message for required application"
+  },
+  "verified": "Verified",
+  "@verified": {
+    "description": "Label for verified"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Label for profile"
+  },
+  "billingAndPayments": "Billing and payments",
+  "@billingAndPayments": {
+    "description": "Label for billing and payments"
+  },
+  "mySubscription": "My subscription",
+  "@mySubscription": {
+    "description": "Label for my subscription"
+  },
+  "marketplaceJob": "Marketplace job",
+  "@marketplaceJob": {
+    "description": "Label for marketplace job"
+  },
+  "referralDiscount": "Referral discount",
+  "@referralDiscount": {
+    "description": "Label for referral discount"
+  },
+  "paymentMethods": "Payment methods",
+  "@paymentMethods": {
+    "description": "Label for payment methods"
+  },
+  "sectionComplete": "This section is complete!",
+  "@sectionComplete": {
+    "description": "Message for completed section"
+  },
+  "identityDocumentFront": "Identity document front",
+  "identityDocumentBack": "Identity document back",
+  "driverLicenseFront": "Motorcycle driver's license front",
+  "driverLicenseBack": "Motorcycle driver's' license back",
+  "criminalRecord": "Criminal record",
+  "maxFileSizeHint": "(PNG, PDF and JPG file of max. 10MB)",
+  "pendingApproval": "Pending Approval",
+  "documentApproved": "Document approved",
+  "documentRejected": "Document rejected, try uploading again",
+  "errorMaxSize": "Try again. Image too large",
+  "errorFileType": "File type not supported, please try again.",
+  "errorGeneral": "Something went wrong, please try again.",
+  "dataSaved": "Data saved!",
+  "documentVerificationInProcess": "We are in the process of verifying your documents!",
+  "camera": "Camera",
+  "attach": "Attach",
+  "directionHint": "Avenue, street, apartment, floor 6",
+  "reference": "Reference",
+  "referenceHint": "E.g.: Black gate",
+  "addressDocumentLabel": "Utility bill or rental contract",
+  "scheduleDelivery": "Schedule delivery",
+  "successfulUpload": "Successful upload!",
+  "dataSuccessfullySent": "Your data has been successfully sent. You will receive an approval notification when we validate your information.",
+  "monToFri": "Mon to Fri",
+  "saturday": "Saturdays",
+  "morning": "09:00 to 11:00 am",
+  "afternoon": "02:00 to 04:00 pm",
+  "evening": "06:00 to 08:00 pm",
+  "deliveryTimeSlot": "{day} - {time}",
+  "@deliveryTimeSlot": {
+    "placeholders": {
+      "day": {},
+      "time": {}
+    }
+  },
+  "youAreHere": "You are here",
+  "comingSoon": "COMING SOON",
+  "motorcycleReserved": "Motorcycle Reserved!",
+  "@motorcycleReserved": {
+    "description": "Title for motorcycle reservation confirmation"
+  },
+  "notificationMessage": "Our team will send you a notification as soon as we have your motorcycle ready, so you can complete your subscription payment.",
+  "@notificationMessage": {
+    "description": "Notification message about the motorcycle being ready"
+  },
+  "paymentSuccessful": "Payment Successful!",
+  "@paymentSuccessful": {
+    "description": "Message for successful payment confirmation"
+  },
+  "paymentProcessedMessage": "Your payment was successfully processed, you will receive your vehicle at the registered address in approximately 48 hours.",
+  "@paymentProcessedMessage": {
+    "description": "Detailed message of processed payment"
+  },
+  "viewTracking": "View Tracking",
+  "@viewTracking": {
+    "description": "Button to view tracking"
+  },
+  "requestRefund": "Request Refund!",
+  "@requestRefund": {
+    "description": "Title for requesting a refund"
+  },
+  "refundInstructions": "Your reservation has been rejected. \nTo process the refund, please contact us. Indicate that you want to process the refund for your rejected reservation. Our team will process your request as soon as possible.",
+  "@refundInstructions": {
+    "description": "Instructions for requesting a refund"
+  },
+  "requestRefundButton": "Request Refund",
+  "@requestRefundButton": {
+    "description": "Text for the button to request a refund"
+  },
+  "refundHelpMessage": "Hello Mobi, I need help with my refund.",
+  "@refundHelpMessage": {
+    "description": "Predefined message to request help with refund"
+  },
+  "payYourSubscription": "Pay your subscription",
+  "@payYourSubscription": {
+    "description": "Title for paying the subscription"
+  },
+  "reserveYourMotorcycle": "Reserve your motorcycle",
+  "@reserveYourMotorcycle": {
+    "description": "Title for reserving a motorcycle"
+  },
+  "completeSubscriptionPayment": "Complete your subscription payment",
+  "@completeSubscriptionPayment": {
+    "description": "Instruction to complete the subscription payment"
+  },
+  "monthlyPayment": "Monthly payment",
+  "@monthlyPayment": {
+    "description": "Label for monthly payment"
+  },
+  "completePaymentMessage": "Complete the payment of $95 later to receive your electric motorcycle",
+  "@completePaymentMessage": {
+    "description": "Message to complete the final payment"
+  },
+  "laterPaymentMessage": "Pay later ${amount} per month",
+  "@laterPaymentMessage": {
+    "description": "Message for later monthly payment",
+    "placeholders": {
+      "amount": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "reserveTextButtom": "Reserve",
+  "@reserveTextButtom": {
+    "description": "Reserve button"
+  },
+  "selectYourCard": "Select your card",
+  "@selectYourCard": {
+    "description": "Instruction to select a card"
+  },
+  "deletePaymentMethod": "Delete Payment Method",
+  "@deletePaymentMethod": {
+    "description": "Title for deleting payment method"
+  },
+  "confirmDeletePaymentMethod": "Are you sure you want to delete this payment method?",
+  "@confirmDeletePaymentMethod": {
+    "description": "Confirmation for deleting payment method"
+  },
+  "addAnotherCard": "Add another card",
+  "@addAnotherCard": {
+    "description": "Option to add another card"
+  },
+  "pay": "Pay",
+  "@pay": {
+    "description": "Pay button"
+  },
+  "requiredField": "Required field",
+  "@requiredField": {
+    "description": "Message for required field"
+  },
+  "selectPaymentMethod": "Select a payment method!!",
+  "@selectPaymentMethod": {
+    "description": "Instruction to select payment method"
+  },
+  "confirmPayment": "Confirm payment",
+  "@confirmPayment": {
+    "description": "Title for payment confirmation"
+  },
+  "confirmPaymentMessage": "You are about to make a payment.\nOnce confirmed, the payment will be processed immediately.\nAre you sure you want to proceed?",
+  "@confirmPaymentMessage": {
+    "description": "Confirmation message before processing the payment"
+  },
+  "noPaymentMethodMessage": "Currently, you don't have any payment method associated with your account. To make the payment for your subscription, add a valid payment method.",
+  "@noPaymentMethodMessage": {
+    "description": "Message when there are no payment methods"
+  },
+  "addPaymentMethod": "Add payment method",
+  "@addPaymentMethod": {
+    "description": "Button to add payment method"
+  },
+  "pleaseCompleteFields": "Please complete the fields.",
+  "processingPayment": "Processing your payment...",
+  "paymentSuccessMessage": "Your payment was successfully processed. You will receive your vehicle at the registered address in approximately 48 hours.",
+  "goHome": "Go to Home",
+  "reservationRejectedMessage": "Your reservation has been rejected. \nTo process the refund, please contact us. Indicate that you want to process the refund for your rejected reservation. Our team will process your request as soon as possible.",
+  "discoverMobiBenefits": "Discover the benefits of being part of MOBI and receiving your salary in Ueno Bank.",
+  "acquireMyCard": "Get my card",
+  "accountActive": "Your account is active!",
+  "startUsingVehicle": "You can start using your vehicle!!",
+  "reservationRejected": "Reservation rejected!",
+  "refundRequest": "Our team couldn't complete your reservation, you can request a refund",
+  "completeSubscription": "Complete your subscription!",
+  "continueServicesMessage": "To continue enjoying our services, please complete the subscription process.",
+  "vehicleInProcess": "Vehicle in process",
+  "processingOrderMessage": "We are processing your order as fast as we can!",
+  "vehicleInPreparation": "Vehicle in preparation",
+  "vehicleOnTheWay": "Vehicle on the way!",
+  "vehicleComingMessage": "We are on our way with your vehicle!!",
+  "vehicleReady": "Your vehicle is ready!",
+  "scan": "Scan",
+  "scanVehicleMessage": "Scan your vehicle to start enjoying it!",
+  "activate": "Activate",
+  "checkingPermissions": "Checking permissions\nPlease wait a moment...",
+  "connectingToVehicle": "Connecting to the vehicle...\nPlease wait a moment...",
+  "scooterNotFound": "Vehicle not found",
+  "approachVehicle": "Get closer to the vehicle to connect to it.",
+  "searchAgain": "Search again",
+  "bluetoothDisabled": "Bluetooth disabled",
+  "activateBluetoothMessage": "To connect to the vehicle, you must activate it.",
+  "activateBluetooth": "Activate Bluetooth",
+  "permissionsDeniedMessage": "It seems you have denied permissions. To connect to the vehicle, you must activate them.",
+  "activatePermissions": "Activate Permissions",
+  "turnOffLights": "Turn Off\nLights",
+  "turnOnLights": "Turn On\nLights",
+  "balancePaymentTable": "Balance: $us {value}",
+  "@balancePaymentTable": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "totalPaymentTable": "Total: $us {value}",
+  "@totalPaymentTable": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "reservationAvailable": "Reservation available",
+  "reservationAvailableMessage": "You can now reserve your vehicle. We'll send you a notification when we have stock available for the full subscription payment and delivery of your motorcycle.",
+  "cancelSubscription": "Cancel subscription",
+  "cancelMySubscription": "Cancel my subscription",
+  "confirmCancelSubscription": "Are you sure you want to cancel your subscription?",
+  "cancelApplication": "Cancel Application",
+  "applyForJob": "Apply for Job",
+  "postulationUnderReview": "Your application is under review",
+  "vehicleAccessError": "The vehicle cannot be accessed at this time. The system may be busy or an inconvenience has occurred. Please try again later.",
+  "scanningError": "Scanning Error",
+  "amount": "Amount",
+    "date": "Date"
 }
