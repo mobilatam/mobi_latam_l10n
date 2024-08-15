@@ -421,10 +421,10 @@ class S {
   }
 
   /// `Next`
-  String get Next {
+  String get next {
     return Intl.message(
       'Next',
-      name: 'Next',
+      name: 'next',
       desc: '',
       args: [],
     );
@@ -1026,16 +1026,6 @@ class S {
       'Next Maintenance',
       name: 'nextMaintaining',
       desc: '',
-      args: [],
-    );
-  }
-
-  /// `Profile`
-  String get profile {
-    return Intl.message(
-      'Profile',
-      name: 'profile',
-      desc: 'Label for profile',
       args: [],
     );
   }
@@ -1821,10 +1811,10 @@ class S {
   }
 
   /// `Place of residence`
-  String get PlaceOfResidence {
+  String get placeOfResidence {
     return Intl.message(
       'Place of residence',
-      name: 'PlaceOfResidence',
+      name: 'placeOfResidence',
       desc: '',
       args: [],
     );
@@ -1960,10 +1950,10 @@ class S {
     );
   }
 
-  /// `Didn't receive the code? Resend`
+  /// `Didn''t receive the code? Resend`
   String get resendCodePrompt {
     return Intl.message(
-      'Didn\'t receive the code? Resend',
+      'Didn\'\'t receive the code? Resend',
       name: 'resendCodePrompt',
       desc: '',
       args: [],
@@ -2260,6 +2250,16 @@ class S {
     );
   }
 
+  /// `Profile`
+  String get profile {
+    return Intl.message(
+      'Profile',
+      name: 'profile',
+      desc: 'Label for profile',
+      args: [],
+    );
+  }
+
   /// `Billing and payments`
   String get billingAndPayments {
     return Intl.message(
@@ -2340,20 +2340,20 @@ class S {
     );
   }
 
-  /// `Motorcycle driver's license front`
+  /// `Motorcycle driver''s license front`
   String get driverLicenseFront {
     return Intl.message(
-      'Motorcycle driver\'s license front',
+      'Motorcycle driver\'\'s license front',
       name: 'driverLicenseFront',
       desc: '',
       args: [],
     );
   }
 
-  /// `Motorcycle driver's' license back`
+  /// `Motorcycle driver''s license back`
   String get driverLicenseBack {
     return Intl.message(
-      'Motorcycle driver\'s\' license back',
+      'Motorcycle driver\'\'s license back',
       name: 'driverLicenseBack',
       desc: '',
       args: [],
@@ -2884,12 +2884,12 @@ class S {
     );
   }
 
-  /// `Currently, you don't have any payment method associated with your account. To make the payment for your subscription, add a valid payment method.`
+  /// `Currently, you don''t have any payment method associated with your account. To make the payment for your subscription, add a valid payment method.`
   String get noPaymentMethodMessage {
     return Intl.message(
-      'Currently, you don\'t have any payment method associated with your account. To make the payment for your subscription, add a valid payment method.',
+      'Currently, you don\'\'t have any payment method associated with your account. To make the payment for your subscription, add a valid payment method.',
       name: 'noPaymentMethodMessage',
-      desc: 'Message when there are no payment methods',
+      desc: '',
       args: [],
     );
   }
@@ -2899,7 +2899,7 @@ class S {
     return Intl.message(
       'Add payment method',
       name: 'addPaymentMethod',
-      desc: 'Button to add payment method',
+      desc: '',
       args: [],
     );
   }
@@ -3004,10 +3004,10 @@ class S {
     );
   }
 
-  /// `Our team couldn't complete your reservation, you can request a refund`
+  /// `Our team couldn''t complete your reservation, you can request a refund`
   String get refundRequest {
     return Intl.message(
-      'Our team couldn\'t complete your reservation, you can request a refund',
+      'Our team couldn\'\'t complete your reservation, you can request a refund',
       name: 'refundRequest',
       desc: '',
       args: [],
@@ -3274,10 +3274,10 @@ class S {
     );
   }
 
-  /// `You can now reserve your vehicle. We'll send you a notification when we have stock available for the full subscription payment and delivery of your motorcycle.`
+  /// `You can now reserve your vehicle. We''ll send you a notification when we have stock available for the full subscription payment and delivery of your motorcycle.`
   String get reservationAvailableMessage {
     return Intl.message(
-      'You can now reserve your vehicle. We\'ll send you a notification when we have stock available for the full subscription payment and delivery of your motorcycle.',
+      'You can now reserve your vehicle. We\'\'ll send you a notification when we have stock available for the full subscription payment and delivery of your motorcycle.',
       name: 'reservationAvailableMessage',
       desc: '',
       args: [],

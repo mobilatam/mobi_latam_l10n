@@ -38,9 +38,6 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "Next": MessageLookupByLibrary.simpleMessage("Next"),
-        "PlaceOfResidence":
-            MessageLookupByLibrary.simpleMessage("Place of residence"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "acceptClause": MessageLookupByLibrary.simpleMessage(
             "I accept the terms and conditions and privacy policy."),
@@ -222,9 +219,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "documentsVerified":
             MessageLookupByLibrary.simpleMessage("Documents verified"),
         "driverLicenseBack": MessageLookupByLibrary.simpleMessage(
-            "Motorcycle driver\'s\' license back"),
+            "Motorcycle driver\'\'s license back"),
         "driverLicenseFront": MessageLookupByLibrary.simpleMessage(
-            "Motorcycle driver\'s license front"),
+            "Motorcycle driver\'\'s license front"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "emailMarketing": MessageLookupByLibrary.simpleMessage(
             "I agree to receive emails with discounts and news."),
@@ -314,6 +311,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "You need to apply to a company"),
         "newsAndDiscounts": MessageLookupByLibrary.simpleMessage(
             "News and Discounts via email"),
+        "next": MessageLookupByLibrary.simpleMessage("Next"),
         "nextMaintaining":
             MessageLookupByLibrary.simpleMessage("Next Maintenance"),
         "nit": MessageLookupByLibrary.simpleMessage("NIT number"),
@@ -323,7 +321,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noDeviceFound":
             MessageLookupByLibrary.simpleMessage("Vehicle not found"),
         "noPaymentMethodMessage": MessageLookupByLibrary.simpleMessage(
-            "Currently, you don\'t have any payment method associated with your account. To make the payment for your subscription, add a valid payment method."),
+            "Currently, you don\'\'t have any payment method associated with your account. To make the payment for your subscription, add a valid payment method."),
         "noServiceFind":
             MessageLookupByLibrary.simpleMessage("Service not found"),
         "notificationMessage": MessageLookupByLibrary.simpleMessage(
@@ -379,6 +377,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "phoneVerified": MessageLookupByLibrary.simpleMessage("Phone verified"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "You can choose any of our vehicles available for monthly subscription: electric mopeds."),
+        "placeOfResidence":
+            MessageLookupByLibrary.simpleMessage("Place of residence"),
         "pleaseCompleteFields":
             MessageLookupByLibrary.simpleMessage("Please complete the fields."),
         "portuguese": MessageLookupByLibrary.simpleMessage("Portugués"),
@@ -413,7 +413,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "refundInstructions": MessageLookupByLibrary.simpleMessage(
             "Your reservation has been rejected. \nTo process the refund, please contact us. Indicate that you want to process the refund for your rejected reservation. Our team will process your request as soon as possible."),
         "refundRequest": MessageLookupByLibrary.simpleMessage(
-            "Our team couldn\'t complete your reservation, you can request a refund"),
+            "Our team couldn\'\'t complete your reservation, you can request a refund"),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "registerWith": MessageLookupByLibrary.simpleMessage("Register with:"),
         "registerYourSelf": MessageLookupByLibrary.simpleMessage("Register"),
@@ -425,11 +425,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Request Refund"),
         "requiredField": MessageLookupByLibrary.simpleMessage("Required field"),
         "resendCodePrompt": MessageLookupByLibrary.simpleMessage(
-            "Didn\'t receive the code? Resend"),
+            "Didn\'\'t receive the code? Resend"),
         "reservationAvailable":
             MessageLookupByLibrary.simpleMessage("Reservation available"),
         "reservationAvailableMessage": MessageLookupByLibrary.simpleMessage(
-            "You can now reserve your vehicle. We\'ll send you a notification when we have stock available for the full subscription payment and delivery of your motorcycle."),
+            "You can now reserve your vehicle. We\'\'ll send you a notification when we have stock available for the full subscription payment and delivery of your motorcycle."),
         "reservationRejected":
             MessageLookupByLibrary.simpleMessage("Reservation rejected!"),
         "reservationRejectedMessage": MessageLookupByLibrary.simpleMessage(

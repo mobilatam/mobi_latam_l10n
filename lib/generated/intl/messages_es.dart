@@ -38,9 +38,6 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "Next": MessageLookupByLibrary.simpleMessage("Siguiente"),
-        "PlaceOfResidence":
-            MessageLookupByLibrary.simpleMessage("Lugar de residencia"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceptado"),
         "acceptClause": MessageLookupByLibrary.simpleMessage(
             "Acepto términos y condiciones y política de privacidad."),
@@ -318,6 +315,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Necesitas postular a una empresa"),
         "newsAndDiscounts": MessageLookupByLibrary.simpleMessage(
             "Noticias y descuentos vía email"),
+        "next": MessageLookupByLibrary.simpleMessage("Siguiente"),
         "nextMaintaining":
             MessageLookupByLibrary.simpleMessage("Próximo mantenimiento"),
         "nit": MessageLookupByLibrary.simpleMessage("Número de NIT"),
@@ -386,6 +384,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Teléfono verificado"),
         "pickAnyOfOurVehicles": MessageLookupByLibrary.simpleMessage(
             "Puedes seleccionar cualquiera de nuestros vehículos habilitados para suscripción mensual: mopeds eléctricas."),
+        "placeOfResidence":
+            MessageLookupByLibrary.simpleMessage("Lugar de residencia"),
         "pleaseCompleteFields": MessageLookupByLibrary.simpleMessage(
             "Por favor, complete los campos."),
         "portuguese": MessageLookupByLibrary.simpleMessage("Portugués"),
