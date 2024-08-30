@@ -560,5 +560,6 @@
   "vehicleAccessError": "The vehicle cannot be accessed at this time. The system may be busy or an inconvenience has occurred. Please try again later.",
   "scanningError": "Scanning Error",
   "amount": "Amount",
-    "date": "Date"
+  "date": "Date",
+  "postulate": "Postulate"
 }

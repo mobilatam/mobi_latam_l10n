@@ -3383,6 +3383,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Postulate`
+  String get postulate {
+    return Intl.message(
+      'Postulate',
+      name: 'postulate',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

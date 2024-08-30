@@ -564,5 +564,6 @@
   "vehicleAccessError": "No se puede acceder al vehículo en este momento. El sistema puede estar ocupado o ha ocurrido un inconveniente. Por favor, inténtelo nuevamente más tarde.",
   "scanningError": "Error de escaneo",
   "amount": "Monto",
-  "date": "Fecha"
+  "date": "Fecha",
+  "postulate": "Postular"
 }

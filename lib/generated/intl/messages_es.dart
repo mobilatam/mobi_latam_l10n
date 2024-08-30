@@ -389,6 +389,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCompleteFields": MessageLookupByLibrary.simpleMessage(
             "Por favor, complete los campos."),
         "portuguese": MessageLookupByLibrary.simpleMessage("Portugués"),
+        "postulate": MessageLookupByLibrary.simpleMessage("Postular"),
         "postulationUnderReview": MessageLookupByLibrary.simpleMessage(
             "Tu postulación está en revisión"),
         "prepared": MessageLookupByLibrary.simpleMessage("En preparación"),
