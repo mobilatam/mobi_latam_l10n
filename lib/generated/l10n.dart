@@ -1910,11 +1910,21 @@ class S {
     );
   }
 
-  /// `terms and conditions and privacy policy.`
+  /// `terms and conditions`
   String get termsAndConditionsTag {
     return Intl.message(
-      'terms and conditions and privacy policy.',
+      'terms and conditions',
       name: 'termsAndConditionsTag',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `privacy policy.`
+  String get privacyTag {
+    return Intl.message(
+      'privacy policy.',
+      name: 'privacyTag',
       desc: '',
       args: [],
     );

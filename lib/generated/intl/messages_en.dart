@@ -387,6 +387,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Your application is under review"),
         "prepared": MessageLookupByLibrary.simpleMessage("Prepared"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+        "privacyTag": MessageLookupByLibrary.simpleMessage("privacy policy."),
         "processingOrderMessage": MessageLookupByLibrary.simpleMessage(
             "We are processing your order as fast as we can!"),
         "processingPayment":
@@ -503,8 +504,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "talkUs": MessageLookupByLibrary.simpleMessage("Talk to us"),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
             "I accept the terms and conditions and privacy policy."),
-        "termsAndConditionsTag": MessageLookupByLibrary.simpleMessage(
-            "terms and conditions and privacy policy."),
+        "termsAndConditionsTag":
+            MessageLookupByLibrary.simpleMessage("terms and conditions"),
         "test": MessageLookupByLibrary.simpleMessage("english"),
         "thisFieldIsMandatory":
             MessageLookupByLibrary.simpleMessage("This field is mandatory"),

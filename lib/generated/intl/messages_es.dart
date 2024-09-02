@@ -395,6 +395,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "prepared": MessageLookupByLibrary.simpleMessage("En preparación"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("Políticas de privacidad"),
+        "privacyTag":
+            MessageLookupByLibrary.simpleMessage("política de privacidad."),
         "processingOrderMessage": MessageLookupByLibrary.simpleMessage(
             "¡Estamos procesando tu pedido lo más rápido que podemos!"),
         "processingPayment":
@@ -515,8 +517,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "talkUs": MessageLookupByLibrary.simpleMessage("Habla con nosotros"),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
             "Acepto términos y condiciones y política de privacidad."),
-        "termsAndConditionsTag": MessageLookupByLibrary.simpleMessage(
-            "términos y condiciones y política de privacidad."),
+        "termsAndConditionsTag":
+            MessageLookupByLibrary.simpleMessage("términos y condiciones"),
         "test": MessageLookupByLibrary.simpleMessage("español"),
         "thisFieldIsMandatory":
             MessageLookupByLibrary.simpleMessage("Este campo es obligatorio"),
