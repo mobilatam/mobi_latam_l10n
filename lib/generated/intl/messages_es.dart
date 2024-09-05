@@ -402,6 +402,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "processingPayment":
             MessageLookupByLibrary.simpleMessage("Procesando su pago..."),
         "profile": MessageLookupByLibrary.simpleMessage("Perfil"),
+        "profileValidation":
+            MessageLookupByLibrary.simpleMessage("Validación de identidad"),
         "qrError": MessageLookupByLibrary.simpleMessage("Código QR no válido"),
         "reference": MessageLookupByLibrary.simpleMessage("Referencia"),
         "referenceContact":

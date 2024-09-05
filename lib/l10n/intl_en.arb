@@ -564,5 +564,7 @@
   "date": "Date",
   "postulate": "Postulate",
   "stockAvailable": "Product available. No need to reserve. You can make a monthly purchase now.",
-  "stockUnAvailable":"Product unavailable. Only reservations allowed. Choose 'Reserve' to secure your future purchase."
+  "stockUnAvailable":"Product unavailable. Only reservations allowed. Choose 'Reserve' to secure your future purchase.",
+  "profileValidation":"Identity verification"
+
 }

@@ -3423,6 +3423,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Identity verification`
+  String get profileValidation {
+    return Intl.message(
+      'Identity verification',
+      name: 'profileValidation',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
