@@ -145,7 +145,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "comingSoon": MessageLookupByLibrary.simpleMessage("PROXIMAMENTE"),
         "complete": MessageLookupByLibrary.simpleMessage("Completo"),
         "completeMySubscription":
-            MessageLookupByLibrary.simpleMessage("Completar mi suscripción"),
+            MessageLookupByLibrary.simpleMessage("Ir a pagar"),
         "completePaymentMessage": MessageLookupByLibrary.simpleMessage(
             "Completa luego el pago de \$us 95 para recibir tu motocicleta eléctrica"),
         "completeSubscription":
@@ -257,7 +257,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Recibe desde 800 US\$ mensuales realizando envíos en tu moped, o simplemente disfruta de tu vehículo para moverte libremente por la ciudad."),
         "getYourMobiVehicle":
             MessageLookupByLibrary.simpleMessage("Recibe tu vehículo mobi"),
-        "goHome": MessageLookupByLibrary.simpleMessage("Ir al Inicio"),
+        "goHome": MessageLookupByLibrary.simpleMessage("Ir a HOME"),
         "hasLicense":
             MessageLookupByLibrary.simpleMessage("¿Tiene licencia de moto?"),
         "highVelocity": MessageLookupByLibrary.simpleMessage("Alta"),
@@ -501,6 +501,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "step3": MessageLookupByLibrary.simpleMessage("Paso 3"),
         "step4": MessageLookupByLibrary.simpleMessage("Paso 4"),
         "stepsCompleted": m5,
+        "stockAvailable": MessageLookupByLibrary.simpleMessage(
+            "Producto disponible. No es necesario reservar. Puede realizar la compra mensual ahora."),
+        "stockUnAvailable": MessageLookupByLibrary.simpleMessage(
+            "Producto agotado. Solo se permite reservar. Elija \'Reservar\' para asegurar su compra futura."),
         "subscriptionExpiration":
             MessageLookupByLibrary.simpleMessage("Vencimiento de suscripción"),
         "successApply":
@@ -551,9 +555,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "velocity": MessageLookupByLibrary.simpleMessage("Velocidad"),
         "velocityShort": MessageLookupByLibrary.simpleMessage("Vel."),
         "verificationCode":
-            MessageLookupByLibrary.simpleMessage("CÓDIGO DE VERIFICACIÓN"),
+            MessageLookupByLibrary.simpleMessage("Código de verificación"),
         "verificationCodeApplied": MessageLookupByLibrary.simpleMessage(
-            "El código de verificación fue aplicado con éxito."),
+            "El código de verificación se aplicó con éxito"),
         "verificationInProcess": MessageLookupByLibrary.simpleMessage(
             "Estamos en proceso de verificación"),
         "verificationInProcessStep4":

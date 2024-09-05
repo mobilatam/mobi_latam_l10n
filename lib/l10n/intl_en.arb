@@ -57,7 +57,7 @@
   "support": "Support",
   "test": "english",
   "thisFieldIsMandatory": "This field is mandatory",
-  "verificationCode": "VERIFICATION CODE",
+  "verificationCode": "Verification code",
   "verify": "Verify",
   "welcome": "WELCOME MOBIER!",
   "welcomeToMOBI": "WELCOME TO MOBI",
@@ -221,7 +221,7 @@
       }
     }
   },
-  "completeMySubscription": "Complete my subscription",
+  "completeMySubscription": "Go to pay",
   "@completeMySubscription": {
     "description": "Button to complete subscription"
   },
@@ -562,5 +562,7 @@
   "scanningError": "Scanning Error",
   "amount": "Amount",
   "date": "Date",
-  "postulate": "Postulate"
+  "postulate": "Postulate",
+  "stockAvailable": "Product available. No need to reserve. You can make a monthly purchase now.",
+  "stockUnAvailable":"Product unavailable. Only reservations allowed. Choose 'Reserve' to secure your future purchase."
 }

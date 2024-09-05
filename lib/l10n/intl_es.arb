@@ -57,7 +57,7 @@
   "support": "Soporte",
   "test": "español",
   "thisFieldIsMandatory": "Este campo es obligatorio",
-  "verificationCode": "CÓDIGO DE VERIFICACIÓN",
+  "verificationCode": "Código de verificación",
   "verify": "Verificar",
   "welcome": "BIENVENIDO MOBIER!",
   "welcomeToMOBI": "BIENVENIDO A MOBI",
@@ -195,7 +195,7 @@
   "resendCodePrompt": "¿No recibiste el código? Reenviar",
   "incorrectCode": "Código incorrecto",
   "verificationSuccess": "¡Verificación exitosa!",
-  "verificationCodeApplied": "El código de verificación fue aplicado con éxito.",
+  "verificationCodeApplied": "El código de verificación se aplicó con éxito",
   "completeYourAccount": "Completa tu cuenta",
   "@completeYourAccount": {
     "description": "Mensaje para completar la cuenta"
@@ -222,7 +222,7 @@
       }
     }
   },
-  "completeMySubscription": "Completar mi suscripción",
+  "completeMySubscription": "Ir a pagar",
   "@completeMySubscription": {
     "description": "Botón para completar la suscripción"
   },
@@ -506,7 +506,7 @@
   "pleaseCompleteFields": "Por favor, complete los campos.",
   "processingPayment": "Procesando su pago...",
   "paymentSuccessMessage": "Tu pago fue procesado con éxito, recibirás tu vehículo en la dirección registrada en aproximadamente 48 horas.",
-  "goHome": "Ir al Inicio",
+  "goHome": "Ir a HOME",
   "reservationRejectedMessage": "Su reserva ha sido rechazada. \nPara procesar el reembolso, contáctenos. Indique que desea procesar el reembolso de su reserva rechazada. Nuestro equipo procesará su solicitud lo antes posible.",
   "discoverMobiBenefits": "Descubrí los beneficios de ser parte de MOBI y recibir tu sueldo en Ueno Bank.",
   "acquireMyCard": "Adquirir mi tarjeta",
@@ -566,5 +566,7 @@
   "scanningError": "Error de escaneo",
   "amount": "Monto",
   "date": "Fecha",
-  "postulate": "Postular"
+  "postulate": "Postular",
+  "stockAvailable":"Producto disponible. No es necesario reservar. Puede realizar la compra mensual ahora.",
+  "stockUnAvailable":"Producto agotado. Solo se permite reservar. Elija 'Reservar' para asegurar su compra futura."
 }

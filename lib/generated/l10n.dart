@@ -620,10 +620,10 @@ class S {
     );
   }
 
-  /// `VERIFICATION CODE`
+  /// `Verification code`
   String get verificationCode {
     return Intl.message(
-      'VERIFICATION CODE',
+      'Verification code',
       name: 'verificationCode',
       desc: '',
       args: [],
@@ -2040,10 +2040,10 @@ class S {
     );
   }
 
-  /// `Complete my subscription`
+  /// `Go to pay`
   String get completeMySubscription {
     return Intl.message(
-      'Complete my subscription',
+      'Go to pay',
       name: 'completeMySubscription',
       desc: 'Button to complete subscription',
       args: [],
@@ -3399,6 +3399,26 @@ class S {
     return Intl.message(
       'Postulate',
       name: 'postulate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Product available. No need to reserve. You can make a monthly purchase now.`
+  String get stockAvailable {
+    return Intl.message(
+      'Product available. No need to reserve. You can make a monthly purchase now.',
+      name: 'stockAvailable',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Product unavailable. Only reservations allowed. Choose 'Reserve' to secure your future purchase.`
+  String get stockUnAvailable {
+    return Intl.message(
+      'Product unavailable. Only reservations allowed. Choose \'Reserve\' to secure your future purchase.',
+      name: 'stockUnAvailable',
       desc: '',
       args: [],
     );

@@ -140,7 +140,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "comingSoon": MessageLookupByLibrary.simpleMessage("COMING SOON"),
         "complete": MessageLookupByLibrary.simpleMessage("Complete"),
         "completeMySubscription":
-            MessageLookupByLibrary.simpleMessage("Complete my subscription"),
+            MessageLookupByLibrary.simpleMessage("Go to pay"),
         "completePaymentMessage": MessageLookupByLibrary.simpleMessage(
             "Complete the payment of \$95 later to receive your electric motorcycle"),
         "completeSubscription":
@@ -488,6 +488,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "step3": MessageLookupByLibrary.simpleMessage("Step 3"),
         "step4": MessageLookupByLibrary.simpleMessage("Step 4"),
         "stepsCompleted": m5,
+        "stockAvailable": MessageLookupByLibrary.simpleMessage(
+            "Product available. No need to reserve. You can make a monthly purchase now."),
+        "stockUnAvailable": MessageLookupByLibrary.simpleMessage(
+            "Product unavailable. Only reservations allowed. Choose \'Reserve\' to secure your future purchase."),
         "subscriptionExpiration":
             MessageLookupByLibrary.simpleMessage("Subscription expiration"),
         "successApply":
@@ -539,7 +543,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "velocity": MessageLookupByLibrary.simpleMessage("Velocity"),
         "velocityShort": MessageLookupByLibrary.simpleMessage("Vel."),
         "verificationCode":
-            MessageLookupByLibrary.simpleMessage("VERIFICATION CODE"),
+            MessageLookupByLibrary.simpleMessage("Verification code"),
         "verificationCodeApplied": MessageLookupByLibrary.simpleMessage(
             "The verification code was successfully applied."),
         "verificationInProcess":
