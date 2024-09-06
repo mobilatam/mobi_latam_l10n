@@ -569,5 +569,9 @@
   "postulate": "Postular",
   "stockAvailable":"Producto disponible. No es necesario reservar. Puede realizar la compra mensual ahora.",
   "stockUnAvailable":"Producto agotado. Solo se permite reservar. Elija 'Reservar' para asegurar su compra futura.",
-  "profileValidation":"Validación de identidad"
+  "profileValidation":"Validación de identidad",
+  "applyJobConfirmationMessage":
+"¿Está seguro de que desea aplicar a este trabajo?",
+"cancelJobConfirmationMessage":"¿Está seguro de que desea cancelar ?"
+
 }

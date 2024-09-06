@@ -565,6 +565,8 @@
   "postulate": "Postulate",
   "stockAvailable": "Product available. No need to reserve. You can make a monthly purchase now.",
   "stockUnAvailable":"Product unavailable. Only reservations allowed. Choose 'Reserve' to secure your future purchase.",
-  "profileValidation":"Identity verification"
+  "profileValidation":"Identity verification",
+  "applyJobConfirmationMessage":"Are you sure you want to apply for this job?",
+   "cancelJobConfirmationMessage": "Are you sure you want to cancel?"
 
 }

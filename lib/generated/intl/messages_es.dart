@@ -85,6 +85,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Aplicar débito automático"),
         "applyForJob":
             MessageLookupByLibrary.simpleMessage("Aplicar a trabajo"),
+        "applyJobConfirmationMessage": MessageLookupByLibrary.simpleMessage(
+            "¿Está seguro de que desea aplicar a este trabajo?"),
         "approachVehicle": MessageLookupByLibrary.simpleMessage(
             "Acércate al vehículo para poder conectarte a él."),
         "arrived": MessageLookupByLibrary.simpleMessage("Llegamos"),
@@ -118,6 +120,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel": MessageLookupByLibrary.simpleMessage("Cancelar"),
         "cancelApplication":
             MessageLookupByLibrary.simpleMessage("Cancelar Postulación"),
+        "cancelJobConfirmationMessage": MessageLookupByLibrary.simpleMessage(
+            "¿Está seguro de que desea cancelar ?"),
         "cancelMySubscription":
             MessageLookupByLibrary.simpleMessage("Cancelar mi suscripción"),
         "cancelSubscription":

@@ -3433,6 +3433,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Are you sure you want to apply for this job?`
+  String get applyJobConfirmationMessage {
+    return Intl.message(
+      'Are you sure you want to apply for this job?',
+      name: 'applyJobConfirmationMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Are you sure you want to cancel?`
+  String get cancelJobConfirmationMessage {
+    return Intl.message(
+      'Are you sure you want to cancel?',
+      name: 'cancelJobConfirmationMessage',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
