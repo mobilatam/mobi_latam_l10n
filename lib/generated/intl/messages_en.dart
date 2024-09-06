@@ -87,6 +87,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Are you sure you want to apply for this job?"),
         "approachVehicle": MessageLookupByLibrary.simpleMessage(
             "Get closer to the vehicle to connect to it."),
+        "areYouSure": MessageLookupByLibrary.simpleMessage("Are you sure?"),
         "arrived": MessageLookupByLibrary.simpleMessage("Arrived"),
         "attach": MessageLookupByLibrary.simpleMessage("Attach"),
         "availableStock": MessageLookupByLibrary.simpleMessage("Available"),
@@ -116,7 +117,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancelApplication":
             MessageLookupByLibrary.simpleMessage("Cancel Application"),
         "cancelJobConfirmationMessage": MessageLookupByLibrary.simpleMessage(
-            "Are you sure you want to cancel?"),
+            "Are you sure you want to cancel your application for this job?"),
         "cancelMySubscription":
             MessageLookupByLibrary.simpleMessage("Cancel my subscription"),
         "cancelSubscription":
@@ -156,6 +157,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeYourDocuments":
             MessageLookupByLibrary.simpleMessage("Complete your documents"),
         "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
+        "confirmAction": MessageLookupByLibrary.simpleMessage("Confirm action"),
         "confirmCancelSubscription": MessageLookupByLibrary.simpleMessage(
             "Are you sure you want to cancel your subscription?"),
         "confirmDeletePaymentMethod": MessageLookupByLibrary.simpleMessage(

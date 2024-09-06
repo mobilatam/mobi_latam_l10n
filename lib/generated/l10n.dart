@@ -3434,6 +3434,16 @@ class S {
     );
   }
 
+  /// `Are you sure?`
+  String get areYouSure {
+    return Intl.message(
+      'Are you sure?',
+      name: 'areYouSure',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Are you sure you want to apply for this job?`
   String get applyJobConfirmationMessage {
     return Intl.message(
@@ -3444,10 +3454,20 @@ class S {
     );
   }
 
-  /// `Are you sure you want to cancel?`
+  /// `Confirm action`
+  String get confirmAction {
+    return Intl.message(
+      'Confirm action',
+      name: 'confirmAction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Are you sure you want to cancel your application for this job?`
   String get cancelJobConfirmationMessage {
     return Intl.message(
-      'Are you sure you want to cancel?',
+      'Are you sure you want to cancel your application for this job?',
       name: 'cancelJobConfirmationMessage',
       desc: '',
       args: [],

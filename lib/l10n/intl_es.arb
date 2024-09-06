@@ -188,7 +188,7 @@
   "cityQuestion": "¿En qué ciudad vivís?",
   "termsAndConditions": "Acepto términos y condiciones y política de privacidad.",
   "termsAndConditionsTag": "términos y condiciones",
-  "privacyTag":"política de privacidad.",
+  "privacyTag": "política de privacidad.",
   "emailMarketing": "Acepto recibir correos electrónicos con descuentos y novedades.",
   "supportText": "¿Tienes problemas? Habla con soporte.",
   "remainingTimeToResend": "Tiempo restante para reenviar:",
@@ -567,11 +567,11 @@
   "amount": "Monto",
   "date": "Fecha",
   "postulate": "Postular",
-  "stockAvailable":"Producto disponible. No es necesario reservar. Puede realizar la compra mensual ahora.",
-  "stockUnAvailable":"Producto agotado. Solo se permite reservar. Elija 'Reservar' para asegurar su compra futura.",
-  "profileValidation":"Validación de identidad",
-  "applyJobConfirmationMessage":
-"¿Está seguro de que desea aplicar a este trabajo?",
-"cancelJobConfirmationMessage":"¿Está seguro de que desea cancelar ?"
-
+  "stockAvailable": "Producto disponible. No es necesario reservar. Puede realizar la compra mensual ahora.",
+  "stockUnAvailable": "Producto agotado. Solo se permite reservar. Elija 'Reservar' para asegurar su compra futura.",
+  "profileValidation": "Validación de identidad",
+  "applyJobConfirmationMessage": "¿Está seguro de que desea aplicar a este trabajo?",
+  "areYouSure": "¿Está seguro?",
+  "confirmAction":"Confirmar acción",
+  "cancelJobConfirmationMessage": " ¿Está seguro de que desea cancelar su aplicación a este trabajo?"
 }
