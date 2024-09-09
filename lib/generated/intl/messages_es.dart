@@ -71,7 +71,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Dirección verificada"),
         "afternoon": MessageLookupByLibrary.simpleMessage("14:00 a 16:00 pm"),
         "amount": MessageLookupByLibrary.simpleMessage("Monto"),
-        "application": MessageLookupByLibrary.simpleMessage("Postulación"),
+        "application": MessageLookupByLibrary.simpleMessage("Aprobación"),
         "applicationAccepted":
             MessageLookupByLibrary.simpleMessage("Postulación aceptada"),
         "applicationRequired":
@@ -159,8 +159,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Completa el pago de tu suscripción"),
         "completeYourAccount":
             MessageLookupByLibrary.simpleMessage("Completa tu cuenta"),
-        "completeYourDocuments":
-            MessageLookupByLibrary.simpleMessage("Completa tus documentos"),
+        "completeYourDocuments": MessageLookupByLibrary.simpleMessage(
+            "Espera a que todos tus documentos sean aprobados"),
         "confirm": MessageLookupByLibrary.simpleMessage("Confirmar"),
         "confirmAction":
             MessageLookupByLibrary.simpleMessage("Confirmar acción"),

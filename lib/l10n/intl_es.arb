@@ -306,7 +306,7 @@
   "@verificationInProcessStep4": {
     "description": "Mensaje de verificación en proceso para el paso 4"
   },
-  "completeYourDocuments": "Completa tus documentos",
+  "completeYourDocuments": "Espera a que todos tus documentos sean aprobados",
   "@completeYourDocuments": {
     "description": "Mensaje para completar documentos"
   },
@@ -316,7 +316,7 @@
   "@applicationAccepted": {
     "description": "Mensaje de postulación aceptada"
   },
-  "application": "Postulación",
+  "application": "Aprobación",
   "@application": {
     "description": "Etiqueta para postulación"
   },
